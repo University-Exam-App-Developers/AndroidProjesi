@@ -36,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
     ImageView imageView;
     Button button;
     Bitmap captureImage;
-
+    Button makePdf;
+    File file;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
         imageView = findViewById(R.id.image_view);
         button = findViewById(R.id.bt_open);
+        makePdf = findViewById(R.id.make_pdf);
 
         //REQUEST FOR CAMERA PERMISSION
 
@@ -66,47 +68,65 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        makePdf.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.KITKAT)
+            @Override
+            public void onClick(View v) {
+                Bitmap bitmap = BitmapFactory.decodeFile(file.getAbsolutePath());
+
+                PdfDocument pdfDocument = new PdfDocument();
+                PdfDocument.PageInfo pageInfo = new PdfDocument.PageInfo.Builder(bitmap.getWidth(),bitmap.getHeight(), 1).create();
+                PdfDocument.Page page = pdfDocument.startPage(pageInfo);
+
+                Canvas canvas = page.getCanvas();
+                Paint paint = new Paint();
+                paint.setColor(Color.parseColor("#FFFFFF"));
+                canvas.drawPaint(paint);
+
+
+                bitmap = Bitmap.createScaledBitmap(bitmap, bitmap.getWidth(),bitmap.getHeight(),true);
+                paint.setColor(Color.BLUE);
+                canvas.drawBitmap(bitmap, 0,0,null);
+
+                pdfDocument.finishPage(page);
+
+                // save the bitmap image
+
+                File root = new File(getExternalCacheDir(), "PDF Folder 12");
+                if(!root.exists()){
+                    root.mkdir();
+                }
+                File file = new File(root, System.currentTimeMillis() + ".pdf");
+                FileOutputStream fileOutputStream = null;
+                try {
+                    fileOutputStream = new FileOutputStream(file);
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                }
+                try {
+                    pdfDocument.writeTo(fileOutputStream);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
+                pdfDocument.close();
+                Toast.makeText(MainActivity.this, "PDF DOCUMENT IS SUCCESFULLY SAVED TO FILES!", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
+
 
 
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-      //  super.onActivityResult(requestCode, resultCode, data);
+        super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == 120 && data != null) {
             // GETTING CAPTURED IMAGE
             captureImage = (Bitmap) data.getExtras().get("data");
             //SET CAPTURE IMAGE TO IMAGEVIEW VARIABLE
             imageView.setImageBitmap(captureImage);
-       //     Toast.makeText(MainActivity.this, "IMAGE SUCCESSFULLY CAPTURED", Toast.LENGTH_SHORT).show();
-    //        Uri selectedImageUri = data.getData();
-
-//            String [] filePath = {MediaStore.Images.Media.DATA};
-//            Cursor cursor = getContentResolver().query(selectedImageUri, filePath,null,null,null);
-//            cursor.moveToFirst();
-//            int columnIndex = cursor.getColumnIndex(filePath[0]);
-//            String myPath = cursor.getString(columnIndex);
-//            cursor.close();
-//
-//            Bitmap bitmap = BitmapFactory.decodeFile(myPath);
-//            imageView.setImageBitmap(bitmap);
-//
-//            PdfDocument pdfDocument = new PdfDocument();
-//            PdfDocument.PageInfo pageInfo = new PdfDocument.PageInfo.Builder(bitmap.getWidth(),bitmap.getHeight(), 1).create();
-//            PdfDocument.Page page = pdfDocument.startPage(pageInfo);
-//
-//            Canvas canvas = page.getCanvas();
-//            Paint paint = new Paint();
-//            paint.setColor(Color.parseColor("#FFFFFF"));
-//            canvas.drawPaint(paint);
-//
-//
-//            bitmap = Bitmap.createScaledBitmap(bitmap, bitmap.getWidth(),bitmap.getHeight(),true);
-//            paint.setColor(Color.BLUE);
-//            canvas.drawBitmap(bitmap, 0,0,null);
-//
-//            pdfDocument.finishPage(page);
-
 
             BitmapDrawable drawable = (BitmapDrawable) imageView.getDrawable();
             Bitmap bitmap1 = drawable.getBitmap();
@@ -114,10 +134,11 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-            File fp = Environment.getExternalStorageDirectory();
+            File fp = getExternalCacheDir();
             File dir = new File(fp.getAbsolutePath() + "/Demo/");
             dir.mkdir();
-            File file = new File(dir,System.currentTimeMillis() + ".jpg");
+            file = new File(dir,System.currentTimeMillis() + ".jpg");
+
 
             FileOutputStream fileOutputStream = null;
             try {
@@ -133,45 +154,6 @@ public class MainActivity extends AppCompatActivity {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        /*
-
-            // save the bitmap image
-
-            File root = new File(Environment.getExternalStorageDirectory(), "PDF Folder 12");
-            if(!root.exists()){
-                root.mkdir();
-            }
-            File file = new File(root, "CameraDemo.pdf");
-            FileOutputStream fileOutputStream = null;
-            try {
-                fileOutputStream = new FileOutputStream(file);
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
-            }
-            try {
-                pdfDocument.writeTo(fileOutputStream);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-*/
-   //         pdfDocument.close();
-
-
         }
     }
 }
