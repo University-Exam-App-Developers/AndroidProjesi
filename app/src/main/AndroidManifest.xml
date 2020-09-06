@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.snavadogru">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DenemeTakip.denemeTakipLibrary"></activity>
+        <activity android:name=".Kendin.programYap" />
+        <activity android:name=".Kendin.zamanTakip" />
+        <activity android:name=".Kendin.kendiniDene" />
+        <activity android:name=".puanHesapla.PuanSonuc" />
+        <activity android:name=".Camera.NewCamera"/>
+        <activity android:name=".Camera.CameraActivity" />
+        <activity android:name=".Camera.ShowPicturesActivity" />
+        <activity android:name=".Camera.ViewImage" />
+        <activity
+            android:name=".KonuTakip.Konu_takip"
+            android:label="@string/title_activity_konu_takip"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".KonuTakip.TytKonulari.tytKonuTurkce" />
+        <activity android:name=".KonuTakip.TytKonulari.tytKonuMat" />
+        <activity android:name=".KonuTakip.TytKonulari.tytKonuFen" />
+        <activity android:name=".KonuTakip.TytKonulari.tytKonuSosyal" />
+        <activity android:name=".KonuTakip.aytKonuSay" />
+        <activity android:name=".KonuTakip.aytKonuSoz" />
+        <activity android:name=".KonuTakip.aytKonuEa" />
+        <activity android:name=".KonuTakip.aytKonuDil" />
+        <activity android:name=".KonuTakip.aytKonulari" />
+        <activity
+            android:name=".Camera.SORULAR"
+            android:label="@string/title_activity_takip_alanlari"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SoruTakip.SoruTakip" />
+        <activity android:name=".DenemeTakip.DenemeTakip" />
+        <activity
+            android:name=".DenemeTakip.denemeTYT_TakipPopUpAdding"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".DenemeTakip.denemeTYTtakip" />
+        <activity android:name=".DenemeTakip.denemeSAYtakip" />
+        <activity
+            android:name=".DenemeTakip.denemeSAY_TakipPopUpadding"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".DenemeTakip.denemeEAtakip" />
+        <activity android:name=".DenemeTakip.denemeSOZtakip" />
+        <activity android:name=".DenemeTakip.denemeDiltakip" />
+        <activity android:name=".puanHesapla.PUAN" />
+        <activity android:name=".REHBERLİK" />
+        <activity android:name=".SSS" />
+        <activity android:name=".Options" />
+        <activity android:name=".FirstScreen.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

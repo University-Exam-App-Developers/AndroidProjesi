@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="75dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+
+        <Button
+            android:id="@+id/deleteDenemeColumn1"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_below="@+id/denemNameColumn1"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/delete"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/denemNameColumn1"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:layout_above="@+id/denemeInfolariColumn1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="30dp"
+            android:text="Deneme Name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RelativeLayout
+            android:id="@+id/denemeInfolariColumn1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/yayinNameColumn1"
+                android:layout_width="150dp"
+                android:layout_height="22dp"
+                android:text="Yayın Adı" />
+
+            <TextView
+                android:id="@+id/netSayisiColumn1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/yayinNameColumn1"
+                android:layout_alignParentStart="true"
+                android:text="Total Net"
+                android:textAlignment="center" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

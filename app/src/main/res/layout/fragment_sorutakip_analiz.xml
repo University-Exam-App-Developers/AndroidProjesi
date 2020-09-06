@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/soruTakip_Daily"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Gunluk Analiz" />
+
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/soruTakip_DailyGraph"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="27dp" />
+            <TextView
+                android:id="@+id/soruTakip_Monthly"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Aylık Analiz" />
+
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/soruTakip_Monthlygraph"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

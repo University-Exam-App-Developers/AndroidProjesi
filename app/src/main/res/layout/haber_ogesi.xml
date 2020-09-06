@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:padding="5dp"
+        android:id="@+id/haber_fotosu_haber_ogesi"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_launcher_background"
+        ></ImageView>
+    <TextView
+        android:id="@+id/haber_title_haber_ogesi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Haber baslıgı"
+        android:padding="5dp"
+        android:maxLines="2"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        ></TextView>
+
+
+</LinearLayout>

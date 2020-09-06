@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/TytText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="TYT KONULARI" />
+
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="162dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/divider8"
+                android:layout_width="7dp"
+                android:layout_height="match_parent"
+                android:background="?android:attr/listDivider" />
+
+            <Button
+                android:id="@+id/Turkce"
+                android:layout_width="195dp"
+                android:layout_height="138dp"
+                android:text="TURKÇE" />
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:background="?android:attr/listDivider" />
+
+            <Button
+                android:id="@+id/Mat"
+                android:layout_width="195dp"
+                android:layout_height="match_parent"
+                android:text="MATEMATİK" />
+
+            <View
+                android:id="@+id/divider6"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:background="?android:attr/listDivider" />
+
+            <Button
+                android:id="@+id/Fen"
+                android:layout_width="195dp"
+                android:layout_height="match_parent"
+                android:text="FEN BİLİMLERİ" />
+
+            <View
+                android:id="@+id/divider7"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:background="?android:attr/listDivider" />
+
+            <Button
+                android:id="@+id/Sosyal"
+                android:layout_width="195dp"
+                android:layout_height="match_parent"
+                android:text="SOSYAL BİLİMLER" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/AytText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="AYT KONULARI" />
+
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="162dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/divider9"
+                android:layout_width="7dp"
+                android:layout_height="match_parent"
+                android:background="?android:attr/listDivider" />
+
+            <Button
+                android:id="@+id/Sayisal"
+                android:layout_width="195dp"
+                android:layout_height="138dp"
+                android:text="SAYISAL" />
+
+            <View
+                android:id="@+id/divider51"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:background="?android:attr/listDivider" />
+
+            <Button
+                android:id="@+id/EsitAgirlik"
+                android:layout_width="195dp"
+                android:layout_height="match_parent"
+                android:text="EŞİT AĞIRLIK" />
+
+            <View
+                android:id="@+id/divider61"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:background="?android:attr/listDivider" />
+
+            <Button
+                android:id="@+id/Sozel"
+                android:layout_width="195dp"
+                android:layout_height="match_parent"
+                android:text="SÖZEL" />
+
+            <View
+                android:id="@+id/divider71"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:background="?android:attr/listDivider" />
+
+            <Button
+                android:id="@+id/YabanciDil"
+                android:layout_width="195dp"
+                android:layout_height="match_parent"
+                android:text="YABANCI DİL" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/GelisimText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="GELİŞİM GRAFİKLERİ" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="170dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <View
+                android:id="@+id/divider81"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:background="?android:attr/listDivider" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ProgressBar
+                    android:id="@+id/tytDoluluk"
+                    android:layout_width="195dp"
+                    android:layout_height="175dp"
+                    tools:progress="60"
+                    android:indeterminateOnly="false"
+                    android:progressDrawable="@drawable/circle_1"
+                    android:layout_centerInParent="true"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tytOran"
+                    android:layout_width="75dp"
+                    android:layout_height="35dp"
+                    android:textAlignment="center"
+                    android:layout_centerInParent="true"
+                    android:text="%0"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/tytOran"
+                    android:layout_alignEnd="@+id/tytOran"
+                    android:layout_centerInParent="true"
+                    android:text="TYT"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+            <View
+                android:id="@+id/divider52"
+                android:layout_width="7dp"
+                android:layout_height="match_parent"
+                android:background="?android:attr/listDivider" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ProgressBar
+                    android:id="@+id/sayDoluluk"
+                    android:layout_width="195dp"
+                    android:layout_height="175dp"
+                    android:layout_centerInParent="true"
+                    tools:progress="60"
+                    android:indeterminateOnly="false"
+                    android:progressDrawable="@drawable/circle_1"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/sayOran"
+                    android:layout_width="75dp"
+                    android:layout_height="35dp"
+                    android:textAlignment="center"
+                    android:layout_centerInParent="true"
+                    android:text="%0"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/sayOran"
+                    android:layout_alignEnd="@+id/sayOran"
+                    android:layout_centerInParent="true"
+                    android:text="SAY"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="7dp"
+                android:layout_height="match_parent"
+                android:background="?android:attr/listDivider" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ProgressBar
+                    android:id="@+id/eaDoluluk"
+                    android:layout_width="195dp"
+                    android:layout_height="175dp"
+                    android:layout_centerInParent="true"
+                    tools:progress="60"
+                    android:indeterminateOnly="false"
+                    android:progressDrawable="@drawable/circle_1"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/eaOran"
+                    android:layout_width="75dp"
+                    android:layout_height="35dp"
+                    android:textAlignment="center"
+                    android:layout_centerInParent="true"
+                    android:text="%0"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/eaOran"
+                    android:layout_alignEnd="@+id/eaOran"
+                    android:layout_centerInParent="true"
+                    android:text="EA"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+            <View
+                android:id="@+id/divider12"
+                android:layout_width="7dp"
+                android:layout_height="match_parent"
+                android:background="?android:attr/listDivider" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ProgressBar
+                    android:id="@+id/sozDoluluk"
+                    android:layout_width="195dp"
+                    android:layout_height="175dp"
+                    android:layout_centerInParent="true"
+                    tools:progress="60"
+                    android:indeterminateOnly="false"
+                    android:progressDrawable="@drawable/circle_1"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/sozOran"
+                    android:layout_width="75dp"
+                    android:layout_height="35dp"
+                    android:textAlignment="center"
+                    android:layout_centerInParent="true"
+                    android:text="%0"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/sozOran"
+                    android:layout_alignEnd="@+id/sozOran"
+                    android:layout_centerInParent="true"
+                    android:text="SÖZ"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+            <View
+                android:id="@+id/divider32"
+                android:layout_width="7dp"
+                android:layout_height="match_parent"
+                android:background="?android:attr/listDivider" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ProgressBar
+                    android:id="@+id/dilDoluluk"
+                    android:layout_width="195dp"
+                    android:layout_height="175dp"
+                    android:layout_centerInParent="true"
+                    tools:progress="60"
+                    android:indeterminateOnly="false"
+                    android:progressDrawable="@drawable/circle_1"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/dilOran"
+                    android:layout_width="75dp"
+                    android:layout_height="35dp"
+                    android:textAlignment="center"
+                    android:layout_centerInParent="true"
+                    android:text="%0"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/dilOran"
+                    android:layout_alignEnd="@+id/dilOran"
+                    android:layout_centerInParent="true"
+                    android:text="DİL"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">621264686773-6lr9lk083ko9tkkjaeddgtn3f4uiddna.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://sinavadogru-3533a.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">621264686773</string>
+    <string name="google_api_key" translatable="false">AIzaSyDE2MMPom5P_L_4xyQ6ktR2QSylmXWaNj4</string>
+    <string name="google_app_id" translatable="false">1:621264686773:android:f973b01501090fdd9338fc</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDE2MMPom5P_L_4xyQ6ktR2QSylmXWaNj4</string>
+    <string name="google_storage_bucket" translatable="false">sinavadogru-3533a.appspot.com</string>
+    <string name="project_id" translatable="false">sinavadogru-3533a</string>
+</resources>

@@ -1,0 +1,505 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.snavadogru"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:5:5-65
+11-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:8:5-80
+14-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:8:22-77
+15
+16    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+17    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+18-->[com.google.firebase:firebase-database:19.4.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\21777878553116b9c35c4857f5b41249\jetified-firebase-database-19.4.0\AndroidManifest.xml:25:5-79
+18-->[com.google.firebase:firebase-database:19.4.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\21777878553116b9c35c4857f5b41249\jetified-firebase-database-19.4.0\AndroidManifest.xml:25:22-76
+19    <permission
+19-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:7:5-9:47
+20        android:name="com.example.snavadogru.permission.C2D_MESSAGE"
+20-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:8:9-63
+21        android:protectionLevel="signature" />
+21-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:9:9-44
+22
+23    <uses-permission android:name="com.example.snavadogru.permission.C2D_MESSAGE" />
+23-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:11:5-79
+23-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:11:22-76
+24    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Required, makes sure notifications are delivered on time. -->
+24-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:17:5-82
+24-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:17:22-79
+25    <uses-permission android:name="android.permission.WAKE_LOCK" />
+25-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:18:5-68
+25-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:18:22-65
+26    <!--
+27 Required so the device vibrates on receiving a push notification.
+28         Vibration settings of the device still apply.
+29    -->
+30    <uses-permission android:name="android.permission.VIBRATE" />
+30-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:23:5-66
+30-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:23:22-63
+31    <!--
+32 Use to restore notifications the user hasn't interacted with.
+33         They could be missed notifications if the user reboots their device if this isn't in place.
+34    -->
+35    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+35-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:29:5-81
+35-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:29:22-78
+36    <!-- Samsung -->
+37    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+37-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:31:5-86
+37-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:31:22-83
+38    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+38-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:32:5-87
+38-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:32:22-84
+39    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+39-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:33:5-81
+39-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:33:22-78
+40    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+40-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:34:5-83
+40-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:34:22-80
+41    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+41-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:35:5-88
+41-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:35:22-85
+42    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+42-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:36:5-92
+42-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:36:22-89
+43    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+43-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:37:5-84
+43-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:37:22-81
+44    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+44-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:38:5-83
+44-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:38:22-80
+45    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+45-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:39:5-91
+45-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:39:22-88
+46    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+46-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:40:5-92
+46-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:40:22-89
+47    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+47-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:41:5-93
+47-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:41:22-90
+48    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+48-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:42:5-73
+48-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:42:22-70
+49    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+49-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:43:5-82
+49-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:43:22-79
+50    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+50-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:44:5-83
+50-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:44:22-80
+51    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+51-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:45:5-88
+51-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:45:22-85
+52    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+52-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:46:5-89
+52-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:46:22-86
+53    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+53-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\624d09ed83c24f8c6388dbb8db7cbb3a\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:26:5-110
+53-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\624d09ed83c24f8c6388dbb8db7cbb3a\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:26:22-107
+54
+55    <application
+55-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:10:5-67:19
+56        android:allowBackup="true"
+56-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:11:9-35
+57        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+57-->[androidx.core:core:1.3.1] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\b2977796d6f5c829576a6783e263096a\core-1.3.1\AndroidManifest.xml:24:18-86
+58        android:icon="@mipmap/ic_launcher"
+58-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:12:9-43
+59        android:label="@string/app_name"
+59-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:13:9-41
+60        android:roundIcon="@mipmap/ic_launcher_round"
+60-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:14:9-54
+61        android:supportsRtl="true"
+61-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:15:9-35
+62        android:testOnly="true"
+63        android:theme="@style/AppTheme" >
+63-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:16:9-40
+64        <activity android:name="com.example.snavadogru.DenemeTakip.denemeTakipLibrary" />
+64-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:17:9-77
+64-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:17:19-65
+65        <activity android:name="com.example.snavadogru.Kendin.programYap" />
+65-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:18:9-55
+65-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:18:19-52
+66        <activity android:name="com.example.snavadogru.Kendin.zamanTakip" />
+66-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:19:9-55
+66-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:19:19-52
+67        <activity android:name="com.example.snavadogru.Kendin.kendiniDene" />
+67-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:20:9-56
+67-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:20:19-53
+68        <activity android:name="com.example.snavadogru.puanHesapla.PuanSonuc" />
+68-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:21:9-59
+68-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:21:19-56
+69        <activity android:name="com.example.snavadogru.Camera.NewCamera" />
+69-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:22:9-53
+69-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:22:19-51
+70        <activity android:name="com.example.snavadogru.Camera.CameraActivity" />
+70-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:23:9-59
+70-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:23:19-56
+71        <activity android:name="com.example.snavadogru.Camera.ShowPicturesActivity" />
+71-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:24:9-65
+71-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:24:19-62
+72        <activity android:name="com.example.snavadogru.Camera.ViewImage" />
+72-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:25:9-54
+72-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:25:19-51
+73        <activity
+73-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:26:9-29:59
+74            android:name="com.example.snavadogru.KonuTakip.Konu_takip"
+74-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:27:13-49
+75            android:label="@string/title_activity_konu_takip"
+75-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:28:13-62
+76            android:theme="@style/AppTheme.NoActionBar" />
+76-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:29:13-56
+77        <activity android:name="com.example.snavadogru.KonuTakip.TytKonulari.tytKonuTurkce" />
+77-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:30:9-73
+77-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:30:19-70
+78        <activity android:name="com.example.snavadogru.KonuTakip.TytKonulari.tytKonuMat" />
+78-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:31:9-70
+78-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:31:19-67
+79        <activity android:name="com.example.snavadogru.KonuTakip.TytKonulari.tytKonuFen" />
+79-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:32:9-70
+79-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:32:19-67
+80        <activity android:name="com.example.snavadogru.KonuTakip.TytKonulari.tytKonuSosyal" />
+80-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:33:9-73
+80-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:33:19-70
+81        <activity android:name="com.example.snavadogru.KonuTakip.aytKonuSay" />
+81-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:34:9-58
+81-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:34:19-55
+82        <activity android:name="com.example.snavadogru.KonuTakip.aytKonuSoz" />
+82-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:35:9-58
+82-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:35:19-55
+83        <activity android:name="com.example.snavadogru.KonuTakip.aytKonuEa" />
+83-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:36:9-57
+83-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:36:19-54
+84        <activity android:name="com.example.snavadogru.KonuTakip.aytKonuDil" />
+84-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:37:9-58
+84-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:37:19-55
+85        <activity android:name="com.example.snavadogru.KonuTakip.aytKonulari" />
+85-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:38:9-59
+85-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:38:19-56
+86        <activity
+86-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:39:9-42:59
+87            android:name="com.example.snavadogru.Camera.SORULAR"
+87-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:40:13-43
+88            android:label="@string/title_activity_takip_alanlari"
+88-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:41:13-66
+89            android:theme="@style/AppTheme.NoActionBar" />
+89-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:42:13-56
+90        <activity android:name="com.example.snavadogru.SoruTakip.SoruTakip" />
+90-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:43:9-57
+90-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:43:19-54
+91        <activity android:name="com.example.snavadogru.DenemeTakip.DenemeTakip" />
+91-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:44:9-61
+91-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:44:19-58
+92        <activity
+92-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:45:9-47:59
+93            android:name="com.example.snavadogru.DenemeTakip.denemeTYT_TakipPopUpAdding"
+93-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:46:13-67
+94            android:theme="@style/AppTheme.CustomTheme" />
+94-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:47:13-56
+95        <activity android:name="com.example.snavadogru.DenemeTakip.denemeTYTtakip" />
+95-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:48:9-64
+95-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:48:19-61
+96        <activity android:name="com.example.snavadogru.DenemeTakip.denemeSAYtakip" />
+96-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:49:9-64
+96-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:49:19-61
+97        <activity
+97-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:50:9-52:59
+98            android:name="com.example.snavadogru.DenemeTakip.denemeSAY_TakipPopUpadding"
+98-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:51:13-67
+99            android:theme="@style/AppTheme.CustomTheme" />
+99-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:52:13-56
+100        <activity android:name="com.example.snavadogru.DenemeTakip.denemeEAtakip" />
+100-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:53:9-63
+100-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:53:19-60
+101        <activity android:name="com.example.snavadogru.DenemeTakip.denemeSOZtakip" />
+101-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:54:9-64
+101-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:54:19-61
+102        <activity android:name="com.example.snavadogru.DenemeTakip.denemeDiltakip" />
+102-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:55:9-64
+102-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:55:19-61
+103        <activity android:name="com.example.snavadogru.puanHesapla.PUAN" />
+103-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:56:9-54
+103-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:56:19-51
+104        <activity android:name="com.example.snavadogru.REHBERLİK" />
+104-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:57:9-47
+104-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:57:19-44
+105        <activity android:name="com.example.snavadogru.SSS" />
+105-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:58:9-41
+105-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:58:19-38
+106        <activity android:name="com.example.snavadogru.Options" />
+106-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:59:9-45
+106-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:59:19-42
+107        <activity android:name="com.example.snavadogru.FirstScreen.MainActivity" >
+107-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:60:9-66:20
+107-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:60:19-59
+108            <intent-filter>
+108-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:61:13-65:29
+109                <action android:name="android.intent.action.MAIN" />
+109-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:62:17-69
+109-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:62:25-66
+110
+111                <category android:name="android.intent.category.LAUNCHER" />
+111-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:64:17-77
+111-->C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\src\main\AndroidManifest.xml:64:27-74
+112            </intent-filter>
+113        </activity>
+114
+115        <service
+115-->[com.google.firebase:firebase-database:19.4.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\21777878553116b9c35c4857f5b41249\jetified-firebase-database-19.4.0\AndroidManifest.xml:29:9-35:19
+116            android:name="com.google.firebase.components.ComponentDiscoveryService"
+116-->[com.google.firebase:firebase-database:19.4.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\21777878553116b9c35c4857f5b41249\jetified-firebase-database-19.4.0\AndroidManifest.xml:30:13-84
+117            android:directBootAware="true"
+117-->[com.google.firebase:firebase-common:19.3.1] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\9313859f0c1406e7d73b81fd673ec1a4\jetified-firebase-common-19.3.1\AndroidManifest.xml:35:13-43
+118            android:exported="false" >
+118-->[com.google.firebase:firebase-database:19.4.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\21777878553116b9c35c4857f5b41249\jetified-firebase-database-19.4.0\AndroidManifest.xml:31:13-37
+119            <meta-data
+119-->[com.google.firebase:firebase-database:19.4.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\21777878553116b9c35c4857f5b41249\jetified-firebase-database-19.4.0\AndroidManifest.xml:32:13-34:85
+120                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+120-->[com.google.firebase:firebase-database:19.4.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\21777878553116b9c35c4857f5b41249\jetified-firebase-database-19.4.0\AndroidManifest.xml:33:17-109
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-database:19.4.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\21777878553116b9c35c4857f5b41249\jetified-firebase-database-19.4.0\AndroidManifest.xml:34:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\763faf032b5702d8204e728717191d65\jetified-firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+123                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+123-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\763faf032b5702d8204e728717191d65\jetified-firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\763faf032b5702d8204e728717191d65\jetified-firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+125            <meta-data
+125-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\43317ab727ad3555e95f96cdfffea61f\jetified-play-services-measurement-api-17.5.0\AndroidManifest.xml:30:13-32:85
+126                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+126-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\43317ab727ad3555e95f96cdfffea61f\jetified-play-services-measurement-api-17.5.0\AndroidManifest.xml:31:17-139
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\43317ab727ad3555e95f96cdfffea61f\jetified-play-services-measurement-api-17.5.0\AndroidManifest.xml:32:17-82
+128            <meta-data
+128-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\db3f4021136ea538ca9b3360b52d0eb4\jetified-firebase-installations-16.3.2\AndroidManifest.xml:17:13-19:85
+129                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+129-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\db3f4021136ea538ca9b3360b52d0eb4\jetified-firebase-installations-16.3.2\AndroidManifest.xml:18:17-127
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\db3f4021136ea538ca9b3360b52d0eb4\jetified-firebase-installations-16.3.2\AndroidManifest.xml:19:17-82
+131        </service>
+132
+133        <meta-data
+133-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:49:9-51:51
+134            android:name="onesignal_app_id"
+134-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:50:13-44
+135            android:value="d27f1b8a-eeaa-453c-a02f-10aedfc5f68c" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
+135-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:51:13-48
+136        <meta-data
+136-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:53:9-55:70
+137            android:name="onesignal_google_project_number"
+137-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:54:13-59
+138            android:value="str:REMOTE" />
+138-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:55:13-67
+139
+140        <receiver
+140-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:57:9-67:20
+141            android:name="com.onesignal.GcmBroadcastReceiver"
+141-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:58:13-62
+142            android:permission="com.google.android.c2dm.permission.SEND" >
+142-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:59:13-73
+143
+144            <!-- High priority so OneSignal payloads can be filtered from other GCM receivers if filterOtherGCMReceivers is enabled. -->
+145            <intent-filter android:priority="999" >
+145-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:62:13-66:29
+145-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:62:28-50
+146                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+146-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:63:17-81
+146-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:63:25-78
+147
+148                <category android:name="com.example.snavadogru" />
+148-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:65:17-61
+148-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:65:27-58
+149            </intent-filter>
+150        </receiver>
+151        <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
+151-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:68:9-77
+151-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:68:19-74
+152
+153        <service android:name="com.onesignal.GcmIntentService" />
+153-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:70:9-66
+153-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:70:18-63
+154        <service
+154-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:71:9-73:72
+155            android:name="com.onesignal.GcmIntentJobService"
+155-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:72:13-61
+156            android:permission="android.permission.BIND_JOB_SERVICE" />
+156-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:73:13-69
+157        <service
+157-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:74:9-76:72
+158            android:name="com.onesignal.RestoreJobService"
+158-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:75:13-59
+159            android:permission="android.permission.BIND_JOB_SERVICE" />
+159-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:76:13-69
+160        <service
+160-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:77:9-79:72
+161            android:name="com.onesignal.RestoreKickoffJobService"
+161-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:78:13-66
+162            android:permission="android.permission.BIND_JOB_SERVICE" />
+162-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:79:13-69
+163        <service
+163-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:80:9-82:43
+164            android:name="com.onesignal.SyncService"
+164-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:81:13-53
+165            android:stopWithTask="true" />
+165-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:82:13-40
+166        <service
+166-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:83:9-85:72
+167            android:name="com.onesignal.SyncJobService"
+167-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:84:13-56
+168            android:permission="android.permission.BIND_JOB_SERVICE" />
+168-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:85:13-69
+169
+170        <activity
+170-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:87:9-89:75
+171            android:name="com.onesignal.PermissionsActivity"
+171-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:88:13-61
+172            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+172-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:89:13-72
+173
+174        <service android:name="com.onesignal.NotificationRestoreService" />
+174-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:91:9-76
+174-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:91:18-73
+175
+176        <receiver android:name="com.onesignal.BootUpReceiver" >
+176-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:93:9-98:20
+176-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:93:19-62
+177            <intent-filter>
+177-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:94:13-97:29
+178                <action android:name="android.intent.action.BOOT_COMPLETED" />
+178-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:95:17-79
+178-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:95:25-76
+179                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+179-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:96:17-82
+179-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:96:25-79
+180            </intent-filter>
+181        </receiver>
+182        <receiver android:name="com.onesignal.UpgradeReceiver" >
+182-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:99:9-103:20
+182-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:99:19-63
+183            <intent-filter>
+183-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:100:13-102:29
+184                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+184-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:101:17-84
+184-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:101:25-81
+185            </intent-filter>
+186        </receiver>
+187        <!--
+188             FirebaseMessagingService performs security checks at runtime,
+189             but set to not exported to explicitly avoid allowing another app to call it.
+190        -->
+191        <service
+191-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\4ae51d9c80ee73d8ab2f9d63781eb977\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:28:9-34:19
+192            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+192-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\4ae51d9c80ee73d8ab2f9d63781eb977\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:29:13-82
+193            android:exported="false" >
+193-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\4ae51d9c80ee73d8ab2f9d63781eb977\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:30:13-37
+194            <intent-filter android:priority="-500" >
+194-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\4ae51d9c80ee73d8ab2f9d63781eb977\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:31:13-33:29
+194-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\4ae51d9c80ee73d8ab2f9d63781eb977\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:31:28-51
+195                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+195-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\4ae51d9c80ee73d8ab2f9d63781eb977\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:32:17-78
+195-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\4ae51d9c80ee73d8ab2f9d63781eb977\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:32:25-75
+196            </intent-filter>
+197        </service>
+198
+199        <receiver
+199-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\763faf032b5702d8204e728717191d65\jetified-firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+200            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+200-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\763faf032b5702d8204e728717191d65\jetified-firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+201            android:exported="true"
+201-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\763faf032b5702d8204e728717191d65\jetified-firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+202            android:permission="com.google.android.c2dm.permission.SEND" >
+202-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\763faf032b5702d8204e728717191d65\jetified-firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+203            <intent-filter>
+203-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\763faf032b5702d8204e728717191d65\jetified-firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+204                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+204-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:63:17-81
+204-->[com.onesignal:OneSignal:3.11.2] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\45cfb8489bfacf1d251b77ab69f14882\jetified-OneSignal-3.11.2\AndroidManifest.xml:63:25-78
+205            </intent-filter>
+206        </receiver>
+207
+208        <activity
+208-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\793ba416283219a70fd968eeaccf438c\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+209            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+209-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\793ba416283219a70fd968eeaccf438c\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+210            android:exported="false"
+210-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\793ba416283219a70fd968eeaccf438c\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+211            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+211-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\793ba416283219a70fd968eeaccf438c\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+212
+213        <provider
+213-->[com.google.firebase:firebase-common:19.3.1] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\9313859f0c1406e7d73b81fd673ec1a4\jetified-firebase-common-19.3.1\AndroidManifest.xml:26:9-31:39
+214            android:name="com.google.firebase.provider.FirebaseInitProvider"
+214-->[com.google.firebase:firebase-common:19.3.1] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\9313859f0c1406e7d73b81fd673ec1a4\jetified-firebase-common-19.3.1\AndroidManifest.xml:27:13-77
+215            android:authorities="com.example.snavadogru.firebaseinitprovider"
+215-->[com.google.firebase:firebase-common:19.3.1] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\9313859f0c1406e7d73b81fd673ec1a4\jetified-firebase-common-19.3.1\AndroidManifest.xml:28:13-72
+216            android:directBootAware="true"
+216-->[com.google.firebase:firebase-common:19.3.1] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\9313859f0c1406e7d73b81fd673ec1a4\jetified-firebase-common-19.3.1\AndroidManifest.xml:29:13-43
+217            android:exported="false"
+217-->[com.google.firebase:firebase-common:19.3.1] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\9313859f0c1406e7d73b81fd673ec1a4\jetified-firebase-common-19.3.1\AndroidManifest.xml:30:13-37
+218            android:initOrder="100" />
+218-->[com.google.firebase:firebase-common:19.3.1] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\9313859f0c1406e7d73b81fd673ec1a4\jetified-firebase-common-19.3.1\AndroidManifest.xml:31:13-36
+219
+220        <receiver
+220-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\624d09ed83c24f8c6388dbb8db7cbb3a\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:29:9-33:20
+221            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+221-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\624d09ed83c24f8c6388dbb8db7cbb3a\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:30:13-85
+222            android:enabled="true"
+222-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\624d09ed83c24f8c6388dbb8db7cbb3a\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:31:13-35
+223            android:exported="false" >
+223-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\624d09ed83c24f8c6388dbb8db7cbb3a\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:32:13-37
+224        </receiver>
+225
+226        <service
+226-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\624d09ed83c24f8c6388dbb8db7cbb3a\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:35:9-38:40
+227            android:name="com.google.android.gms.measurement.AppMeasurementService"
+227-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\624d09ed83c24f8c6388dbb8db7cbb3a\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:36:13-84
+228            android:enabled="true"
+228-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\624d09ed83c24f8c6388dbb8db7cbb3a\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:37:13-35
+229            android:exported="false" />
+229-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\624d09ed83c24f8c6388dbb8db7cbb3a\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:38:13-37
+230        <service
+230-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\624d09ed83c24f8c6388dbb8db7cbb3a\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:39:9-43:72
+231            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+231-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\624d09ed83c24f8c6388dbb8db7cbb3a\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:40:13-87
+232            android:enabled="true"
+232-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\624d09ed83c24f8c6388dbb8db7cbb3a\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:41:13-35
+233            android:exported="false"
+233-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\624d09ed83c24f8c6388dbb8db7cbb3a\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:42:13-37
+234            android:permission="android.permission.BIND_JOB_SERVICE" />
+234-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\624d09ed83c24f8c6388dbb8db7cbb3a\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:43:13-69
+235
+236        <meta-data
+236-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\e16fe326ba624ca3d443b6fe4a3c9a67\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+237            android:name="com.google.android.gms.version"
+237-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\e16fe326ba624ca3d443b6fe4a3c9a67\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+238            android:value="@integer/google_play_services_version" />
+238-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\e16fe326ba624ca3d443b6fe4a3c9a67\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+239
+240        <provider
+240-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\294749827d16c3670d21b129b7a5bae6\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+241            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+241-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\294749827d16c3670d21b129b7a5bae6\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+242            android:authorities="com.example.snavadogru.lifecycle-process"
+242-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\294749827d16c3670d21b129b7a5bae6\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+243            android:exported="false"
+243-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\294749827d16c3670d21b129b7a5bae6\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+244            android:multiprocess="true" />
+244-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\aspeh\Downloads\Compressed\AndroidProjesiMaster\.gradle\wrapper\caches\transforms-2\files-2.1\294749827d16c3670d21b129b7a5bae6\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+245    </application>
+246
+247</manifest>

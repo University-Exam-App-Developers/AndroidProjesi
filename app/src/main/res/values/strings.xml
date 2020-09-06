@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SınavaDogru</string>
+    <string name="GününSözü">Duyduğumu unuturum,gördüğümü hatırlarım,yaptığımı anlarım.(Çin atasözü)</string>
+    <string name="Soz">Duydugumu unuturum ,gordugumu hatirlarim,yaptigimi anlarim(ÇİN Atasözü)</string>
+    <string name="rehberlik">Rehberlik</string>
+    <string name="sıksorulansorular">S.S:S</string>
+    <string name="z_leyemen_sorular">Çözüleyemen Sorular</string>
+    <string name="title_activity_takip_alanlari">TakipAlanlari</string>
+    <string name="tab_text_1">TYT</string>
+    <string name="tab_text_2">AYT</string>
+    <string name="title_activity_konu_takip">Konu_takip</string>
+</resources>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:background="@drawable/options_bacground1"
+                >
+                <ImageView
+                    android:id="@+id/options_iconleft_cozulemeyen_sorular"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/icon_right"/>
+
+                <TextView
+                    android:layout_width="355dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_marginTop="20dp"
+                    android:padding="5dp"
+                    android:text="Çözülemeyen sorular"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="italic" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/options_background"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/options_iconright_konu_takip"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/icon_right" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_marginTop="20dp"
+                    android:padding="5dp"
+                    android:text="Konu Takip"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/options_background2"
+                >
+                <ImageView
+                    android:id="@+id/options_iconleft_soru_takip"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/icon_right"/>
+
+                <TextView
+                    android:layout_width="355dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_marginTop="20dp"
+                    android:padding="5dp"
+                    android:text="Soru Takip"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="italic" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="3dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/options_background3"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/options_iconright_deneme_takip"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icon_right" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textAlignment="center"
+                    android:padding="5dp"
+                    android:text="Deneme Takip"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="italic" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/options_background4"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/options_iconleft_puan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icon_right" />
+
+                <TextView
+                    android:layout_width="355dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_marginTop="20dp"
+                    android:padding="5dp"
+                    android:text="Puan"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="italic" />
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/options_background5"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/options_iconright_rehberlik"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icon_right" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_marginTop="20dp"
+                    android:padding="5dp"
+                    android:text="Rehberlik"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

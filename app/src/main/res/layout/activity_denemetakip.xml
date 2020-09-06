@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Info"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Hangi Denemeyi Çözdün ?" />
+
+                <Button
+                    android:id="@+id/deneme_tyt"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:text="TYT" />
+
+                <Button
+                    android:id="@+id/deneme_say"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:text="AYT-SAY" />
+
+                <Button
+                    android:id="@+id/deneme_ea"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:text="AYT-EA" />
+
+                <Button
+                    android:id="@+id/deneme_soz"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:text="AYT-SÖZ" />
+
+                <Button
+                    android:id="@+id/deneme_dil"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:text="YABANCI DİL" />
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>

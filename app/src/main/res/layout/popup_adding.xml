@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Sorusayisi"
+        android:layout_width="155dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="128dp"
+        android:text=" Soru Sayısı ?"
+        app:layout_constraintBottom_toTopOf="@+id/soruSayisi"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/soruSayisi"
+        android:layout_width="155dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="312dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/guntext"
+        android:layout_width="155dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="128dp"
+        android:text=" Kaçıncı Gün ?"
+        app:layout_constraintBottom_toTopOf="@+id/gun"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/gun"
+        android:layout_width="155dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="208dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

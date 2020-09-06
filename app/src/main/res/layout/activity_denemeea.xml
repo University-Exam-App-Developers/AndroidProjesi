@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="636dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="-6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/deneme_totalea"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Eşit Ağırlık Denemeleri" />
+
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/deneme_eaGraph"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+
+            <TextView
+                android:id="@+id/deneme_edebiyat_text"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Türk Dili Ve Edebyatı" />
+
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/deneme_edebGraph"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/deneme_tarih_text"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Tarih" />
+
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/deneme_tarihGraph"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/deneme_cog_text"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Coğrafya" />
+
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/deneme_cogGraph"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/deneme_ma_text"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Matematik" />
+
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/deneme_matGraph"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="629dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-1dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatLibrary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="15dp"
+            android:layout_toStartOf="@+id/floatDelete"
+            android:clickable="true"
+            app:srcCompat="@drawable/books" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="15dp"
+            android:layout_toStartOf="@+id/floatAdd"
+            android:clickable="true"
+            app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:clickable="true"
+            app:backgroundTintMode="src_atop"
+            app:srcCompat="@drawable/plus3" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
