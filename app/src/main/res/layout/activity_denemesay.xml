@@ -7,90 +7,57 @@
 
     <ScrollView
         android:layout_width="wrap_content"
-        android:layout_height="636dp"
+        android:layout_height="match_parent"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="-6dp">
+        android:layout_alignParentTop="true">
 
-        <LinearLayout
+        <GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="15dp" />
-
-            <TextView
-                android:id="@+id/deneme_totalsay_text"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:text="Sayısal Denemeleri" />
+            android:layout_margin="15dp"
+            android:columnCount="1"
+            android:rowCount="5">
 
             <com.jjoe64.graphview.GraphView
                 android:id="@+id/deneme_sayGraph"
                 android:layout_width="match_parent"
-                android:layout_height="250dp" />
-
-            <TextView
-                android:id="@+id/deneme_mat_Text"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:text="Matematik" />
+                android:layout_height="250dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/graphviewsay_background"
+                android:layout_row="0"/>
 
             <com.jjoe64.graphview.GraphView
-                android:id="@+id/deneme_matsayGraph"
+                android:id="@+id/deneme_matGraph"
                 android:layout_width="match_parent"
-                android:layout_height="250dp" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="15dp" />
-
-            <TextView
-                android:id="@+id/deneme_fizik_text"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:text="Fizik" />
+                android:layout_height="250dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/graphviewsay_background"
+                android:layout_row="1"/>
 
             <com.jjoe64.graphview.GraphView
                 android:id="@+id/deneme_fizikGraph"
                 android:layout_width="match_parent"
-                android:layout_height="250dp" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="15dp" />
-
-            <TextView
-                android:id="@+id/deneme_kimya_text"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:text="Kimya" />
+                android:layout_height="250dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/graphviewsay_background"
+                android:layout_row="2"/>
 
             <com.jjoe64.graphview.GraphView
                 android:id="@+id/deneme_kimyaGraph"
                 android:layout_width="match_parent"
-                android:layout_height="250dp" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="15dp" />
-
-            <TextView
-                android:id="@+id/deneme_bio_text"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:text="Biyoloji" />
+                android:layout_height="250dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/graphviewsay_background"
+                android:layout_row="3"/>
 
             <com.jjoe64.graphview.GraphView
                 android:id="@+id/deneme_bioGraph"
                 android:layout_width="match_parent"
-                android:layout_height="250dp" />
-
-
-        </LinearLayout>
+                android:layout_height="250dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/graphviewsay_background"
+                android:layout_row="4"/>
+        </GridLayout>
     </ScrollView>
 
     <RelativeLayout
@@ -135,5 +102,5 @@
             app:srcCompat="@drawable/plus3" />
 
     </RelativeLayout>
-
 </RelativeLayout>
+

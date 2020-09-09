@@ -3,12 +3,15 @@ package com.example.snavadogru.DenemeTakip;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -23,12 +26,13 @@ import java.util.ArrayList;
 
 public class denemeDIL_TakipPopUpAdding extends AppCompatDialogFragment {
     ArrayList<EditText> editTexts= new ArrayList<>();
+    ArrayList<String> Info = new ArrayList<>();
+    Button posButton,negButton;
     dilDenemesi eklenenDeneme;
+    private int increment;
     boolean comfirm=false;
     String totalNet;
-    ArrayList<String> Info = new ArrayList<>();
     dialog listener;
-    private int increment;
     @Override
     public Dialog onCreateDialog(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,19 +40,20 @@ public class denemeDIL_TakipPopUpAdding extends AppCompatDialogFragment {
         View view = layout.inflate(R.layout.activity_denemetakip_dil_popupadding,null);
 
         editTexts.add(view.findViewById(R.id.denemeDil_takeNameEdit));
-        editTexts.add(view.findViewById(R.id.denemeDil_yayinlarTakeEdit));
+        editTexts.add(view.findViewById(R.id.denemeDil_yayinismi));
         editTexts.add(view.findViewById(R.id.denemeDil_dogru));
         editTexts.add(view.findViewById(R.id.denemeDil_yanlis));
+        Dialog ad = new Dialog(getContext());
+        ad.setContentView(view);
 
         editTexts.get(0).setHint(increment+""+editTexts.get(0).getHint());
+        posButton=view.findViewById(R.id.yesButton);
+        negButton=view.findViewById(R.id.noButton);
 
         editTexts.get(2).addTextChangedListener(new GenericTextWatcher(2));
         editTexts.get(2).addTextChangedListener(new GenericTextWatcher(3));
 
-        AlertDialog.Builder ad = new AlertDialog.Builder(getContext());
-        ad.setTitle("Deneme ekle");
-        ad.setView(view);
-        ad.setPositiveButton("ekle", (dialog, which) -> {
+        posButton.setOnClickListener(v -> {
 
             if (editTexts.get(0).getText().toString().length()==0)
                 Info.add(increment+"");
@@ -67,10 +72,16 @@ public class denemeDIL_TakipPopUpAdding extends AppCompatDialogFragment {
             eklenenDeneme = new dilDenemesi(Info,totalNet,increment);
             comfirm=true;
             listener.set();
+            ad.dismiss();
         });
-        ad.setNegativeButton("iptal", (dialog, which) -> { comfirm=false; ad.create().dismiss(); });
+        negButton.setOnClickListener(v->{
+            comfirm = false;
+            ad.dismiss();
+        });
+        ad.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        ad.show();
 
-        return ad.create();//ad.create().show();
+        return ad;
 
     }
     public dilDenemesi getDeneme(){

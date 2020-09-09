@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\AndroidProjesiMaster\\.gradle\\wrapper\\caches\\transforms-2\\files-2.1\\d0f63dfd485619dc2e439ba3d1860809\\material-1.2.0\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
+                    "source": "C:\\Users\\aspeh\\.gradle\\caches\\transforms-2\\files-2.1\\d0f63dfd485619dc2e439ba3d1860809\\material-1.2.0\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

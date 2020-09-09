@@ -39,8 +39,9 @@ public class denemeSAYtakip extends AppCompatActivity implements denemeSAY_Takip
         buildScreen();
     }
     public void buildScreen(){
+
         graphs.add(findViewById(R.id.deneme_sayGraph));
-        graphs.add(findViewById(R.id.deneme_matsayGraph));
+        graphs.add(findViewById(R.id.deneme_matGraph));
         graphs.add(findViewById(R.id.deneme_fizikGraph));
         graphs.add(findViewById(R.id.deneme_kimyaGraph));
         graphs.add(findViewById(R.id.deneme_bioGraph));
@@ -125,6 +126,17 @@ public class denemeSAYtakip extends AppCompatActivity implements denemeSAY_Takip
             staticLabelsFormatter = new StaticLabelsFormatter(graphs.get(c));
             staticLabelsFormatter.setHorizontalLabels(namesArray.toArray(new String[0]));
 
+            if (c==0)
+                graphs.get(c).setTitle("SAYISAL NETLERİ");
+            else if (c==1)
+                graphs.get(c).setTitle("MATEMATİK NETLERİ");
+            else if (c==2)
+                graphs.get(c).setTitle("FİZİK NETLERİ");
+            else if (c==3)
+                graphs.get(c).setTitle("KİMYA NETLERİ");
+            else if (c==4)
+                graphs.get(c).setTitle("BİYOLOJİ NETLERİ");
+
             graphs.get(c).getViewport().setMinX(0);
             graphs.get(c).getViewport().setMaxX(Denemeler.size()-1);
             graphs.get(c).getViewport().setMaxY(40);
@@ -132,11 +144,14 @@ public class denemeSAYtakip extends AppCompatActivity implements denemeSAY_Takip
             graphs.get(c).getViewport().setXAxisBoundsManual(true);
             graphs.get(c).setHorizontalScrollBarEnabled(true);
             graphs.get(c).getViewport().setScrollable(true);
+            graphs.get(c).setTitleTextSize(40);
 
-            values.get(c).setColor(Color.GREEN);
+            values.get(c).setDrawBackground(true);
+            values.get(c).setBackgroundColor(Color.argb(60,123,36,28));
+            values.get(c).setColor(Color.RED);
             values.get(c).setDrawDataPoints(true);
-            values.get(c).setDataPointsRadius(10);
-            values.get(c).setThickness(8);
+            values.get(c).setDataPointsRadius(15);
+            values.get(c).setThickness(10);
 
             graphs.get(c).addSeries(values.get(c));
             graphs.get(c).getGridLabelRenderer().setTextSize(30);

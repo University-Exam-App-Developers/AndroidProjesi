@@ -119,6 +119,7 @@
     <color name="darkslateblue">#483D8B</color>
     <color name="steelblue">#4682B4</color>
     <color name="royalblue">#4169E1</color>
+    <color name="graphTitleColor">#16A085</color>
     <color name="turquoise">#40E0D0</color>
     <color name="mediumseagreen">#3CB371</color>
     <color name="limegreen">#32CD32</color>
@@ -288,6 +289,8 @@
     <color name="Peru">#CD853F</color>
     <color name="IndianRed">#CD5C5C</color>
     <color name="MediumVioletRed">#C71585</color>
+    <color name="GraphColor">#C0392B</color>#F1948A
+    <color name="GraphColor2">#F1948A</color>
     <color name="Silver">#C0C0C0</color>
     <color name="DarkKhaki">#BDB76B</color>
     <color name="RosyBrown">#BC8F8F</color>

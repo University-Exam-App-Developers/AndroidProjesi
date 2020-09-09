@@ -138,6 +138,19 @@ public class denemeTYTtakip extends AppCompatActivity implements denemeTYT_Takip
             staticLabelsFormatter = new StaticLabelsFormatter(graphs.get(c));
             staticLabelsFormatter.setHorizontalLabels(namesArray.toArray(new String[0]));
 
+            if (c==0)
+                graphs.get(c).setTitle("TYT NETLERİ");
+            else if (c==1)
+                graphs.get(c).setTitle("TÜRKÇE NETLERİ");
+            else if (c==2)
+                graphs.get(c).setTitle("SOSYAL BİLİMLER NETLERİ");
+            else if (c==3)
+                graphs.get(c).setTitle("MATEMATİK NETLERİ");
+            else if (c==4)
+                graphs.get(c).setTitle("FEN BİLİMLERİ NETLERİ");
+
+            graphs.get(c).setTitleTextSize(40);
+            graphs.get(c).setTitleColor(R.color.graphTitleColor);
             graphs.get(c).getViewport().setMinX(0);
             graphs.get(c).getViewport().setMaxX(Denemeler.size()-1);
             graphs.get(c).getViewport().setMaxY(40);
@@ -146,10 +159,12 @@ public class denemeTYTtakip extends AppCompatActivity implements denemeTYT_Takip
             graphs.get(c).setHorizontalScrollBarEnabled(true);
             graphs.get(c).getViewport().setScrollable(true);
 
+            values.get(c).setDrawBackground(true);
+            values.get(c).setBackgroundColor(Color.argb(60,29,131,72));
             values.get(c).setColor(Color.GREEN);
             values.get(c).setDrawDataPoints(true);
-            values.get(c).setDataPointsRadius(10);
-            values.get(c).setThickness(8);
+            values.get(c).setDataPointsRadius(15);
+            values.get(c).setThickness(10);
 
             graphs.get(c).addSeries(values.get(c));
             graphs.get(c).getGridLabelRenderer().setTextSize(30);

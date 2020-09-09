@@ -1,4 +1,4 @@
-#Sun Sep 06 13:50:49 EET 2020
+#Wed Sep 09 05:23:37 EET 2020
 base.0=C\:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

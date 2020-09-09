@@ -2,19 +2,25 @@ package com.example.snavadogru.DenemeTakip;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatDialogFragment;
+import androidx.cardview.widget.CardView;
 
 import com.example.snavadogru.R;
 
@@ -24,9 +30,12 @@ public class denemeEA_TakipPopUpAdding extends AppCompatDialogFragment {
     ArrayList<EditText> edits = new ArrayList<>(10);
     ArrayList<String> Info = new ArrayList<>(2);
     ArrayList<String> netler = new ArrayList<>(4);
+    Button posButton,negButton;
+    RelativeLayout eaLayout;
     eaDenemesi eklenenDeneme;
     private int increment;
     boolean comfirm=false;
+    ImageView popUpimage;
     dialog listener;
     @Override
     public Dialog onCreateDialog(@Nullable Bundle savedInstanceState) {
@@ -34,8 +43,14 @@ public class denemeEA_TakipPopUpAdding extends AppCompatDialogFragment {
         super.onCreate(savedInstanceState);
         LayoutInflater layout = LayoutInflater.from(getContext());
         View view = layout.inflate(R.layout.activity_denemetakip_4lessonpopupadding,null);
+        Dialog ad = new Dialog(getContext());
+        ad.setContentView(view);
+
+        popUpimage=view.findViewById(R.id.lesson4PopUpimageView);
+        popUpimage.setImageDrawable(getResources().getDrawable(R.drawable.book5));
         first=view.findViewById(R.id.deneme4les_first);
         first.setText("Türk Dili Ve Edebiyatı");
+        first.setTextSize(23);
         second=view.findViewById(R.id.deneme4les_second);
         second.setText("Tarih");
         third=view.findViewById(R.id.deneme4les_third);
@@ -43,9 +58,13 @@ public class denemeEA_TakipPopUpAdding extends AppCompatDialogFragment {
         fourth=view.findViewById(R.id.deneme4les_fourth);
         fourth.setText("Matematik");
 
+
         edits.add(view.findViewById(R.id.takeNameEdit));
         edits.get(0).setHint(increment+""+edits.get(0).getHint());
         edits.add(view.findViewById(R.id.yayinlar));
+
+        posButton=view.findViewById(R.id.yesButton);
+        negButton=view.findViewById(R.id.noButton);
 
         edits.add(view.findViewById(R.id.deneme4les_first4Dogru));
         edits.add(view.findViewById(R.id.deneme4les_first4Yanlis));
@@ -55,6 +74,8 @@ public class denemeEA_TakipPopUpAdding extends AppCompatDialogFragment {
         edits.add(view.findViewById(R.id.deneme4les_third4Yanlis));
         edits.add(view.findViewById(R.id.deneme4les_fourth4Dogru));
         edits.add(view.findViewById(R.id.deneme4les_fourth4Yanlis));
+        eaLayout=view.findViewById(R.id.lesson4RelativeLayout);
+        eaLayout.setBackgroundResource(R.drawable.alertdialog_ea);
 
         edits.get(2).addTextChangedListener(new GenericTextWatcher(2));
         edits.get(3).addTextChangedListener(new GenericTextWatcher(3));
@@ -65,10 +86,7 @@ public class denemeEA_TakipPopUpAdding extends AppCompatDialogFragment {
         edits.get(8).addTextChangedListener(new GenericTextWatcher(8));
         edits.get(9).addTextChangedListener(new GenericTextWatcher(9));
 
-        AlertDialog.Builder ad = new AlertDialog.Builder(getContext());
-        ad.setTitle("Deneme ekle");
-        ad.setView(view);
-        ad.setPositiveButton("ekle", (dialogInterface, which) -> {
+        posButton.setOnClickListener(v->{
             if (edits.get(0).getText().toString().length()==0)
                 Info.add(increment+"");
             else
@@ -89,9 +107,13 @@ public class denemeEA_TakipPopUpAdding extends AppCompatDialogFragment {
             eklenenDeneme = new eaDenemesi(Info,netler,increment);
             comfirm=true;
             listener.set();
+            ad.dismiss();
         });
-        ad.setNegativeButton("iptal", (dialog, which) -> { comfirm=false; ad.create().dismiss(); });
-        return ad.create();
+        negButton.setOnClickListener(v->{ comfirm=false;  ad.dismiss();});
+        ad.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        ad.show();
+
+        return ad;
     }
     public eaDenemesi getDeneme(){
         return eklenenDeneme;

@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.Hitomis:CircleMenu:v1.1.0@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../AndroidProjesiMaster/.gradle/wrapper/caches/transforms-2/files-2.1/be4d6a42c7fca7316f2e192b18c01a8d/jetified-CircleMenu-v1.1.0/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../AndroidProjesiMaster/.gradle/wrapper/caches/transforms-2/files-2.1/be4d6a42c7fca7316f2e192b18c01a8d/jetified-CircleMenu-v1.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8aa051758f74d9309d54df69d40420d9/jetified-CircleMenu-v1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8aa051758f74d9309d54df69d40420d9/jetified-CircleMenu-v1.1.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../AndroidProjesiMaster/.gradle/wrapper/caches/modules-2/files-2.1/com.github.Hitomis/CircleMenu/v1.1.0/bad464a180711b217a8af0cc9aa16e7e59dade54/CircleMenu-v1.1.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Hitomis/CircleMenu/v1.1.0/bad464a180711b217a8af0cc9aa16e7e59dade54/CircleMenu-v1.1.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

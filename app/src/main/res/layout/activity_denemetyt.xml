@@ -7,90 +7,57 @@
 
     <ScrollView
         android:layout_width="wrap_content"
-        android:layout_height="636dp"
+        android:layout_height="match_parent"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="-6dp">
+        android:layout_alignParentTop="true">
 
-        <LinearLayout
+        <GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="15dp" />
-
-            <TextView
-                android:id="@+id/totalTYT"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:text="TYT DENEMELERİ" />
+            android:layout_margin="15dp"
+            android:columnCount="1"
+            android:rowCount="5">
 
             <com.jjoe64.graphview.GraphView
                 android:id="@+id/tytGraph"
                 android:layout_width="match_parent"
-                android:layout_height="250dp" />
-
-            <TextView
-                android:id="@+id/Tur"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:text="Türkçe" />
+                android:layout_height="250dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/graphviewtyt_background"
+                android:layout_row="0"/>
 
             <com.jjoe64.graphview.GraphView
                 android:id="@+id/TurGraph"
                 android:layout_width="match_parent"
-                android:layout_height="250dp" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="15dp" />
-
-            <TextView
-                android:id="@+id/mat"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:text="Matematik" />
-
-            <com.jjoe64.graphview.GraphView
-                android:id="@+id/MatGraph"
-                android:layout_width="match_parent"
-                android:layout_height="250dp" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="15dp" />
-
-            <TextView
-                android:id="@+id/FenBilimleri"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:text="FenBilimleri" />
-
-            <com.jjoe64.graphview.GraphView
-                android:id="@+id/fenGraph"
-                android:layout_width="match_parent"
-                android:layout_height="250dp" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="15dp" />
-
-            <TextView
-                android:id="@+id/sosyal"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:text="Sosyal Bilimler" />
+                android:layout_height="250dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/graphviewtyt_background"
+                android:layout_row="1"/>
 
             <com.jjoe64.graphview.GraphView
                 android:id="@+id/SosyalGraph"
                 android:layout_width="match_parent"
-                android:layout_height="250dp" />
+                android:layout_height="250dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/graphviewtyt_background"
+                android:layout_row="2"/>
 
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/MatGraph"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/graphviewtyt_background"
+                android:layout_row="3"/>
 
-        </LinearLayout>
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/fenGraph"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/graphviewtyt_background"
+                android:layout_row="4"/>
+        </GridLayout>
     </ScrollView>
 
     <RelativeLayout
@@ -135,5 +102,4 @@
             app:srcCompat="@drawable/plus3" />
 
     </RelativeLayout>
-
 </RelativeLayout>

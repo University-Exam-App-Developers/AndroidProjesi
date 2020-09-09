@@ -108,13 +108,14 @@ public class denemeDiltakip extends AppCompatActivity implements denemeDIL_Takip
             else
                 values.appendData(new DataPoint(Denemeler.size()-1  ,Denemeler.get(Denemeler.size()-1).totalNet),true,500);
 
-
         staticLabelsFormatter = new StaticLabelsFormatter(dilTakipChart);
         staticLabelsFormatter.setHorizontalLabels(namesArray.toArray(new String[0]));
+        values.setDrawBackground(true);
+        values.setBackgroundColor(Color.argb(60,29,131,72));
         values.setColor(Color.GREEN);
         values.setDrawDataPoints(true);
-        values.setDataPointsRadius(10);
-        values.setThickness(8);
+        values.setDataPointsRadius(15);
+        values.setThickness(10);
 
         dilTakipChart.getViewport().setMinX(0);
         dilTakipChart.getViewport().setMaxY(80);
@@ -122,6 +123,8 @@ public class denemeDiltakip extends AppCompatActivity implements denemeDIL_Takip
         dilTakipChart.getViewport().setMaxX(Denemeler.size()-1);
         dilTakipChart.getViewport().setXAxisBoundsManual(true);
         dilTakipChart.getGridLabelRenderer().setTextSize(30);
+        dilTakipChart.setTitle("YABANCI DİL DENEMELERİ");
+        dilTakipChart.setTitleTextSize(40);
     //    dilTakipChart.getGridLabelRenderer().setNumHorizontalLabels(6);
 
         dilTakipChart.addSeries(values);

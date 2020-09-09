@@ -8,6 +8,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.RelativeLayout;
 
 import com.example.snavadogru.R;
 import com.google.gson.Gson;
@@ -23,12 +24,12 @@ public class denemeTakipLibrary extends AppCompatActivity {
     private ArrayList<eaDenemesi>  eaDenemeleri,wholeEaDenemeler;
     private ArrayList<sayDenemesi> sayDenemeleri,wholeSayDenemeler;
     private ArrayList<sozDenemesi> sozDenemeleri,wholeSozDenemeler;
-    Bundle extras;
+    int indexToBeDeleted,indexToBeDeletedOnGraph=0;
     libraryRecyclerViewAdapter myAdapter;
+    String select="";
     RecyclerView rV;
     boolean comfirm;
-    String select="";
-    int indexToBeDeleted,indexToBeDeletedOnGraph=0;
+    Bundle extras;
 
     public denemeTakipLibrary(){}
     @Override

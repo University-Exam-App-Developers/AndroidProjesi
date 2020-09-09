@@ -9,6 +9,7 @@ import com.example.snavadogru.R;
 import com.google.gson.Gson;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.util.Log;
 import android.view.View;
@@ -21,12 +22,12 @@ import java.text.DecimalFormat;
 
 public class Konu_takip extends AppCompatActivity implements View.OnClickListener {
     int[] counter= new int[14];
-    Button Turkce,Matematik,Fen,Sosyal,Sayisal,Sozel,Esitagirlik,Yabancidil;
+    CardView Turkce,Matematik,Fen,Sosyal,Sayisal,Sozel,Esitagirlik,Yabancidil;
     ProgressBar tytBar,sayBar,eaBar,sozBar,dilBar;
     TextView tytProp,sayProp,eaProp,sozProp,dilProp;
     double tytView,sayView,eaView,sozView,dilView;
     private DecimalFormat df = new DecimalFormat("0.00");
-    final double    tytKatsayi=170,sayKatsayi=96,sozKatsayi=53,eaKatsayi=77,dilKatsayi=11;
+    final double tytKatsayi=170,sayKatsayi=96,sozKatsayi=53,eaKatsayi=77,dilKatsayi=11;
     Intent i;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,10 +38,10 @@ public class Konu_takip extends AppCompatActivity implements View.OnClickListene
         Matematik = findViewById(R.id.Mat);
         Fen = findViewById(R.id.Fen);
         Sosyal = findViewById(R.id.Sosyal);
-        Sayisal = findViewById(R.id.Sayisal);
-        Sozel = findViewById(R.id.Sozel);
-        Esitagirlik = findViewById(R.id.EsitAgirlik);
-        Yabancidil = findViewById(R.id.YabanciDil);
+        Sayisal = findViewById(R.id.sayisalButton);
+        Sozel = findViewById(R.id.sozelButton);
+        Esitagirlik = findViewById(R.id.esitAgirlikButton);
+        Yabancidil = findViewById(R.id.dilButton);
 
         tytBar=findViewById(R.id.tytDoluluk);
         sayBar=findViewById(R.id.sayDoluluk);
@@ -106,19 +107,19 @@ public class Konu_takip extends AppCompatActivity implements View.OnClickListene
             i = new Intent(this, tytKonuFen.class);
             startActivity(i);
         }
-        if (view.getId()==R.id.Sayisal) {
+        if (view.getId()==R.id.sayisalButton) {
             i = new Intent(this, aytKonuSay.class);
             startActivity(i);
         }
-        if (view.getId()==R.id.Sozel) {
+        if (view.getId()==R.id.sozelButton) {
             i = new Intent(this, aytKonuSoz.class);
             startActivity(i);
         }
-        if (view.getId()==R.id.YabanciDil) {
+        if (view.getId()==R.id.dilButton) {
             i = new Intent(this, aytKonuDil.class);
             startActivity(i);
         }
-        if (view.getId()==R.id.EsitAgirlik) {
+        if (view.getId()==R.id.esitAgirlikButton) {
             i = new Intent(this, aytKonuEa.class);
             startActivity(i);
         }

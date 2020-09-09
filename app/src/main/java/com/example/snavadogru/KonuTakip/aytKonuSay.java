@@ -2,18 +2,15 @@ package com.example.snavadogru.KonuTakip;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.Button;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
+import androidx.cardview.widget.CardView;
 import com.example.snavadogru.R;
 
 public class aytKonuSay extends AppCompatActivity{
     Intent intent;
-    Button mat,fiz,kim,bio;
+    CardView mat,fiz,kim,bio;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

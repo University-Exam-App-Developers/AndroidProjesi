@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
@@ -13,6 +14,9 @@
         android:id="@+id/TytText"
         android:layout_width="match_parent"
         android:layout_height="40dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
         android:text="TYT KONULARI" />
 
 
@@ -26,73 +30,151 @@
         android:layout_width="match_parent"
         android:layout_height="162dp">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
-            <View
-                android:id="@+id/divider8"
-                android:layout_width="7dp"
-                android:layout_height="match_parent"
-                android:background="?android:attr/listDivider" />
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/Turkce"
+                    android:layout_width="195dp"
+                    android:layout_height="138dp"
+                    android:layout_marginStart="10dp"
+                    app:cardBackgroundColor="@android:color/transparent">
 
-            <Button
-                android:id="@+id/Turkce"
-                android:layout_width="195dp"
-                android:layout_height="138dp"
-                android:text="TURKÇE" />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/konutakip_tytbutton">
 
-            <View
-                android:id="@+id/divider5"
-                android:layout_width="5dp"
-                android:layout_height="match_parent"
-                android:background="?android:attr/listDivider" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView2"
+                            android:layout_alignStart="@+id/imageView2"
+                            android:layout_marginStart="-2dp"
+                            android:layout_marginTop="0dp"
+                            android:text="TÜRKÇE"
+                            android:textStyle="bold" />
 
-            <Button
-                android:id="@+id/Mat"
-                android:layout_width="195dp"
-                android:layout_height="match_parent"
-                android:text="MATEMATİK" />
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_centerInParent="true"
+                            app:srcCompat="@drawable/reader" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
 
-            <View
-                android:id="@+id/divider6"
-                android:layout_width="5dp"
-                android:layout_height="match_parent"
-                android:background="?android:attr/listDivider" />
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/Sosyal"
+                    android:layout_width="195dp"
+                    android:layout_height="138dp"
+                    android:layout_marginStart="10dp"
+                    app:cardBackgroundColor="@android:color/transparent">
 
-            <Button
-                android:id="@+id/Fen"
-                android:layout_width="195dp"
-                android:layout_height="match_parent"
-                android:text="FEN BİLİMLERİ" />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/konutakip_tytsosyalbutton">
 
-            <View
-                android:id="@+id/divider7"
-                android:layout_width="5dp"
-                android:layout_height="match_parent"
-                android:background="?android:attr/listDivider" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageViewSosyal"
+                            android:layout_alignStart="@+id/imageViewSosyal"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="-34dp"
+                            android:layout_marginTop="1dp"
+                            android:text="SOSYAL BİLİMLER"
+                            android:textStyle="bold" />
 
-            <Button
-                android:id="@+id/Sosyal"
-                android:layout_width="195dp"
-                android:layout_height="match_parent"
-                android:text="SOSYAL BİLİMLER" />
-        </LinearLayout>
+                        <ImageView
+                            android:id="@+id/imageViewSosyal"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_centerInParent="true"
+                            app:srcCompat="@drawable/globe1" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/Mat"
+                    android:layout_width="195dp"
+                    android:layout_height="138dp"
+                    android:layout_marginStart="10dp"
+                    app:cardBackgroundColor="@android:color/transparent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/konutakip_tytmatbutton">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageViewMat"
+                        android:layout_alignStart="@+id/imageViewMat"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="-17dp"
+                        android:layout_marginTop="2dp"
+                        android:text="MATEMATİK"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageViewMat"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        app:srcCompat="@drawable/mathematics2" />
+
+                </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/Fen"
+                    android:layout_width="195dp"
+                    android:layout_height="138dp"
+                    android:layout_marginStart="10dp"
+                    app:cardBackgroundColor="@android:color/transparent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/konutakip_tytfenbutton">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageViewFen"
+                        android:layout_alignStart="@+id/imageViewFen"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="-22dp"
+                        android:layout_marginTop="1dp"
+                        android:text="FEN BİLİMLERİ"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageViewFen"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        app:srcCompat="@drawable/atom" />
+                </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
     </HorizontalScrollView>
 
     <TextView
         android:id="@+id/AytText"
         android:layout_width="match_parent"
         android:layout_height="40dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
         android:text="AYT KONULARI" />
-
-
-    <View
-        android:id="@+id/divider"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="?android:attr/listDivider" />
 
 
     <HorizontalScrollView
@@ -104,66 +186,144 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <View
-                android:id="@+id/divider9"
-                android:layout_width="7dp"
-                android:layout_height="match_parent"
-                android:background="?android:attr/listDivider" />
-
-            <Button
-                android:id="@+id/Sayisal"
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sayisalButton"
                 android:layout_width="195dp"
                 android:layout_height="138dp"
-                android:text="SAYISAL" />
+                android:layout_marginStart="10dp"
+                app:cardBackgroundColor="@android:color/transparent">
 
-            <View
-                android:id="@+id/divider51"
-                android:layout_width="5dp"
-                android:layout_height="match_parent"
-                android:background="?android:attr/listDivider" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/konutakip_aytsaybutton">
 
-            <Button
-                android:id="@+id/EsitAgirlik"
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageViewSayisal"
+                        android:layout_alignStart="@+id/imageViewSayisal"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="-4dp"
+                        android:layout_marginTop="0dp"
+                        android:text="SAYISAL"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageViewSayisal"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        app:srcCompat="@drawable/experiment" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/esitAgirlikButton"
                 android:layout_width="195dp"
-                android:layout_height="match_parent"
-                android:text="EŞİT AĞIRLIK" />
+                android:layout_height="138dp"
+                android:layout_marginStart="10dp"
+                app:cardBackgroundColor="@android:color/transparent">
 
-            <View
-                android:id="@+id/divider61"
-                android:layout_width="5dp"
-                android:layout_height="match_parent"
-                android:background="?android:attr/listDivider" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/konutakip_ayteabutton">
 
-            <Button
-                android:id="@+id/Sozel"
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageViewEa"
+                        android:layout_alignStart="@+id/imageViewEa"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="-18dp"
+                        android:layout_marginTop="0dp"
+                        android:text="EŞİT AĞIRLIK"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageViewEa"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        app:srcCompat="@drawable/book5" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sozelButton"
                 android:layout_width="195dp"
-                android:layout_height="match_parent"
-                android:text="SÖZEL" />
+                android:layout_height="138dp"
+                android:layout_marginStart="10dp"
+                app:cardBackgroundColor="@android:color/transparent">
 
-            <View
-                android:id="@+id/divider71"
-                android:layout_width="5dp"
-                android:layout_height="match_parent"
-                android:background="?android:attr/listDivider" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/konutakip_aytsozbutton">
 
-            <Button
-                android:id="@+id/YabanciDil"
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageViewSoz"
+                        android:layout_alignStart="@+id/imageViewSoz"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="-1dp"
+                        android:text="SÖZEL"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageViewSoz"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        app:srcCompat="@drawable/history1" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/dilButton"
                 android:layout_width="195dp"
-                android:layout_height="match_parent"
-                android:text="YABANCI DİL" />
+                android:layout_height="138dp"
+                android:layout_marginStart="10dp"
+                app:cardBackgroundColor="@android:color/transparent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/konutakip_aytdilbutton">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageViewYabanciDil"
+                        android:layout_alignStart="@+id/imageViewYabanciDil"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="-17dp"
+                        android:layout_marginTop="0dp"
+                        android:text="YABANCI DİL"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageViewYabanciDil"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        app:srcCompat="@drawable/dictionary" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
         </LinearLayout>
     </HorizontalScrollView>
-
-    <View
-        android:id="@+id/divider4"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="?android:attr/listDivider" />
 
     <TextView
         android:id="@+id/GelisimText"
         android:layout_width="match_parent"
         android:layout_height="40dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
         android:text="GELİŞİM GRAFİKLERİ" />
 
     <HorizontalScrollView
@@ -174,11 +334,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal">
-            <View
-                android:id="@+id/divider81"
-                android:layout_width="5dp"
-                android:layout_height="match_parent"
-                android:background="?android:attr/listDivider" />
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -213,7 +368,6 @@
                     android:textAlignment="center"
                     android:textSize="20dp"
                     android:textStyle="bold" />
-
             </RelativeLayout>
 
 

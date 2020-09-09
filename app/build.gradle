@@ -62,6 +62,7 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.8.5'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
     implementation "androidx.coordinatorlayout:coordinatorlayout:1.1.0"
+    implementation "androidx.cardview:cardview:1.0.0"
     implementation 'com.jjoe64:graphview:4.2.2'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'

@@ -44,9 +44,9 @@ public class ViewPagerAdapter extends PagerAdapter implements addingPopUp.dialog
     private long[] gunlukGraphValues= new long[7];
     private long[] aylikGraphValues= new long[12];
     private int pauseOffset=0,numbMonth=0,numbWeek=0,numbDay=0,dayInputCount=0,monthInputCount=0;
-    private long mTimeLeftMillis=0,setTimeMillis=0,lastGetedTime=0,lastPausedTime=0,ignoredTime=0;
-    private long calismaZamani=0,haftalikTime=0;
-    private  boolean isChronometerRun=false,isCountDownRun=false,isFirstGetingOnPause=true;
+    private long mTimeLeftMillis=0,setTimeMillis=0;
+    private long calismaZamani=0,countDownCalismaZamani,haftalikTime=0,lastGettedCalismaZamani=0;
+    private  boolean isChronometerRun=false,isCountDownRun=false;
 
     public ViewPagerAdapter(Context c,FragmentManager fm,TextView aylik,TextView haftalik,TextView gunluk){
         context=c; ayliktextView=aylik; haftaliktextView=haftalik; gunluktextView=gunluk; fragmentManager=fm;
@@ -74,7 +74,7 @@ public class ViewPagerAdapter extends PagerAdapter implements addingPopUp.dialog
     @NonNull
     @Override
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
-        Log.d("instantiateItem","pos"+position);
+    //    Log.d("instantiateItem","pos"+position);
         View view=null;
         layoutInflater=(LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
 
@@ -100,17 +100,27 @@ public class ViewPagerAdapter extends PagerAdapter implements addingPopUp.dialog
                 pauseOffset=0;
             });
             add1.setOnClickListener(v -> {
-                if (isChronometerRun){
-                    calismaZamani=SystemClock.elapsedRealtime()+ignoredTime-lastGetedTime;
-                    lastGetedTime=SystemClock.elapsedRealtime();
-                        lastPausedTime+=calismaZamani;
+
+                if (chronometer.getText().length()==5)
+                {
+                    calismaZamani+=Integer.parseInt(chronometer.getText().toString().substring(3)+"")*1000;
+                    calismaZamani+=Integer.parseInt(chronometer.getText().toString().substring(0,2)+"")*60000;
+                }else if (chronometer.getText().length()==7)
+                {
+                    calismaZamani+=Integer.parseInt(chronometer.getText().toString().charAt(0)+"")*3600000;
+                    calismaZamani+=Integer.parseInt(chronometer.getText().toString().substring(5)+"")*1000;
+                    calismaZamani+=Integer.parseInt(chronometer.getText().toString().substring(2,4)+"")*60000;
                 }
-                else if (isFirstGetingOnPause){
-                    calismaZamani=pauseOffset-lastPausedTime;
-                    lastPausedTime=pauseOffset;
-                    ignoredTime=0;
+                else if (chronometer.getText().length()==8)
+                {
+                    calismaZamani+=Integer.parseInt(chronometer.getText().toString().substring(0,2)+"")*3600000;
+                    calismaZamani+=Integer.parseInt(chronometer.getText().toString().substring(7)+"")*1000;
+                    calismaZamani+=Integer.parseInt(chronometer.getText().toString().substring(3,5)+"")*60000;
                 }
-                isFirstGetingOnPause=false;
+                Log.d("calismaZamani+",""+calismaZamani);
+                calismaZamani-=lastGettedCalismaZamani;
+                Log.d("calismaZamani-",""+calismaZamani);
+                lastGettedCalismaZamani=calismaZamani+lastGettedCalismaZamani;
 
                 gunlukKontrol();
                 gunlukGraphValues[numbDay-1]+=calismaZamani;
@@ -145,24 +155,23 @@ public class ViewPagerAdapter extends PagerAdapter implements addingPopUp.dialog
             });
             add2.setOnClickListener(v -> {
                 if (setTimeMillis!=mTimeLeftMillis){
-                    calismaZamani+=setTimeMillis-mTimeLeftMillis;
+                    countDownCalismaZamani+=setTimeMillis-mTimeLeftMillis;
+                    Log.d("add2", "countDownCalismaZamani: "+countDownCalismaZamani);
+                    int hour=(int) (countDownCalismaZamani/1000)/3600;
+                    int minute=(int) (countDownCalismaZamani/1000)%3600/60;
+                    int second=(int) (countDownCalismaZamani/1000)%3600%60;
 
-                    int hour=(int) (calismaZamani/1000)/3600;
-                    int minute=(int) (calismaZamani/1000)%3600/60;
-                    int second=(int) (calismaZamani/1000)%3600%60;
-
-                    if(setTimeMillis!=mTimeLeftMillis && ((int)(calismaZamani/1000)%3600%60)==0){
+          /*          if(setTimeMillis!=mTimeLeftMillis && ((int)(calismaZamani/1000)%3600%60)==0){
                         second++;
                         Log.d("add2 for that",""+second);
-                    }
+                    }*/
                     setTimeMillis=mTimeLeftMillis;
-
                     String text = String.format(Locale.getDefault(),"%02d:%02d:%02d",hour,minute,second);
 
                     gunlukKontrol();
-                    gunlukGraphValues[numbDay-1]+=calismaZamani;
-                    haftalikTime+=calismaZamani;
-                    aylikGraphValues[numbMonth-1]+=calismaZamani;
+                    gunlukGraphValues[numbDay-1]+=countDownCalismaZamani;
+                    haftalikTime+=countDownCalismaZamani;
+                    aylikGraphValues[numbMonth-1]+=countDownCalismaZamani;
 
                     gunluktextView.setText(text+"");
                     haftaliktextView.setText(updateText(haftalikTime)+"");
@@ -181,13 +190,12 @@ public class ViewPagerAdapter extends PagerAdapter implements addingPopUp.dialog
 
     @Override
     public void destroyItem(@NonNull ViewGroup container, int position, @NonNull Object object) {
-        Log.d("destroyed",object+"");
+   //     Log.d("destroyed",object+"");
         container.removeView((RelativeLayout)object);
     }
 
     public void chronometerStartStop(){
         if (!isChronometerRun){
-            lastGetedTime=SystemClock.elapsedRealtime();
             startStop1.setText("DURAKLAT");
             chronometer.setBase(SystemClock.elapsedRealtime()-pauseOffset);
             chronometer.start();
@@ -195,9 +203,7 @@ public class ViewPagerAdapter extends PagerAdapter implements addingPopUp.dialog
         }else {
             chronometer.stop();
             pauseOffset=(int) (SystemClock.elapsedRealtime()-chronometer.getBase());
-            ignoredTime=SystemClock.elapsedRealtime()-lastGetedTime;
             startStop1.setText("BAŞLAT");
-            isFirstGetingOnPause=true;
             isChronometerRun=false;
         }
     }
@@ -211,7 +217,7 @@ public class ViewPagerAdapter extends PagerAdapter implements addingPopUp.dialog
                     mTimeLeftMillis=millisUntilFinished;
                     showCountDownTimer.setText(updateText(mTimeLeftMillis));
                     countDownBar.setProgress((int)((1-(double)mTimeLeftMillis/setTimeMillis)*100));
-                    Log.d("showCountDown",""+mTimeLeftMillis);
+        //            Log.d("showCountDown",""+mTimeLeftMillis);
                 }
                 @Override
                 public void onFinish() {}
@@ -227,8 +233,8 @@ public class ViewPagerAdapter extends PagerAdapter implements addingPopUp.dialog
         int hour=(int) (numb/1000)/3600;
         int minute=(int) (numb/1000)%3600/60;
         int second=(int) (numb/1000)%3600%60;
-        if(second!=0)
-            second=(int) ((numb/1000)+1)%3600%60;
+      /*  if(second!=0)
+            second=(int) ((numb/1000)+1)%3600%60;*/
 
         return String.format(Locale.getDefault(),"%02d:%02d:%02d",hour,minute,second);
     }
@@ -239,6 +245,7 @@ public class ViewPagerAdapter extends PagerAdapter implements addingPopUp.dialog
             int hour=(int) (setTimeMillis/1000)/3600;
             int minute=(int) (setTimeMillis/1000)%3600/60;
             int second=(int) (setTimeMillis/1000)%3600%60;
+
             setTimeMillis=(long)((Integer.parseInt(popUp.hourEdit.getText()+"")*3600)+(Integer.parseInt(popUp.minEdit.getText()+"")*60))*1000;
             showCountDownTimer.setText(String.format(Locale.getDefault(),"%02d:%02d:%02d",hour,minute,second)+"");
             countDownBar.setProgress(0);
@@ -262,7 +269,7 @@ public class ViewPagerAdapter extends PagerAdapter implements addingPopUp.dialog
             editor.putInt("dayInputCount",dayInputCount);
             editor.putInt("monthInputCount",monthInputCount);
 
-            Log.d("gunNumb",""+numbDay);
+    //        Log.d("gunNumb",""+numbDay);
 
             Gson gson = new Gson();
             String jsonGun = gson.toJson(gunlukGraphValues);
@@ -289,7 +296,7 @@ public class ViewPagerAdapter extends PagerAdapter implements addingPopUp.dialog
         dayInputCount=sP.getInt("dayInputCount",0);
         monthInputCount=sP.getInt("monthInputCount",0);
 
-        Log.d("START WITH","THESE "+numbDay+" "+numbWeek+" "+numbMonth);
+  //      Log.d("START WITH","THESE "+numbDay+" "+numbWeek+" "+numbMonth);
         if (numbDay==0 || numbWeek==0 || numbMonth==0)
         {
             numbDay=translateDay(dateTime);
@@ -298,12 +305,12 @@ public class ViewPagerAdapter extends PagerAdapter implements addingPopUp.dialog
 
             if (dayInputCount<7){
                 gunlukGraphValues[numbDay-1]=0;
-                Log.d("gunlukArray",""+gunlukGraphValues[numbDay-1]);
+           //    Log.d("gunlukArray",""+gunlukGraphValues[numbDay-1]);
                 dayInputCount++;}
 
             if (monthInputCount<12){
                 aylikGraphValues[numbMonth-1]=0;
-                Log.d("aylikArray",""+aylikGraphValues[numbMonth-1]);
+         //       Log.d("aylikArray",""+aylikGraphValues[numbMonth-1]);
                 monthInputCount++;}
 
         }
@@ -324,7 +331,7 @@ public class ViewPagerAdapter extends PagerAdapter implements addingPopUp.dialog
 
 
     public int translateDay(String day){
-        Log.d("day ", ""+day);
+    //    Log.d("day ", ""+day);
         switch (day){
             case "Monday": return 1;
             case "Tuesday":return 2;
@@ -350,7 +357,7 @@ public class ViewPagerAdapter extends PagerAdapter implements addingPopUp.dialog
                     numbDay++;
                 if (dayInputCount<7){
                 gunlukGraphValues[numbDay-1]=0;
-                    Log.d("gunlukArray",""+gunlukGraphValues[numbDay-1]);
+             //       Log.d("gunlukArray",""+gunlukGraphValues[numbDay-1]);
                 dayInputCount++;}
 
             }
@@ -372,7 +379,7 @@ public class ViewPagerAdapter extends PagerAdapter implements addingPopUp.dialog
                     numbMonth++;
                 if (monthInputCount<7){
                 aylikGraphValues[numbMonth-1]=-1;
-                    Log.d("gunlukArray",""+aylikGraphValues[numbMonth-1]);
+             //       Log.d("gunlukArray",""+aylikGraphValues[numbMonth-1]);
                 monthInputCount++;}
             }
     }

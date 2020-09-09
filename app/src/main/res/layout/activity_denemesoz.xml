@@ -7,131 +7,81 @@
 
     <ScrollView
         android:layout_width="wrap_content"
-        android:layout_height="636dp"
+        android:layout_height="match_parent"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="-6dp">
+        android:layout_alignParentTop="true">
 
-        <LinearLayout
+        <GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="15dp" />
-
-            <TextView
-                android:id="@+id/deneme_totalsoz_text"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:text="Sözel Denemeleri" />
+            android:layout_margin="15dp"
+            android:columnCount="1"
+            android:rowCount="8">
 
             <com.jjoe64.graphview.GraphView
                 android:id="@+id/deneme_sozGraph"
                 android:layout_width="match_parent"
-                android:layout_height="250dp" />
-
-            <TextView
-                android:id="@+id/deneme_edeb_text"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:text="Türk Dili Ve Edebiyatı" />
+                android:layout_height="250dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/graphviewsoz_background"
+                android:layout_row="0"/>
 
             <com.jjoe64.graphview.GraphView
                 android:id="@+id/deneme_edebiyatGraph"
                 android:layout_width="match_parent"
-                android:layout_height="250dp" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="15dp" />
-
-            <TextView
-                android:id="@+id/deneme_Tarih_1text"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:text="Tarih 1" />
+                android:layout_height="250dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/graphviewsoz_background"
+                android:layout_row="1"/>
 
             <com.jjoe64.graphview.GraphView
                 android:id="@+id/deneme_tarih_1Graph"
                 android:layout_width="match_parent"
-                android:layout_height="250dp" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="15dp" />
-
-            <TextView
-                android:id="@+id/deneme_cog1_text"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:text="Coğrafya 1" />
+                android:layout_height="250dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/graphviewsoz_background"
+                android:layout_row="2"/>
 
             <com.jjoe64.graphview.GraphView
                 android:id="@+id/deneme_cog1Graph"
                 android:layout_width="match_parent"
-                android:layout_height="250dp" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="15dp" />
-
-            <TextView
-                android:id="@+id/deneme_tarih_2_text"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:text="Tarih 2" />
+                android:layout_height="250dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/graphviewsoz_background"
+                android:layout_row="3"/>
 
             <com.jjoe64.graphview.GraphView
                 android:id="@+id/deneme_tarih_2Graph"
                 android:layout_width="match_parent"
-                android:layout_height="250dp" />
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="15dp" />
-
-            <TextView
-                android:id="@+id/deneme_cog_2_text"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:text=" 2" />
+                android:layout_height="250dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/graphviewsoz_background"
+                android:layout_row="4"/>
 
             <com.jjoe64.graphview.GraphView
                 android:id="@+id/deneme_cog_2Graph"
                 android:layout_width="match_parent"
-                android:layout_height="250dp" />
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="15dp" />
-
-            <TextView
-                android:id="@+id/deneme_felsefe_text"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:text="Felsefe" />
+                android:layout_height="250dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/graphviewsoz_background"
+                android:layout_row="5"/>
 
             <com.jjoe64.graphview.GraphView
                 android:id="@+id/deneme_felsefeGraph"
                 android:layout_width="match_parent"
-                android:layout_height="250dp" />
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="15dp" />
-
-            <TextView
-                android:id="@+id/din"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:text="Din Kültürü Ve Ahlak Bilgisi" />
+                android:layout_height="250dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/graphviewsoz_background"
+                android:layout_row="6"/>
 
             <com.jjoe64.graphview.GraphView
                 android:id="@+id/deneme_dinGraph"
                 android:layout_width="match_parent"
-                android:layout_height="250dp" />
-
-        </LinearLayout>
+                android:layout_height="250dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/graphviewsoz_background"
+                android:layout_row="7"/>
+        </GridLayout>
     </ScrollView>
 
     <RelativeLayout
@@ -152,7 +102,6 @@
             android:layout_alignParentTop="true"
             android:layout_marginEnd="15dp"
             android:layout_toStartOf="@+id/floatDelete"
-            android:clickable="true"
             app:srcCompat="@drawable/books" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -162,7 +111,6 @@
             android:layout_alignParentTop="true"
             android:layout_marginEnd="15dp"
             android:layout_toStartOf="@+id/floatAdd"
-            android:clickable="true"
             app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -171,10 +119,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:clickable="true"
             app:backgroundTintMode="src_atop"
             app:srcCompat="@drawable/plus3" />
 
     </RelativeLayout>
-
 </RelativeLayout>

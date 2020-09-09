@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\AndroidProjesiMaster\\.gradle\\wrapper\\caches\\transforms-2\\files-2.1\\a8b42ac286dd9c66b03608cb239a3680\\appcompat-1.2.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\aspeh\\.gradle\\caches\\transforms-2\\files-2.1\\a8b42ac286dd9c66b03608cb239a3680\\appcompat-1.2.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

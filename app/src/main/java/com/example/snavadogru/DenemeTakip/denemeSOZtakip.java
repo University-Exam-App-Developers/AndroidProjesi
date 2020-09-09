@@ -134,6 +134,23 @@ public class denemeSOZtakip extends AppCompatActivity implements denemeSOZ_Takip
             staticLabelsFormatter = new StaticLabelsFormatter(graphs.get(c));
             staticLabelsFormatter.setHorizontalLabels(namesArray.toArray(new String[0]));
 
+            if (c==0)
+                graphs.get(c).setTitle("SÖZEL NETLERİ");
+            else if (c==1)
+                graphs.get(c).setTitle("TÜRK DİLİ VE EDEBİYATI NETLERİ");
+            else if (c==2)
+                graphs.get(c).setTitle("TARİH I NETLERİ");
+            else if (c==3)
+                graphs.get(c).setTitle("COĞRAFYA I NETLERİ");
+            else if (c==4)
+                graphs.get(c).setTitle("TARİH II NETLERİ");
+            else if (c==5)
+                graphs.get(c).setTitle("COĞRAFYA II NETLERİ");
+            else if (c==6)
+                graphs.get(c).setTitle("FELSEFE NETLERİ");
+            else if (c==7)
+                graphs.get(c).setTitle("DİN KÜLTÜRÜ VE AHLAK BİLGİSİ NETLERİ");
+
             graphs.get(c).getViewport().setMinX(0);
             graphs.get(c).getViewport().setMaxX(Denemeler.size()-1);
             graphs.get(c).getViewport().setMaxY(40);
@@ -141,11 +158,14 @@ public class denemeSOZtakip extends AppCompatActivity implements denemeSOZ_Takip
             graphs.get(c).getViewport().setXAxisBoundsManual(true);
             graphs.get(c).setHorizontalScrollBarEnabled(true);
             graphs.get(c).getViewport().setScrollable(true);
+            graphs.get(c).setTitleTextSize(40);
 
-            values.get(c).setColor(Color.GREEN);
+            values.get(c).setDrawBackground(true);
+            values.get(c).setColor(Color.argb(60,21,67,96));
+            values.get(c).setBackgroundColor(Color.argb(60,46,134,193));
             values.get(c).setDrawDataPoints(true);
-            values.get(c).setDataPointsRadius(10);
-            values.get(c).setThickness(8);
+            values.get(c).setDataPointsRadius(15);
+            values.get(c).setThickness(10);
 
             graphs.get(c).addSeries(values.get(c));
             graphs.get(c).getGridLabelRenderer().setTextSize(30);
@@ -180,7 +200,7 @@ public class denemeSOZtakip extends AppCompatActivity implements denemeSOZ_Takip
         Type type = new TypeToken<ArrayList<sozDenemesi>>() {}.getType();
         Denemeler = gson.fromJson(json, type);
         wholeSozDenemeler= gson.fromJson(jsonWhole,type);
-        Log.d("wholeSozDenemeler",""+wholeSozDenemeler.size());
+
         if (Denemeler == null)
             Denemeler = new ArrayList<>();
         if (wholeSozDenemeler==null)

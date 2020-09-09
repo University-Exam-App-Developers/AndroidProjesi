@@ -2,18 +2,19 @@ package com.example.snavadogru.DenemeTakip;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatDialogFragment;
 
 import com.example.snavadogru.R;
@@ -24,36 +25,40 @@ public class denemeSOZ_TakipPopUpAdding extends AppCompatDialogFragment {
     ArrayList<EditText> edits = new ArrayList<>(10);
     ArrayList<String> netler = new ArrayList<>(4);
     ArrayList<String> Info = new ArrayList<>(2);
-
-    dialog listener;
+    Button posButton,negButton;
     sozDenemesi eklenenDeneme;
     private int increment;
     boolean comfirm=false;
+    dialog listener;
 
     @Override
     public Dialog onCreateDialog(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         LayoutInflater layout = LayoutInflater.from(getContext());
         View view = layout.inflate(R.layout.activity_denemetakip_7lessonpopupadding,null);
-        edits.add(view.findViewById(R.id.deneme7les_takeNameEdit));
+        Dialog ad = new Dialog(getContext());
+        ad.setContentView(view);
+
+        edits.add(view.findViewById(R.id.denemeTakip_takeNameEdit));
         edits.get(0).setHint(increment+""+edits.get(0).getHint());
-        edits.add(view.findViewById(R.id.deneme7les_yayinlar));
+        edits.add(view.findViewById(R.id.denemeTakip_yayinlar));
 
-        edits.add(view.findViewById(R.id.deneme7les_first7Dogru));
-        edits.add(view.findViewById(R.id.deneme7les_first7Yanlis));
-        edits.add(view.findViewById(R.id.deneme7les_second7Dogru));
-        edits.add(view.findViewById(R.id.deneme7les_second7Yanlis));
-        edits.add(view.findViewById(R.id.deneme7les_third7Dogru));
-        edits.add(view.findViewById(R.id.deneme7les_third7Yanlis));
-        edits.add(view.findViewById(R.id.deneme7les_fourth7Dogru));
-        edits.add(view.findViewById(R.id.deneme7les_fourth7Yanlis));
-        edits.add(view.findViewById(R.id.deneme7les_fifth7Dogru));
-        edits.add(view.findViewById(R.id.deneme7les_fifth7Yanlis));
-        edits.add(view.findViewById(R.id.deneme7les_sixth7Dogru));
-        edits.add(view.findViewById(R.id.deneme7les_sixth7Yanlis));
-        edits.add(view.findViewById(R.id.deneme7les_seventh7Dogru));
-        edits.add(view.findViewById(R.id.deneme7les_seventh7Yanlis));
-
+        posButton=view.findViewById(R.id.sozYesButton);
+        negButton=view.findViewById(R.id.sozNoButton);
+        edits.add(view.findViewById(R.id.denemeTakip_edebiyat_dogru));
+        edits.add(view.findViewById(R.id.denemeTakip_edebiyat_yanlis));
+        edits.add(view.findViewById(R.id.denemeTakip_tarih1_dogru));
+        edits.add(view.findViewById(R.id.denemeTakip_tarih1_yanlis));
+        edits.add(view.findViewById(R.id.denemeTakip_cog1_dogru));
+        edits.add(view.findViewById(R.id.denemeTakip_cog1_yanlis));
+        edits.add(view.findViewById(R.id.denemeTakip_tar2_dogru));
+        edits.add(view.findViewById(R.id.denemeTakip_tar2_yanlis));
+        edits.add(view.findViewById(R.id.denemeTakip_cog2_dogru));
+        edits.add(view.findViewById(R.id.denemeTakip_cog2_yanlis));
+        edits.add(view.findViewById(R.id.denemeTakip_felsefe_dogru));
+        edits.add(view.findViewById(R.id.denemeTakip_felsefe_yanlis));
+        edits.add(view.findViewById(R.id.denemeTakip_din_dogru));
+        edits.add(view.findViewById(R.id.denemeTakip_din_yanlis));
 
         edits.get(2).addTextChangedListener(new GenericTextWatcher(2));
         edits.get(3).addTextChangedListener(new GenericTextWatcher(3));
@@ -70,10 +75,7 @@ public class denemeSOZ_TakipPopUpAdding extends AppCompatDialogFragment {
         edits.get(14).addTextChangedListener(new GenericTextWatcher(14));
         edits.get(15).addTextChangedListener(new GenericTextWatcher(15));
 
-        AlertDialog.Builder ad = new AlertDialog.Builder(getContext());
-        ad.setTitle("Deneme ekle");
-        ad.setView(view);
-        ad.setPositiveButton("ekle", (dialogInterface, which) -> {
+        posButton.setOnClickListener(v->{
             if (edits.get(0).getText().toString().length()==0)
                 Info.add(increment+"");
             else
@@ -97,9 +99,12 @@ public class denemeSOZ_TakipPopUpAdding extends AppCompatDialogFragment {
             eklenenDeneme = new sozDenemesi(Info,netler,increment);
             comfirm=true;
             listener.set();
+            ad.dismiss();
         });
-        ad.setNegativeButton("iptal", (dialog, which) -> { comfirm=false; ad.create().dismiss(); });
-        return ad.create();
+        negButton.setOnClickListener(v->{ comfirm=false;  ad.dismiss();});
+        ad.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        ad.show();
+        return ad;
     }
     public sozDenemesi getDeneme(){
         return eklenenDeneme;

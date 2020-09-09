@@ -2,13 +2,19 @@ package com.example.snavadogru.DenemeTakip;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -25,9 +31,12 @@ public class denemeTYT_TakipPopUpAdding extends AppCompatDialogFragment {
     ArrayList<EditText> edits = new ArrayList<>(10);
     ArrayList<String> Info = new ArrayList<>(2);
     ArrayList<String> netler = new ArrayList<>(4);
+    Button posButton,negButton;
     tytDenemesi eklenenDeneme;
-    private int increment;
+    RelativeLayout tytlayout;
     boolean comfirm = false;
+    private int increment;
+    ImageView popUpimage;
     dialog listener;
 
     @Override
@@ -36,10 +45,18 @@ public class denemeTYT_TakipPopUpAdding extends AppCompatDialogFragment {
         LayoutInflater layout = LayoutInflater.from(getContext());
         View view = layout.inflate(R.layout.activity_denemetakip_4lessonpopupadding, null);
 
+        Dialog ad = new Dialog(getContext());
+        ad.setContentView(view);
+
         edits.add(view.findViewById(R.id.takeNameEdit));
         edits.get(0).setHint(increment + "" + edits.get(0).getHint());
         edits.add(view.findViewById(R.id.yayinlar));
 
+        posButton=view.findViewById(R.id.yesButton);
+        negButton=view.findViewById(R.id.noButton);
+
+        popUpimage=view.findViewById(R.id.lesson4PopUpimageView);
+        popUpimage.setImageLevel(R.drawable.test);
         first = view.findViewById(R.id.deneme4les_first);
         first.setText("Türkçe");
         second = view.findViewById(R.id.deneme4les_second);
@@ -57,10 +74,10 @@ public class denemeTYT_TakipPopUpAdding extends AppCompatDialogFragment {
         edits.add(view.findViewById(R.id.deneme4les_third4Yanlis));
         edits.add(view.findViewById(R.id.deneme4les_fourth4Dogru));
         edits.add(view.findViewById(R.id.deneme4les_fourth4Yanlis));
+        tytlayout=view.findViewById(R.id.lesson4RelativeLayout);
+        tytlayout.setBackgroundResource(R.drawable.alertdialog_tyt);
 
-        AlertDialog.Builder ad = new AlertDialog.Builder(getContext());
-        ad.setTitle("Deneme ekle");
-        ad.setView(view);
+
 
         edits.get(2).addTextChangedListener(new GenericTextWatcher(2));
         edits.get(3).addTextChangedListener(new GenericTextWatcher(3));
@@ -71,7 +88,7 @@ public class denemeTYT_TakipPopUpAdding extends AppCompatDialogFragment {
         edits.get(8).addTextChangedListener(new GenericTextWatcher(8));
         edits.get(9).addTextChangedListener(new GenericTextWatcher(9));
 
-        ad.setPositiveButton("ekle", (dialogInterface, which) -> {
+        posButton.setOnClickListener(v -> {
             if (edits.get(0).getText().toString().length() == 0)
                 Info.add(increment + "");
             else
@@ -82,7 +99,7 @@ public class denemeTYT_TakipPopUpAdding extends AppCompatDialogFragment {
                 Info.add(edits.get(1).getText().toString());
 
 
-           for (int i = 2; i < edits.size(); i++)
+            for (int i = 2; i < edits.size(); i++)
                 if (edits.get(i).getText().toString().length() == 0)
                     edits.get(i).setText("0");
 
@@ -91,14 +108,18 @@ public class denemeTYT_TakipPopUpAdding extends AppCompatDialogFragment {
             netler.add((Integer.parseInt(edits.get(6).getText().toString())) - (Integer.parseInt(edits.get(7).getText().toString()) * 0.25) + "");
             netler.add((Integer.parseInt(edits.get(8).getText().toString())) - (Integer.parseInt(edits.get(9).getText().toString()) * 0.25) + "");
             eklenenDeneme = new tytDenemesi(Info, netler, increment);
+            Log.d("POS","eklenen"+eklenenDeneme.getDenemeNumber());
             comfirm = true;
             listener.set();
+            ad.dismiss();
         });
-        ad.setNegativeButton("iptal", (dialog, which) -> {
-            comfirm = false;
-            ad.create().dismiss();
-        });
-        return ad.create();
+        negButton.setOnClickListener(v->{
+                comfirm = false;
+                ad.dismiss();
+            });
+        ad.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        ad.show();
+        return ad;
     }
 
     public tytDenemesi getDeneme() {

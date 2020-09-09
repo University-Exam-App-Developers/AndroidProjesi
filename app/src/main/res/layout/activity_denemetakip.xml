@@ -1,59 +1,183 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/Info"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="Hangi Denemeyi Çözdün ?" />
+
+    <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_below="@+id/Info"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:columnCount="1"
+        android:rowCount="5">
 
-        <ScrollView
+        <androidx.cardview.widget.CardView
+            android:id="@+id/deneme_tyt"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="0dp"
-            android:layout_marginTop="0dp">
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            android:text="TYT"
+            app:cardBackgroundColor="@android:color/transparent">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/denemetakip_buttonbc">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/test" />
 
                 <TextView
-                    android:id="@+id/Info"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:text="Hangi Denemeyi Çözdün ?" />
-
-                <Button
-                    android:id="@+id/deneme_tyt"
-                    android:layout_width="match_parent"
-                    android:layout_height="150dp"
-                    android:text="TYT" />
-
-                <Button
-                    android:id="@+id/deneme_say"
-                    android:layout_width="match_parent"
-                    android:layout_height="150dp"
-                    android:text="AYT-SAY" />
-
-                <Button
-                    android:id="@+id/deneme_ea"
-                    android:layout_width="match_parent"
-                    android:layout_height="150dp"
-                    android:text="AYT-EA" />
-
-                <Button
-                    android:id="@+id/deneme_soz"
-                    android:layout_width="match_parent"
-                    android:layout_height="150dp"
-                    android:text="AYT-SÖZ" />
-
-                <Button
-                    android:id="@+id/deneme_dil"
-                    android:layout_width="match_parent"
-                    android:layout_height="150dp"
-                    android:text="YABANCI DİL" />
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TYT DENEMELERİ"
+                    android:textColor="@color/BurlyWood"
+                    android:textStyle="bold" />
             </LinearLayout>
-        </ScrollView>
+        </androidx.cardview.widget.CardView>
 
-    </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/deneme_say"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="@android:color/transparent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/denemetakip_buttonbc">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/atom" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SAYISAL DENEMELERİ"
+                    android:textColor="@color/BurlyWood"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/deneme_ea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="@android:color/transparent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/denemetakip_buttonbc"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/book5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EŞİT AĞIRLIK DENEMELERİ"
+                    android:textColor="@color/BurlyWood"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/deneme_soz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="@android:color/transparent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/denemetakip_buttonbc"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/utopia" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SÖZEL DENEMELERİ"
+                    android:textColor="@color/BurlyWood"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/deneme_dil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="@android:color/transparent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/denemetakip_buttonbc"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/dictionary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/BurlyWood"
+                    android:text="YABANCI DİL DENEMELERİ"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </GridLayout>
+
+</RelativeLayout>

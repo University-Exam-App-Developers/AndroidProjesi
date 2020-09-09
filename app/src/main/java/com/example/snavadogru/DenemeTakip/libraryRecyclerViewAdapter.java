@@ -1,8 +1,12 @@
 package com.example.snavadogru.DenemeTakip;
 import androidx.recyclerview.widget.RecyclerView;
+
+import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import androidx.annotation.NonNull;
 import com.example.snavadogru.R;
+
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.content.Context;
 import android.view.ViewGroup;
@@ -21,8 +25,7 @@ public class libraryRecyclerViewAdapter extends RecyclerView.Adapter<libraryRecy
     private ArrayList<eaDenemesi> eaDenemesiArrayList = new ArrayList<>();
     private ArrayList<sozDenemesi> sozDenemesiArrayList = new ArrayList<>();
     Context context;
-    Button delete1;
-    int index;
+    int index,drawable;
     private RecyclerViewAdapter.OnItemClickListener mylistener;
     public libraryRecyclerViewAdapter(Context c){
         context=c;
@@ -40,8 +43,6 @@ public class libraryRecyclerViewAdapter extends RecyclerView.Adapter<libraryRecy
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(context);
         View view = inflater.inflate(R.layout.deneme_takip_library_item,parent,false);
-        delete1 = view.findViewById(R.id.deleteDenemeColumn1);
-
         return new MyViewHolder(view);
     }
 
@@ -50,6 +51,7 @@ public class libraryRecyclerViewAdapter extends RecyclerView.Adapter<libraryRecy
         holder.name.setText(Name.get(position));
         holder.yayinName.setText(YayinAdi.get(position));
         holder.netler.setText(TotalNet.get(position)+"");
+        holder.relativeLayout.setBackgroundResource(drawable);
         index=position;
         Log.d("holder"," position "+position+" name size :"+Name.size());
     }
@@ -63,14 +65,16 @@ public class libraryRecyclerViewAdapter extends RecyclerView.Adapter<libraryRecy
 
     public class MyViewHolder extends RecyclerView.ViewHolder{
         TextView name,yayinName,netler;
+        RelativeLayout relativeLayout;
         Button delete;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
+            relativeLayout=itemView.findViewById(R.id.takip_libraryRelativeLayout);
             delete=itemView.findViewById(R.id.deleteDenemeColumn1);
-            name=itemView.findViewById(R.id.denemNameColumn1);
             yayinName=itemView.findViewById(R.id.yayinNameColumn1);
             netler=itemView.findViewById(R.id.netSayisiColumn1);
+            name=itemView.findViewById(R.id.denemNameColumn1);
 
             delete.setOnClickListener(view -> {
                 Log.d("ITEM VİEW INNER"," HELLO MADA FAKAAA");
@@ -97,13 +101,15 @@ public class libraryRecyclerViewAdapter extends RecyclerView.Adapter<libraryRecy
             Name.add(dilDenemesiArrayList.get(i).Name);
             YayinAdi.add(dilDenemesiArrayList.get(i).Yayin);
             TotalNet.add(dilDenemesiArrayList.get(i).totalNet + ""); }
+        drawable=R.drawable.denemelist_dil;
     }
     void setEaDenemesiArrayList(ArrayList<eaDenemesi> ea) {
         eaDenemesiArrayList = ea;
         for (int i = 0; i < eaDenemesiArrayList.size(); i++) {
             Name.add(eaDenemesiArrayList.get(i).Name);
             YayinAdi.add(eaDenemesiArrayList.get(i).Yayin);
-            TotalNet.add(eaDenemesiArrayList.get(i).totalNet + ""); }
+            TotalNet.add(eaDenemesiArrayList.get(i).totalNet + "");}
+            drawable=R.drawable.denemelist_ea;
     }
     void setSayDenemesiArrayList(ArrayList<sayDenemesi> say) {
         sayDenemesiArrayList = say;
@@ -112,6 +118,7 @@ public class libraryRecyclerViewAdapter extends RecyclerView.Adapter<libraryRecy
             Name.add(sayDenemesiArrayList.get(i).Name);
             YayinAdi.add(sayDenemesiArrayList.get(i).Yayin);
             TotalNet.add(sayDenemesiArrayList.get(i).totalNet + "");}
+        drawable=R.drawable.denemelist_say;
     }
     void setTytDenemesiArrayList(ArrayList<tytDenemesi> tyt) {
         tytDenemesiArrayList = tyt;
@@ -119,7 +126,8 @@ public class libraryRecyclerViewAdapter extends RecyclerView.Adapter<libraryRecy
         for (int i = 0; i < tytDenemesiArrayList.size(); i++) {
             Name.add(tytDenemesiArrayList.get(i).Name);
             YayinAdi.add(tytDenemesiArrayList.get(i).Yayin);
-            TotalNet.add(tytDenemesiArrayList.get(i).totalNet + ""); }
+            TotalNet.add(tytDenemesiArrayList.get(i).totalNet + "");}
+        drawable=R.drawable.denemelist_tyt;
     }
     void setSozDenemesiArrayList(ArrayList<sozDenemesi> soz) {
         sozDenemesiArrayList = soz;
@@ -127,6 +135,7 @@ public class libraryRecyclerViewAdapter extends RecyclerView.Adapter<libraryRecy
             Name.add(sozDenemesiArrayList.get(i).Name);
             YayinAdi.add(sozDenemesiArrayList.get(i).Yayin);
             TotalNet.add(sozDenemesiArrayList.get(i).totalNet + "");}
+        drawable=R.drawable.denemelist_soz;
     }
     //  Log.d("RecyclerViewAdapter"," setTytDenemesiArrayList name"+Name.get(0));
 

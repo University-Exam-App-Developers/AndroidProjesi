@@ -5,13 +5,13 @@ import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import android.widget.Button;
+import androidx.cardview.widget.CardView;
 
 import com.example.snavadogru.R;
 
 public class aytKonuEa extends AppCompatActivity {
     Intent intent;
-    Button edeb,tarih,cog,mat;
+    CardView edeb,tarih,cog,mat;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
