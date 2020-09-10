@@ -4,6 +4,7 @@ import android.content.ContentResolver;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Matrix;
 import android.net.Uri;
@@ -151,6 +152,12 @@ public class NewCamera extends AppCompatActivity {
         select4  = (ImageView) findViewById(R.id.imv_camera_select_photo4);
         select5  = (ImageView) findViewById(R.id.imv_camera_select_photo5);
         select6  = (ImageView) findViewById(R.id.imv_camera_select_photo6);
+        bitmap_soru1 = BitmapFactory.decodeResource(getResources(), R.drawable.white_question);
+        bitmap_soru2 = BitmapFactory.decodeResource(getResources(), R.drawable.white_question);
+        bitmap_soru3 = BitmapFactory.decodeResource(getResources(), R.drawable.white_question);
+        bitmap_soru4 = BitmapFactory.decodeResource(getResources(), R.drawable.white_question);
+        bitmap_soru5 = BitmapFactory.decodeResource(getResources(), R.drawable.white_question);
+        bitmap_soru6 = BitmapFactory.decodeResource(getResources(), R.drawable.white_question);
 
 
         button_pdf.setOnClickListener(new View.OnClickListener() {
@@ -293,7 +300,6 @@ public class NewCamera extends AppCompatActivity {
         String description = "My bitmap created by Android-er";
         String savedURL = MediaStore.Images.Media
                 .insertImage(cr, bitmap, title, description);
-
         Toast.makeText(getApplicationContext(),savedURL, Toast.LENGTH_LONG).show();
 
     }

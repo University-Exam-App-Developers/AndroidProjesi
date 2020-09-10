@@ -27,27 +27,27 @@
                     android:id="@+id/imv_camera_soru1"
                     android:layout_width="120dp"
                     android:layout_height="110dp"
-                    android:padding="8dp"
-                    android:src="@drawable/image_question"/>
+                    android:padding="26dp"
+                    android:src="@drawable/question_bg"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:gravity="center"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="8dp"
                     android:layout_height="wrap_content">
                     <ImageView
                         android:id="@+id/imv_camera_select_photo1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="8dp"
-                        android:background="@drawable/icon_photo_library"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/gallery_bg"
                         />
                     <ImageView
                         android:id="@+id/imv_camera_take_photo1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:background="@drawable/icon_photo_camera"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/camera_bg"
                         />
                 </LinearLayout>
 
@@ -70,27 +70,27 @@
                     android:id="@+id/imv_camera_soru4"
                     android:layout_width="120dp"
                     android:layout_height="110dp"
-                    android:padding="8dp"
-                    android:src="@drawable/image_question"/>
+                    android:padding="26dp"
+                    android:src="@drawable/question_bg"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:gravity="center"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="8dp"
                     android:layout_height="wrap_content">
                     <ImageView
                         android:id="@+id/imv_camera_select_photo4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="8dp"
-                        android:background="@drawable/icon_photo_library"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/gallery_bg"
                         />
                     <ImageView
                         android:id="@+id/imv_camera_take_photo4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:background="@drawable/icon_photo_camera"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/camera_bg"
                         />
                 </LinearLayout>
 
@@ -104,7 +104,7 @@
 
     </LinearLayout>
     <LinearLayout
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="12dp"
         android:clipToPadding="false"
         android:orientation="horizontal"
         android:gravity="center"
@@ -123,27 +123,27 @@
                     android:id="@+id/imv_camera_soru2"
                     android:layout_width="120dp"
                     android:layout_height="110dp"
-                    android:padding="8dp"
-                    android:src="@drawable/image_question"/>
+                    android:padding="26dp"
+                    android:src="@drawable/question_bg"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:gravity="center"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="8dp"
                     android:layout_height="wrap_content">
                     <ImageView
                         android:id="@+id/imv_camera_select_photo2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="8dp"
-                        android:background="@drawable/icon_photo_library"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/gallery_bg"
                         />
                     <ImageView
                         android:id="@+id/imv_camera_take_photo2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:background="@drawable/icon_photo_camera"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/camera_bg"
                         />
                 </LinearLayout>
 
@@ -166,27 +166,27 @@
                     android:id="@+id/imv_camera_soru5"
                     android:layout_width="120dp"
                     android:layout_height="110dp"
-                    android:padding="8dp"
-                    android:src="@drawable/image_question"/>
+                    android:padding="26dp"
+                    android:src="@drawable/question_bg"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:gravity="center"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="8dp"
                     android:layout_height="wrap_content">
                     <ImageView
                         android:id="@+id/imv_camera_select_photo5"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="8dp"
-                        android:background="@drawable/icon_photo_library"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/gallery_bg"
                         />
                     <ImageView
                         android:id="@+id/imv_camera_take_photo5"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:background="@drawable/icon_photo_camera"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/camera_bg"
                         />
                 </LinearLayout>
 
@@ -200,7 +200,7 @@
 
     </LinearLayout>
     <LinearLayout
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="12dp"
         android:clipToPadding="false"
         android:orientation="horizontal"
         android:gravity="center"
@@ -219,27 +219,27 @@
                     android:id="@+id/imv_camera_soru3"
                     android:layout_width="120dp"
                     android:layout_height="110dp"
-                    android:padding="8dp"
-                    android:src="@drawable/image_question"/>
+                    android:padding="26dp"
+                    android:src="@drawable/question_bg"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:gravity="center"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="8dp"
                     android:layout_height="wrap_content">
 
                     <ImageView
                         android:id="@+id/imv_camera_select_photo3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="8dp"
-                        android:background="@drawable/icon_photo_library" />
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/gallery_bg" />
                     <ImageView
                         android:id="@+id/imv_camera_take_photo3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:background="@drawable/icon_photo_camera"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/camera_bg"
                         />
                 </LinearLayout>
 
@@ -262,27 +262,27 @@
                     android:id="@+id/imv_camera_soru6"
                     android:layout_width="120dp"
                     android:layout_height="110dp"
-                    android:padding="8dp"
-                    android:src="@drawable/image_question"/>
+                    android:padding="26dp"
+                    android:src="@drawable/question_bg"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:gravity="center"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="6dp"
                     android:layout_height="wrap_content">
                     <ImageView
                         android:id="@+id/imv_camera_select_photo6"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="8dp"
-                        android:background="@drawable/icon_photo_library"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/gallery_bg"
                         />
                     <ImageView
                         android:id="@+id/imv_camera_take_photo6"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:background="@drawable/icon_photo_camera"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/camera_bg"
                         />
                 </LinearLayout>
 
@@ -297,9 +297,13 @@
     </LinearLayout>
 
     <Button
+        android:layout_marginTop="12dp"
         android:id="@+id/bt_make_pdf_newcamera"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Make PDf"/>
+        android:background="@drawable/bg_2"
+        android:layout_width="120dp"
+        android:shadowColor="@color/black"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Test Yap"/>
 
 </LinearLayout>

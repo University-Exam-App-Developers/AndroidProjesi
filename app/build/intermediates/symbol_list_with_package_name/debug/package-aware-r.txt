@@ -1944,6 +1944,8 @@ drawable apple
 drawable atom
 drawable avd_hide_password
 drawable avd_show_password
+drawable bg_1
+drawable bg_2
 drawable book
 drawable book1
 drawable book2
@@ -1965,6 +1967,7 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button
 drawable calculator2
+drawable camera_bg
 drawable chalkboard
 drawable chemistry
 drawable chemistry1
@@ -2011,6 +2014,7 @@ drawable earth
 drawable exit1
 drawable experiment
 drawable experiment1
+drawable gallery_bg
 drawable gear
 drawable globe
 drawable globe1
@@ -2108,6 +2112,7 @@ drawable profileimage
 drawable puan_sembol
 drawable pulley
 drawable question
+drawable question_bg
 drawable question_mark
 drawable quran
 drawable quran1
@@ -2138,6 +2143,7 @@ drawable tytdeneme
 drawable undo
 drawable up_arrow2
 drawable utopia
+drawable white_question
 drawable work
 drawable world_map
 drawable xbutton
@@ -2582,6 +2588,7 @@ id imv_camera_take_photo6
 id info
 id invisible
 id italic
+id item_sss_soru
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
@@ -2751,6 +2758,11 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id secenekA
+id secenekB
+id secenekC
+id secenekD
+id secenekE
 id secondDogru
 id secondLayout
 id secondText
@@ -2777,6 +2789,7 @@ id soruTakip_Daily
 id soruTakip_DailyGraph
 id soruTakip_Monthly
 id soruTakip_Monthlygraph
+id soru_metni
 id soru_takip_ayt_RecyclerView
 id sorutakip_rv
 id sosyalListView
@@ -2807,6 +2820,9 @@ id square
 id src_atop
 id src_in
 id src_over
+id sss_item_linearlayout
+id sss_item_textview
+id sss_recyclerview
 id standard
 id start
 id startHorizontal
@@ -2856,7 +2872,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
-id textView7
 id textViewL1tv1
 id text_input_end_icon
 id text_input_start_icon
@@ -3018,6 +3033,7 @@ layout activity_puan
 layout activity_puan_sonuc
 layout activity_rehberlik
 layout activity_show_pictures
+layout activity_soru_ekrani
 layout activity_sorular
 layout activity_sss
 layout activity_takip_konu
@@ -3112,12 +3128,13 @@ layout onesignal_bgimage_notif_layout
 layout options_deneme
 layout popup_adding
 layout popup_camera
+layout popup_cevap_sss
 layout popup_deleting
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout single_grid
-layout soru_ekrani
+layout soru_list_item
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
 layout test_chip_zero_corner_radius

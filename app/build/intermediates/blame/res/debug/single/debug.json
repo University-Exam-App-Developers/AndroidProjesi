@@ -1,1014 +1,1046 @@
 [
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\button.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\button.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_image_question.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\image_question.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_count_down_timer.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\count_down_timer.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_book.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\book.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_translate.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\translate.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_icon_left.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\icon_left.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon_left.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\icon_left.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_sorutakip_analiz.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\fragment_sorutakip_analiz.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_puan_sonuc.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_puan_sonuc.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_deneme_takip_library_item.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\deneme_takip_library_item.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_options_deneme.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\options_deneme.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\add.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_graphviewsay_background.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\graphviewsay_background.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dictionary.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\dictionary.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup_camera.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\popup_camera.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_zaman_takip.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_zaman_takip.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_puan_sonuc.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_puan_sonuc.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_deneme_takip_library_item.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\deneme_takip_library_item.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_test2.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\test2.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemeing.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_denemeing.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_denemelist_dil.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\denemelist_dil.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_puan_sembol.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\puan_sembol.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_sil.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_sil.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_secenek_background.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\secenek_background.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_physics.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\physics.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_takip_konu_say.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_takip_konu_say.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_algebra1.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\algebra1.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_alertdialog_ea.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\alertdialog_ea.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_takip_konu.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_takip_konu.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_ekle.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_ekle.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_box3.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\box3.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_icon_photo_library.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\icon_photo_library.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon_photo_library.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\icon_photo_library.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_takip_konu.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_takip_konu.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_graphviewsay_background.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\graphviewsay_background.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup_cevap_sss.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\popup_cevap_sss.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profileimage.jpg.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\profileimage.jpg"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_sil.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_sil.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_denemelist_soz.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\denemelist_soz.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_haber_ogesi.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\haber_ogesi.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_experiment1.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\experiment1.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_relativity.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\relativity.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tytdeneme.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\tytdeneme.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_graphviewtyt_background.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\graphviewtyt_background.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_icon_left.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\icon_left.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_globe.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\globe.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_soru_takip_tyt_list.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\fragment_soru_takip_tyt_list.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_alertdialog_ea.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\alertdialog_ea.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_sil.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_sil.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_graphviewtyt_background.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\graphviewtyt_background.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_news.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\news.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_konutakip_tytmatbutton.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\konutakip_tytmatbutton.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_konutakip_aytsozbutton.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\konutakip_aytsozbutton.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon_photo_camera.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\icon_photo_camera.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_icon_photo_camera.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\icon_photo_camera.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon_left.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\icon_left.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chemistry.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\chemistry.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_denemelist_ea.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\denemelist_ea.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_trigonometry.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\trigonometry.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemesoz.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_denemesoz.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_physics.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\physics.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_rehberlik.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_rehberlik.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_xbutton.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\xbutton.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_icon_photo_camera.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\icon_photo_camera.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_sil.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_sil.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon_photo_camera.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\icon_photo_camera.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_takip_konu_ea.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_takip_konu_ea.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_count_down_timer.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\count_down_timer.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_experiment.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\experiment.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_sil.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_sil.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_graphviewdil_background.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\graphviewdil_background.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sss.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_sss.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemetakip_popup_adding.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_denemetakip_popup_adding.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_alertdialog_say.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\alertdialog_say.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon_right.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\icon_right.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_book6.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\book6.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fragment_example.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_fragment_example.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon_left.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\icon_left.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_takip_konu_ayt_konu.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_takip_konu_ayt_konu.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_denemetakip_popup_deleting.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\denemetakip_popup_deleting.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup_adding.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\popup_adding.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon_right.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\icon_right.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemetyt.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_denemetyt.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_sil.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_sil.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_utopia.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\utopia.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pie_graph.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\pie_graph.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_2.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\bg_2.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_takip_sorutakip.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_takip_sorutakip.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_takip_konu_say.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_takip_konu_say.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_ekle.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_ekle.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_takip_konu_turkce.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_takip_konu_turkce.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_icon_left.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\icon_left.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_photo_camera.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\icon_photo_camera.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemetakiptyt_popupdeleting.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_denemetakiptyt_popupdeleting.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_work.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\work.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_globe1.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\globe1.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_sorutakip_analiz.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\fragment_sorutakip_analiz.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_options.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_options.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_icon_right.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\icon_right.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_takip_konu_turkce.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_takip_konu_turkce.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_ekle.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_ekle.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_icon_left.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\icon_left.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_options.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_options.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_takip_konu_sosyal.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_takip_konu_sosyal.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_alertdialog_tyt.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\alertdialog_tyt.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_options_background.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\options_background.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_ekle.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_ekle.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tytdeneme.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\tytdeneme.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_konutakip_tytbutton.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\konutakip_tytbutton.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_soru_takip_tyt_list.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\fragment_soru_takip_tyt_list.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\add.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_denemetakip_popup_deleting.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\denemetakip_popup_deleting.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_calculator2.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\calculator2.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_book1.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\book1.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_ekle.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_ekle.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_move.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\anim\\move.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_takip_konu_ayt_konu.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_takip_konu_ayt_konu.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_compass.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\compass.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_view_image.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_view_image.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_haber_ogesi.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\haber_ogesi.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_konutakip_tytsosyalbutton.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\konutakip_tytsosyalbutton.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_trophy.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\trophy.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_home_office.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\home_office.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hoca_onerisi.jpg.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\hoca_onerisi.jpg"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_options_background5.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\options_background5.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_school.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\school.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_denemelist_tyt.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\denemelist_tyt.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_kendinidene.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_kendinidene.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_icon_right.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\icon_right.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_konu_takip_notal.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\konu_takip_notal.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_icon_photo_camera.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\icon_photo_camera.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sorular.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_sorular.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_alertdialog_soz.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\alertdialog_soz.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_konutakip_aytsaybutton.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\konutakip_aytsaybutton.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profileimage.jpg.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\profileimage.jpg"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_sorutakip_adding.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\fragment_sorutakip_adding.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_work.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\work.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_translate.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\translate.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sss.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_sss.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_camera.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_camera.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_soru_list_item.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\soru_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_left.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\icon_left.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_takip_konu_mat.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_takip_konu_mat.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_puan_sembol.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\puan_sembol.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_takip_sorutakip.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_takip_sorutakip.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_soru_takip_sembol.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\soru_takip_sembol.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_sil.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_sil.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_zaman_takip.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_zaman_takip.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon_photo_camera.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\icon_photo_camera.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_icon_photo_library.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\icon_photo_library.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_languages.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\languages.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_box.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\box.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_impulse.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\impulse.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_negselect_box.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\negselect_box.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon_photo_library.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\icon_photo_library.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_takip_konu_fen.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_takip_konu_fen.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_bedir_tasarim_options.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\bedir_tasarim_options.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_graphic_design.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\graphic_design.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chalkboard.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\chalkboard.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemetakip.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_denemetakip.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_atom.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\atom.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_school.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\school.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mathematics2.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\mathematics2.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_books.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\books.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_xbutton.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\xbutton.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_konutakip_adding.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\konutakip_adding.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon_photo_camera.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\icon_photo_camera.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_konutakip_tytbutton.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\konutakip_tytbutton.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_denemelist_say.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\denemelist_say.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon_right.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\icon_right.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup_deleting.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\popup_deleting.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemetakip_4lessonpopupadding.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_denemetakip_4lessonpopupadding.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fragment_example.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_fragment_example.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemetakip_deleting.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_denemetakip_deleting.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_takip_konu_dil.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_takip_konu_dil.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_earth.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\earth.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_experiment1.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\experiment1.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_ekle.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_ekle.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_reader.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\reader.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_relativity.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\relativity.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_graphviewea_background.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\graphviewea_background.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_icon_right.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\icon_right.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemetakip_deleting.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_denemetakip_deleting.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon_photo_library.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\icon_photo_library.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_quran1.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\quran1.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_study.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\study.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_konutakip_tytfenbutton.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\konutakip_tytfenbutton.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_sorutakip_ayt.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\fragment_sorutakip_ayt.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_quran.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\quran.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemetakipsay_popup_deleting.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_denemetakipsay_popup_deleting.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_sil.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_sil.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_konutakip_tytsosyalbutton.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\konutakip_tytsosyalbutton.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_haber_image.jpg.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\haber_image.jpg"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gallery_bg.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\gallery_bg.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_soru_ekrani.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\soru_ekrani.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_return1.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\return1.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chemistry.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\chemistry.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_image_question.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\image_question.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemetakip_7lessonpopupadding.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_denemetakip_7lessonpopupadding.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_delete.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\delete.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_denemelist_dil.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\denemelist_dil.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_alertdialog_dil.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\alertdialog_dil.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_book2.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\book2.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon_left.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\icon_left.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dictionary.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\dictionary.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon_photo_library.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\icon_photo_library.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemetakipsay_popup_adding.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_denemetakipsay_popup_adding.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_single_grid.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\single_grid.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_world_map.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\world_map.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notepad.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\notepad.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_takip_konu_soz.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_takip_konu_soz.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_knowledge.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\knowledge.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_graphviewdil_background.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\graphviewdil_background.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_right.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\icon_right.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_bedir_tasarim_options.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\bedir_tasarim_options.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_utopia.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\utopia.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_atom.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\atom.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_camera_bg.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\camera_bg.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemeea.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_denemeea.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_turkish.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\turkish.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_algebra.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\algebra.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stop.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\stop.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemetakip_popup_adding.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_denemetakip_popup_adding.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mathematics.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\mathematics.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_sil.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_sil.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_icon_photo_camera.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\icon_photo_camera.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemetakip.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_denemetakip.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_ekle.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_ekle.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon_photo_library.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\icon_photo_library.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_idea.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\idea.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon_right.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\icon_right.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_puan.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_puan.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_time.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\time.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_alertdialog_say.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\alertdialog_say.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_konutakip_aytsaybutton.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\konutakip_aytsaybutton.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_takip_konu_gelisim.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_takip_konu_gelisim.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_takip_konu_ea.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_takip_konu_ea.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_turkey.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\turkey.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_time_adding.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\time_adding.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_book5.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\book5.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_camera.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_camera.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_new_camera.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_new_camera.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_white_question.bmp.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\TakipLayout\\drawable\\white_question.bmp"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_sil.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_sil.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_strategic_plan.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\strategic_plan.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_konutakip_aytdilbutton.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\konutakip_aytdilbutton.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_graphviewsoz_background.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\graphviewsoz_background.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup_camera.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\popup_camera.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemetakipsay_popup_deleting.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_denemetakipsay_popup_deleting.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_down_arrow2.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\down_arrow2.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_ekle.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_ekle.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mathematics.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\mathematics.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_new_camera.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_new_camera.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_icon_left.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\icon_left.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_options_background3.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\options_background3.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_icon_photo_library.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\icon_photo_library.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_algebra.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\algebra.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_options_background2.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\options_background2.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_sorutakip_ayt.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\fragment_sorutakip_ayt.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon_left.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\icon_left.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_photo_library.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\icon_photo_library.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_konu_takipview.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_konu_takipview.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_ekle.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_ekle.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stop.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\stop.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_history.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\history.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_time.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\time.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_negselect_box.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\negselect_box.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemetakiptyt_popupdeleting.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_denemetakiptyt_popupdeleting.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_clock.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\clock.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_earth.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\earth.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hoca_onerisi.jpg.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\hoca_onerisi.jpg"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_soru_ekrani.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_soru_ekrani.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_book1.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\book1.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dna.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\dna.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_languages.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\languages.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemesoz.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_denemesoz.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_graphviewsoz_background.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\graphviewsoz_background.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_turkey.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\turkey.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_calculator2.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\calculator2.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_sorutakip_tyt.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\fragment_sorutakip_tyt.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_history.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\history.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_options_background4.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\options_background4.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_options_bacground1.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\options_bacground1.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_kendinidene.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_kendinidene.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_book6.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\book6.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon_right.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\icon_right.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mobile_phone.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\mobile_phone.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_box.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\box.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_photo.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\photo.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon_left.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\icon_left.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_takip_konu_sosyal.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_takip_konu_sosyal.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_question_bg.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\question_bg.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_strategic_plan.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\strategic_plan.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gear.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\gear.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_konutakip_ayteabutton.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\konutakip_ayteabutton.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_algebra1.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\algebra1.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_program_yap.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_program_yap.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_takip_konu_soz.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_takip_konu_soz.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pulley.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\pulley.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_icon_photo_library.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\icon_photo_library.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_2.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\circle_2.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_options_background4.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\options_background4.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_book3.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\book3.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_up_arrow2.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\up_arrow2.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_denemelist_tyt.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\denemelist_tyt.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_return1.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\return1.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_icon_right.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\icon_right.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_delete.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\delete.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_options_deneme.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\options_deneme.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_select_box.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\select_box.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_denemetakip_buttonbc.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\denemetakip_buttonbc.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_chronometer_layout.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\chronometer_layout.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_impulse.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\impulse.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_program_yap.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_program_yap.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_apple.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\apple.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_neutron.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\neutron.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_photo_library.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\icon_photo_library.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_alertdialog_tyt.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\alertdialog_tyt.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemetakip_dil_popupadding.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_denemetakip_dil_popupadding.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pie_graph.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\pie_graph.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_book4.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\book4.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_icon_photo_library.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\icon_photo_library.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_sil.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_sil.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_konu_takip_notal.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\konu_takip_notal.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_medical.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\medical.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_exit1.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\exit1.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_view_image.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_view_image.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_deneme_takip_library.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_deneme_takip_library.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_plus3.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\plus3.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_globe.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\globe.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_turkish.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\turkish.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_rehberlik.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_rehberlik.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_undo.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\undo.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notepad.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\notepad.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_options_background2.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\options_background2.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_2.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\circle_2.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_show_pictures.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_show_pictures.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chalkboard.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\chalkboard.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemetakip_4lessonpopupadding.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_denemetakip_4lessonpopupadding.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon_right.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\icon_right.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemetakip_dil_popupadding.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_denemetakip_dil_popupadding.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_history1.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\history1.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_quran2.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\quran2.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_news.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\news.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_down_arrow2.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\down_arrow2.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_icon_photo_camera.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\icon_photo_camera.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_apple.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\apple.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup_deleting.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\popup_deleting.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_options_background5.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\options_background5.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_konutakip_tytfenbutton.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\konutakip_tytfenbutton.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_sorutakip_tyt.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\fragment_sorutakip_tyt.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_photo_camera.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\icon_photo_camera.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_chronometer_layout.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\chronometer_layout.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_options_bacground1.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\options_bacground1.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_return2.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\return2.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_trigonometry.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\trigonometry.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_icon_left.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\icon_left.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_question.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\question.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_idea.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\idea.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_time_adding.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\time_adding.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_book.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\book.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_haber_image.jpg.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\haber_image.jpg"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_konu_takipview.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_konu_takipview.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_ekle.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_ekle.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_microscope.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\microscope.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_book2.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\book2.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_ekle.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_ekle.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_globe1.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\globe1.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemetyt.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_denemetyt.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_exit1.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\exit1.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_test2.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\test2.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon_photo_camera.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\icon_photo_camera.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_book5.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\book5.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon_photo_camera.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\icon_photo_camera.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemesay.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_denemesay.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chemistry1.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\chemistry1.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_1.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\bg_1.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_undo.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\undo.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_up_arrow2.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\up_arrow2.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_experiment.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\experiment.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mobile_phone.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\mobile_phone.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_box3.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\box3.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_trophy.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\trophy.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_denemelist_say.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\denemelist_say.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_world_map.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\world_map.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_graphviewea_background.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\graphviewea_background.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_plus3.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\plus3.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_kendini_dene_sembol.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\kendini_dene_sembol.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_left.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\icon_left.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_alertdialog_soz.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\alertdialog_soz.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_book4.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\book4.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_ekle.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_ekle.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemetakip_7lessonpopupadding.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_denemetakip_7lessonpopupadding.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_konutakip_tytmatbutton.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\konutakip_tytmatbutton.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_konutakip_aytsozbutton.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\konutakip_aytsozbutton.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_line_chart.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\line_chart.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_quran1.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\quran1.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_soru_takip_sembol.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\soru_takip_sembol.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_takip_konu_dil.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_takip_konu_dil.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sorular.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_sorular.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_line_chart.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\line_chart.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_denemelist_soz.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\denemelist_soz.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_options_background.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\options_background.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_alertdialog_dil.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\alertdialog_dil.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_icon_right.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\icon_right.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_compass.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\compass.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_book3.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\book3.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pulley.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\pulley.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_list.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\list.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_sil.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_sil.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_sorutakip_adding.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\fragment_sorutakip_adding.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_neutron.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\neutron.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_denemelist_ea.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\denemelist_ea.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_box2.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\box2.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemetakipsay_popup_adding.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_denemetakipsay_popup_adding.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_select_box.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\select_box.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_denemetakip_buttonbc.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\denemetakip_buttonbc.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_secenek_background.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\secenek_background.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_takip_konu_fen.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_takip_konu_fen.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mathematics2.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\mathematics2.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chemistry1.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\chemistry1.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemeing.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_denemeing.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\anim_move.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\anim\\move.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_quran2.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\quran2.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_reader.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\reader.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_single_grid.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\single_grid.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup_adding.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\popup_adding.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_test.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\test.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_photo.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\photo.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon_photo_library.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\icon_photo_library.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_box2.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\box2.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_microscope.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\microscope.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_history1.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\history1.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_1.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\circle_1.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_study.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\study.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemesay.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_denemesay.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_icon_photo_camera.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\icon_photo_camera.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_right.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\icon_right.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_books.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\books.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gear.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\gear.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_icon_photo_library.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\icon_photo_library.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_question_mark.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\question_mark.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_show_pictures.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_show_pictures.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_question_mark.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\question_mark.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_sil.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_sil.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_konutakip_adding.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\konutakip_adding.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_deneme_takip_library.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_deneme_takip_library.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_takip_konu_gelisim.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_takip_konu_gelisim.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_return2.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\return2.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_home_office.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\home_office.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_ekle.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_ekle.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_puan.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_puan.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_list.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\list.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_sil.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_sil.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_takip_konu_mat.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\layout\\activity_takip_konu_mat.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_graphic_design.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\graphic_design.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_test.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\test.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_quran.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\quran.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_ekle.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_ekle.png"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_options_background3.xml.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\options_background3.xml"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_konutakip_ayteabutton.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\konutakip_ayteabutton.xml"
     },
     {
-        "merged": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_knowledge.png.flat",
-        "source": "C:\\Users\\aspeh\\Downloads\\Compressed\\KocumBenim\\AndroidProjesi-master\\app\\src\\main\\res\\drawable\\knowledge.png"
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_clock.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\clock.png"
+    },
+    {
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dna.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\dna.png"
+    },
+    {
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_icon_right.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\icon_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemeea.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_denemeea.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_question.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\question.png"
+    },
+    {
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_kendini_dene_sembol.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\kendini_dene_sembol.png"
+    },
+    {
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_konutakip_aytdilbutton.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\konutakip_aytdilbutton.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_medical.png.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\medical.png"
+    },
+    {
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_1.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\circle_1.xml"
     }
 ]

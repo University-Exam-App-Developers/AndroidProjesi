@@ -14,12 +14,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DenemeTakip.denemeTakipLibrary"></activity>
+        <activity android:name=".SikSorulanSoru.SoruEkrani"></activity>
+        <activity android:name=".DenemeTakip.denemeTakipLibrary" />
         <activity android:name=".Kendin.programYap" />
         <activity android:name=".Kendin.zamanTakip" />
         <activity android:name=".Kendin.kendiniDene" />
         <activity android:name=".puanHesapla.PuanSonuc" />
-        <activity android:name=".Camera.NewCamera"/>
+        <activity android:name=".Camera.NewCamera" />
         <activity android:name=".Camera.CameraActivity" />
         <activity android:name=".Camera.ShowPicturesActivity" />
         <activity android:name=".Camera.ViewImage" />
@@ -55,7 +56,7 @@
         <activity android:name=".DenemeTakip.denemeDiltakip" />
         <activity android:name=".puanHesapla.PUAN" />
         <activity android:name=".REHBERLİK" />
-        <activity android:name=".SSS" />
+        <activity android:name=".SikSorulanSoru.SSS" />
         <activity android:name=".Options" />
         <activity android:name=".FirstScreen.MainActivity">
             <intent-filter>

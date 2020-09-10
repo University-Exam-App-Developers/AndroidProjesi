@@ -62,6 +62,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.snavadogru.SikSorulanSoru.SoruEkrani" />
         <activity android:name="com.example.snavadogru.DenemeTakip.denemeTakipLibrary" />
         <activity android:name="com.example.snavadogru.Kendin.programYap" />
         <activity android:name="com.example.snavadogru.Kendin.zamanTakip" />
@@ -103,7 +104,7 @@
         <activity android:name="com.example.snavadogru.DenemeTakip.denemeDiltakip" />
         <activity android:name="com.example.snavadogru.puanHesapla.PUAN" />
         <activity android:name="com.example.snavadogru.REHBERLİK" />
-        <activity android:name="com.example.snavadogru.SSS" />
+        <activity android:name="com.example.snavadogru.SikSorulanSoru.SSS" />
         <activity android:name="com.example.snavadogru.Options" />
         <activity android:name="com.example.snavadogru.FirstScreen.MainActivity" >
             <intent-filter>

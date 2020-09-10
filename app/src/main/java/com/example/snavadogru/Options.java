@@ -11,10 +11,10 @@ import com.example.snavadogru.Camera.NewCamera;
 import com.example.snavadogru.DenemeTakip.DenemeTakip;
 import com.example.snavadogru.Kendin.kendiniDene;
 import com.example.snavadogru.KonuTakip.Konu_takip;
+import com.example.snavadogru.SikSorulanSoru.SSS;
 import com.example.snavadogru.SoruTakip.SoruTakip;
 import com.example.snavadogru.puanHesapla.PUAN;
 import com.hitomi.cmlibrary.CircleMenu;
-import com.hitomi.cmlibrary.OnMenuSelectedListener;
 
 public class Options extends AppCompatActivity {
     CircleMenu circleMenu;
@@ -80,7 +80,7 @@ public class Options extends AppCompatActivity {
                                 startActivity(kendini_dene);
                             break;
                             case 7:
-                                Intent Sss = new Intent(Options.this,SSS.class);
+                                Intent Sss = new Intent(Options.this, SSS.class);
                                 startActivity(Sss);
                             break;
 

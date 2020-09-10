@@ -78,5 +78,7 @@ dependencies {
     implementation 'com.onesignal:OneSignal:3.11.2'
     implementation 'com.github.lecho:hellocharts-library:1.5.8@aar'
     implementation 'com.github.Hitomis:CircleMenu:v1.1.0'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:recyclerview-v7:28.1.1'
 
 }

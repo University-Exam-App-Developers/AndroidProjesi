@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".SikSorulanSoru.SoruEkrani">
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="330dp"
+        android:gravity="center"
+        android:layout_height="190dp">
+        <TextView
+            android:id="@+id/soru_metni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#332fa2"
+            android:textSize="14sp"
+            android:lineSpacingExtra="4sp"
+            android:text="Bilinen en güçlü vazodilatör madde aşağıdakilerden hangisidir?"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="25dp">
+        <TextView
+            android:id="@+id/secenekA"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#332fa2"
+            android:textSize="12sp"
+            android:text="Anjiotensin-I"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/secenekB"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#332fa2"
+            android:textSize="12sp"
+            android:text="Anjiotensin-II"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/secenekC"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#332fa2"
+            android:textSize="12sp"
+            android:text="Ürotensin"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/secenekD"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#332fa2"
+            android:textSize="12sp"
+            android:text=" Neuropeptide Y"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/secenekE"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#332fa2"
+            android:textSize="12sp"
+            android:text="Kalsitonin geni ile ilişkili peptid (CGRP)"/>
+    </LinearLayout>
+
+</LinearLayout>
