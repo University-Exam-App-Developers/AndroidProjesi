@@ -4,50 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".FirstScreen.MainActivity">
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        android:background="@drawable/ortakalan"
 
-        <LinearLayout
+
+       >
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:src="@drawable/relativity"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/btn_giris"
             android:layout_width="match_parent"
-            android:layout_height="216dp"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="146dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/profileimage" />
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="163dp"
-                android:layout_height="106dp"
-                android:layout_weight="10"
-                android:text="@string/Soz" />
-
-        </LinearLayout>
-
-        <EditText
-            android:id="@+id/editText"
-            android:layout_width="match_parent"
-            android:layout_height="74dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Mail"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_arkaplan"
+            android:text="Giris"
+            android:textColor="@color/colorPrimaryDark"
+            ></Button>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btn_kaydol"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_arkaplan"
+            android:text="Kaydol"
+            android:textColor="@color/colorPrimaryDark"
+            ></Button>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

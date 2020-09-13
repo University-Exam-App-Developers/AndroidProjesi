@@ -1966,6 +1966,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button
+drawable button_arkaplan
 drawable calculator2
 drawable camera_bg
 drawable chalkboard
@@ -1973,6 +1974,8 @@ drawable chemistry
 drawable chemistry1
 drawable circle_1
 drawable circle_2
+drawable classroom
+drawable classroom2
 drawable clock
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
@@ -2011,6 +2014,7 @@ drawable dictionary
 drawable dna
 drawable down_arrow2
 drawable earth
+drawable edittext_arkaplan
 drawable exit1
 drawable experiment
 drawable experiment1
@@ -2104,6 +2108,7 @@ drawable options_background2
 drawable options_background3
 drawable options_background4
 drawable options_background5
+drawable ortakalan
 drawable photo
 drawable physics
 drawable pie_graph
@@ -2143,8 +2148,10 @@ drawable tytdeneme
 drawable undo
 drawable up_arrow2
 drawable utopia
+drawable wall_pencil_book
 drawable white_question
 drawable work
+drawable workspace
 drawable world_map
 drawable xbutton
 id ALT
@@ -2296,7 +2303,10 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id bt_make_pdf_newcamera
 id bt_open
-id button
+id btn_giris
+id btn_giris_activity
+id btn_kaydol
+id btn_kaydol_activity
 id buttonLayout
 id buttonPanel
 id calendarView
@@ -2464,9 +2474,14 @@ id edebiyatAytPuan
 id edebiyatAyt_dogru_EditText
 id edebiyatAyt_net
 id edebiyatAyt_yanlis_EditText
-id editText
 id editTextL2et1
+id edit_ad
+id edit_email
+id edit_email_giris
 id edit_query
+id edit_sifre
+id edit_sifre_giris
+id edit_sifretekrar
 id end
 id end_padder
 id enterAlways
@@ -2546,7 +2561,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView
 id imageView2
 id imageViewEa
 id imageViewFen
@@ -2871,7 +2885,6 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView
 id textViewL1tv1
 id text_input_end_icon
 id text_input_start_icon
@@ -2906,6 +2919,8 @@ id turkceListView
 id turkce_dogru_EditText
 id turkce_net
 id turkce_yanlis_EditText
+id txt_girissayfasına_git
+id txt_kaydolsayfasına_git
 id tytDogru
 id tytDoluluk
 id tytGraph
@@ -3023,6 +3038,8 @@ layout activity_denemetakipsay_popup_deleting
 layout activity_denemetakiptyt_popupdeleting
 layout activity_denemetyt
 layout activity_fragment_example
+layout activity_giris
+layout activity_kaydol
 layout activity_kendinidene
 layout activity_konu_takipview
 layout activity_main

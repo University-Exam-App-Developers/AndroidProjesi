@@ -72,6 +72,10 @@
         "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\box3.xml"
     },
     {
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edittext_arkaplan.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\edittext_arkaplan.xml"
+    },
+    {
         "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_icon_photo_library.xml.flat",
         "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\icon_photo_library.xml"
     },
@@ -224,6 +228,10 @@
         "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\fragment_sorutakip_analiz.xml"
     },
     {
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_kaydol.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_kaydol.xml"
+    },
+    {
         "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_options.xml.flat",
         "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_options.xml"
     },
@@ -296,6 +304,10 @@
         "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\icon_right.png"
     },
     {
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_workspace.jpg.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\workspace.jpg"
+    },
+    {
         "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_icon_photo_camera.png.flat",
         "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\icon_photo_camera.png"
     },
@@ -312,16 +324,20 @@
         "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\profileimage.jpg"
     },
     {
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wall_pencil_book.jpg.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\wall_pencil_book.jpg"
+    },
+    {
         "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_work.png.flat",
         "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\work.png"
     },
     {
-        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sss.xml.flat",
-        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_sss.xml"
-    },
-    {
         "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_soru_list_item.xml.flat",
         "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\soru_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sss.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_sss.xml"
     },
     {
         "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_takip_konu_mat.xml.flat",
@@ -536,12 +552,12 @@
         "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\time_adding.xml"
     },
     {
-        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_camera.xml.flat",
-        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_camera.xml"
-    },
-    {
         "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_white_question.bmp.flat",
         "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\TakipLayout\\drawable\\white_question.bmp"
+    },
+    {
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_camera.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_camera.xml"
     },
     {
         "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_strategic_plan.png.flat",
@@ -558,6 +574,10 @@
     {
         "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_ekle.xml.flat",
         "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_ekle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ortakalan.jpg.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\ortakalan.jpg"
     },
     {
         "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_new_camera.xml.flat",
@@ -590,6 +610,10 @@
     {
         "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_negselect_box.xml.flat",
         "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\negselect_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_giris.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_giris.xml"
     },
     {
         "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
@@ -626,6 +650,10 @@
     {
         "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_options_background4.xml.flat",
         "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\options_background4.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_classroom2.jpg.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\classroom2.jpg"
     },
     {
         "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_kendinidene.xml.flat",
@@ -710,6 +738,10 @@
     {
         "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_icon_photo_library.png.flat",
         "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\icon_photo_library.png"
+    },
+    {
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_arkaplan.xml.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\button_arkaplan.xml"
     },
     {
         "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_konu_takip_notal.xml.flat",
@@ -1022,6 +1054,10 @@
     {
         "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_denemeea.xml.flat",
         "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\layout\\activity_denemeea.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_classroom.jpg.flat",
+        "source": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\src\\main\\res\\drawable\\classroom.jpg"
     },
     {
         "merged": "C:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_question.png.flat",
