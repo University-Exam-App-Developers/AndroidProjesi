@@ -6,22 +6,22 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="19"
-8-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml
+8-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml
+9-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.CAMERA" />
-11-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:5:5-65
-11-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:5:22-62
+11-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:5:5-65
+11-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:5:22-62
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:6:5-67
-12-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:6:22-64
+12-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:6:22-64
 13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-13-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:7:5-81
-13-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:7:22-78
+13-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:7:22-78
 14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-14-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:8:5-80
-14-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:8:22-77
+14-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:8:5-80
+14-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:8:22-77
 15
 16    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 17    <!-- <uses-sdk android:minSdkVersion="14"/> -->
@@ -112,159 +112,159 @@
 53-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\624d09ed83c24f8c6388dbb8db7cbb3a\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:26:22-107
 54
 55    <application
-55-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:10:5-70:19
+55-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:10:5-70:19
 56        android:allowBackup="true"
-56-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:11:9-35
+56-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:11:9-35
 57        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 57-->[androidx.core:core:1.3.1] C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\b2977796d6f5c829576a6783e263096a\core-1.3.1\AndroidManifest.xml:24:18-86
 58        android:debuggable="true"
 59        android:icon="@mipmap/ic_launcher"
-59-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:12:9-43
+59-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:12:9-43
 60        android:label="@string/app_name"
-60-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:13:9-41
+60-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:13:9-41
 61        android:roundIcon="@mipmap/ic_launcher_round"
-61-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:14:9-54
+61-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:14:9-54
 62        android:supportsRtl="true"
-62-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:15:9-35
+62-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:15:9-35
 63        android:testOnly="true"
 64        android:theme="@style/AppTheme" >
-64-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:16:9-40
+64-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:16:9-40
 65        <activity android:name="com.example.snavadogru.FirstScreen.GirisActivity" />
-65-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:17:9-72
-65-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:17:19-60
+65-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:17:9-72
+65-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:17:19-60
 66        <activity android:name="com.example.snavadogru.FirstScreen.KaydolActivity" />
-66-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:18:9-64
-66-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:18:19-61
+66-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:18:9-64
+66-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:18:19-61
 67        <activity android:name="com.example.snavadogru.SikSorulanSoru.SoruEkrani" />
-67-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:19:9-63
-67-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:19:19-60
+67-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:19:9-63
+67-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:19:19-60
 68        <activity android:name="com.example.snavadogru.DenemeTakip.denemeTakipLibrary" />
-68-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:20:9-68
-68-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:20:19-65
+68-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:20:9-68
+68-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:20:19-65
 69        <activity android:name="com.example.snavadogru.Kendin.programYap" />
-69-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:21:9-55
-69-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:21:19-52
+69-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:21:9-55
+69-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:21:19-52
 70        <activity android:name="com.example.snavadogru.Kendin.zamanTakip" />
-70-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:22:9-55
-70-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:22:19-52
+70-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:22:9-55
+70-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:22:19-52
 71        <activity android:name="com.example.snavadogru.Kendin.kendiniDene" />
-71-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:23:9-56
-71-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:23:19-53
+71-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:23:9-56
+71-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:23:19-53
 72        <activity android:name="com.example.snavadogru.puanHesapla.PuanSonuc" />
-72-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:24:9-59
-72-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:24:19-56
+72-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:24:9-59
+72-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:24:19-56
 73        <activity android:name="com.example.snavadogru.Camera.NewCamera" />
-73-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:25:9-54
-73-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:25:19-51
+73-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:25:9-54
+73-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:25:19-51
 74        <activity android:name="com.example.snavadogru.Camera.CameraActivity" />
-74-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:26:9-59
-74-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:26:19-56
+74-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:26:9-59
+74-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:26:19-56
 75        <activity android:name="com.example.snavadogru.Camera.ShowPicturesActivity" />
-75-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:27:9-65
-75-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:27:19-62
+75-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:27:9-65
+75-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:27:19-62
 76        <activity android:name="com.example.snavadogru.Camera.ViewImage" />
-76-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:28:9-54
-76-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:28:19-51
+76-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:28:9-54
+76-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:28:19-51
 77        <activity
-77-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:29:9-32:59
+77-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:29:9-32:59
 78            android:name="com.example.snavadogru.KonuTakip.Konu_takip"
-78-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:30:13-49
+78-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:30:13-49
 79            android:label="@string/title_activity_konu_takip"
-79-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:31:13-62
+79-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:31:13-62
 80            android:theme="@style/AppTheme.NoActionBar" />
-80-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:32:13-56
+80-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:32:13-56
 81        <activity android:name="com.example.snavadogru.KonuTakip.TytKonulari.tytKonuTurkce" />
-81-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:33:9-73
-81-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:33:19-70
+81-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:33:9-73
+81-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:33:19-70
 82        <activity android:name="com.example.snavadogru.KonuTakip.TytKonulari.tytKonuMat" />
-82-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:34:9-70
-82-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:34:19-67
+82-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:34:9-70
+82-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:34:19-67
 83        <activity android:name="com.example.snavadogru.KonuTakip.TytKonulari.tytKonuFen" />
-83-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:35:9-70
-83-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:35:19-67
+83-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:35:9-70
+83-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:35:19-67
 84        <activity android:name="com.example.snavadogru.KonuTakip.TytKonulari.tytKonuSosyal" />
-84-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:36:9-73
-84-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:36:19-70
+84-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:36:9-73
+84-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:36:19-70
 85        <activity android:name="com.example.snavadogru.KonuTakip.aytKonuSay" />
-85-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:37:9-58
-85-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:37:19-55
+85-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:37:9-58
+85-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:37:19-55
 86        <activity android:name="com.example.snavadogru.KonuTakip.aytKonuSoz" />
-86-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:38:9-58
-86-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:38:19-55
+86-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:38:9-58
+86-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:38:19-55
 87        <activity android:name="com.example.snavadogru.KonuTakip.aytKonuEa" />
-87-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:39:9-57
-87-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:39:19-54
+87-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:39:9-57
+87-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:39:19-54
 88        <activity android:name="com.example.snavadogru.KonuTakip.aytKonuDil" />
-88-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:40:9-58
-88-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:40:19-55
+88-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:40:9-58
+88-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:40:19-55
 89        <activity android:name="com.example.snavadogru.KonuTakip.aytKonulari" />
-89-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:41:9-59
-89-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:41:19-56
+89-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:41:9-59
+89-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:41:19-56
 90        <activity
-90-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:42:9-45:59
+90-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:42:9-45:59
 91            android:name="com.example.snavadogru.Camera.SORULAR"
-91-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:43:13-43
+91-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:43:13-43
 92            android:label="@string/title_activity_takip_alanlari"
-92-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:44:13-66
+92-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:44:13-66
 93            android:theme="@style/AppTheme.NoActionBar" />
-93-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:45:13-56
+93-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:45:13-56
 94        <activity android:name="com.example.snavadogru.SoruTakip.SoruTakip" />
-94-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:46:9-57
-94-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:46:19-54
+94-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:46:9-57
+94-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:46:19-54
 95        <activity android:name="com.example.snavadogru.DenemeTakip.DenemeTakip" />
-95-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:47:9-61
-95-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:47:19-58
+95-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:47:9-61
+95-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:47:19-58
 96        <activity
-96-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:48:9-50:59
+96-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:48:9-50:59
 97            android:name="com.example.snavadogru.DenemeTakip.denemeTYT_TakipPopUpAdding"
-97-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:49:13-67
+97-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:49:13-67
 98            android:theme="@style/AppTheme.CustomTheme" />
-98-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:50:13-56
+98-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:50:13-56
 99        <activity android:name="com.example.snavadogru.DenemeTakip.denemeTYTtakip" />
-99-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:51:9-64
-99-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:51:19-61
+99-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:51:9-64
+99-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:51:19-61
 100        <activity android:name="com.example.snavadogru.DenemeTakip.denemeSAYtakip" />
-100-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:52:9-64
-100-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:52:19-61
+100-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:52:9-64
+100-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:52:19-61
 101        <activity
-101-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:53:9-55:59
+101-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:53:9-55:59
 102            android:name="com.example.snavadogru.DenemeTakip.denemeSAY_TakipPopUpadding"
-102-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:54:13-67
+102-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:54:13-67
 103            android:theme="@style/AppTheme.CustomTheme" />
-103-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:55:13-56
+103-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:55:13-56
 104        <activity android:name="com.example.snavadogru.DenemeTakip.denemeEAtakip" />
-104-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:56:9-63
-104-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:56:19-60
+104-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:56:9-63
+104-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:56:19-60
 105        <activity android:name="com.example.snavadogru.DenemeTakip.denemeSOZtakip" />
-105-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:57:9-64
-105-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:57:19-61
+105-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:57:9-64
+105-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:57:19-61
 106        <activity android:name="com.example.snavadogru.DenemeTakip.denemeDiltakip" />
-106-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:58:9-64
-106-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:58:19-61
+106-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:58:9-64
+106-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:58:19-61
 107        <activity android:name="com.example.snavadogru.puanHesapla.PUAN" />
-107-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:59:9-54
-107-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:59:19-51
+107-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:59:9-54
+107-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:59:19-51
 108        <activity android:name="com.example.snavadogru.REHBERLİK" />
-108-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:60:9-47
-108-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:60:19-44
+108-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:60:9-47
+108-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:60:19-44
 109        <activity android:name="com.example.snavadogru.SikSorulanSoru.SSS" />
-109-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:61:9-56
-109-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:61:19-53
+109-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:61:9-56
+109-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:61:19-53
 110        <activity android:name="com.example.snavadogru.Options" />
-110-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:62:9-45
-110-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:62:19-42
+110-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:62:9-45
+110-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:62:19-42
 111        <activity android:name="com.example.snavadogru.FirstScreen.MainActivity" >
-111-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:63:9-69:20
-111-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:63:19-59
+111-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:63:9-69:20
+111-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:63:19-59
 112            <intent-filter>
-112-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:64:13-68:29
+112-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:64:13-68:29
 113                <action android:name="android.intent.action.MAIN" />
-113-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:65:17-69
-113-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:65:25-66
+113-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:65:17-69
+113-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:65:25-66
 114
 115                <category android:name="android.intent.category.LAUNCHER" />
-115-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:67:17-77
-115-->C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:67:27-74
+115-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:67:17-77
+115-->C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:67:27-74
 116            </intent-filter>
 117        </activity>
 118

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:2:1-72:12
-INJECTED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:2:1-72:12
-INJECTED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:2:1-72:12
-INJECTED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:2:1-72:12
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:2:1-72:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\e99a122891f3b9dfc35d1d1547e78bf3\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.firebase:firebase-database:19.4.0] C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\21777878553116b9c35c4857f5b41249\jetified-firebase-database-19.4.0\AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\d7752505472ec8df3a5c78d2c24bcab2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:17:1-42:12
@@ -79,29 +79,29 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Bedir\.gradle\ca
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\5c020e25d2dad8685f6cfc9f49a176bf\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\82d3519f5fedbd9791d4d09c148e8f4f\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\d1bd3929f4a158c443373e008cd22977\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:2:1-72:12
-INJECTED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:2:1-72:12
-INJECTED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:2:1-72:12
 	package
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:3:5-37
-		INJECTED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:2:1-72:12
-		INJECTED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:2:1-72:12
+		INJECTED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:2:1-72:12
-		INJECTED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:2:1-72:12
+		INJECTED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:5:5-65
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:5:5-65
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:5:22-62
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:5:22-62
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:6:5-67
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:6:5-67
 MERGED from [com.google.firebase:firebase-database:19.4.0] C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\21777878553116b9c35c4857f5b41249\jetified-firebase-database-19.4.0\AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-database:19.4.0] C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\21777878553116b9c35c4857f5b41249\jetified-firebase-database-19.4.0\AndroidManifest.xml:26:5-67
 MERGED from [com.onesignal:OneSignal:3.11.2] C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\6176464d4c071fb771cfb5bd0a838134\jetified-OneSignal-3.11.2\AndroidManifest.xml:16:5-67
@@ -119,17 +119,17 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\4898b8e0d0714ec5ef42bbd5546d1dfc\jetified-play-services-measurement-sdk-api-17.5.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\4898b8e0d0714ec5ef42bbd5546d1dfc\jetified-play-services-measurement-sdk-api-17.5.0\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:7:5-81
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:7:22-78
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:7:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:8:5-80
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:8:5-80
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:8:22-77
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:8:22-77
 application
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:10:5-70:19
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:10:5-70:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\e99a122891f3b9dfc35d1d1547e78bf3\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\e99a122891f3b9dfc35d1d1547e78bf3\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
 MERGED from [com.google.firebase:firebase-database:19.4.0] C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\21777878553116b9c35c4857f5b41249\jetified-firebase-database-19.4.0\AndroidManifest.xml:28:5-36:19
@@ -195,191 +195,191 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Be
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\b2977796d6f5c829576a6783e263096a\core-1.3.1\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:13:9-41
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:13:9-41
 	android:roundIcon
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:14:9-54
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:12:9-43
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:16:9-40
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:16:9-40
 activity#com.example.snavadogru.FirstScreen.GirisActivity
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:17:9-72
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:17:9-72
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:17:19-60
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:17:19-60
 activity#com.example.snavadogru.FirstScreen.KaydolActivity
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:18:9-64
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:18:9-64
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:18:19-61
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:18:19-61
 activity#com.example.snavadogru.SikSorulanSoru.SoruEkrani
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:19:9-63
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:19:9-63
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:19:19-60
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:19:19-60
 activity#com.example.snavadogru.DenemeTakip.denemeTakipLibrary
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:20:9-68
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:20:9-68
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:20:19-65
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:20:19-65
 activity#com.example.snavadogru.Kendin.programYap
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:21:9-55
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:21:9-55
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:21:19-52
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:21:19-52
 activity#com.example.snavadogru.Kendin.zamanTakip
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:22:9-55
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:22:9-55
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:22:19-52
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:22:19-52
 activity#com.example.snavadogru.Kendin.kendiniDene
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:23:9-56
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:23:9-56
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:23:19-53
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:23:19-53
 activity#com.example.snavadogru.puanHesapla.PuanSonuc
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:24:9-59
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:24:9-59
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:24:19-56
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:24:19-56
 activity#com.example.snavadogru.Camera.NewCamera
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:25:9-54
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:25:9-54
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:25:19-51
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:25:19-51
 activity#com.example.snavadogru.Camera.CameraActivity
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:26:9-59
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:26:9-59
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:26:19-56
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:26:19-56
 activity#com.example.snavadogru.Camera.ShowPicturesActivity
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:27:9-65
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:27:9-65
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:27:19-62
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:27:19-62
 activity#com.example.snavadogru.Camera.ViewImage
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:28:9-54
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:28:9-54
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:28:19-51
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:28:19-51
 activity#com.example.snavadogru.KonuTakip.Konu_takip
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:29:9-32:59
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:29:9-32:59
 	android:label
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:31:13-62
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:31:13-62
 	android:theme
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:32:13-56
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:32:13-56
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:30:13-49
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:30:13-49
 activity#com.example.snavadogru.KonuTakip.TytKonulari.tytKonuTurkce
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:33:9-73
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:33:9-73
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:33:19-70
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:33:19-70
 activity#com.example.snavadogru.KonuTakip.TytKonulari.tytKonuMat
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:34:9-70
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:34:9-70
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:34:19-67
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:34:19-67
 activity#com.example.snavadogru.KonuTakip.TytKonulari.tytKonuFen
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:35:9-70
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:35:9-70
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:35:19-67
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:35:19-67
 activity#com.example.snavadogru.KonuTakip.TytKonulari.tytKonuSosyal
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:36:9-73
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:36:9-73
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:36:19-70
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:36:19-70
 activity#com.example.snavadogru.KonuTakip.aytKonuSay
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:37:9-58
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:37:9-58
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:37:19-55
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:37:19-55
 activity#com.example.snavadogru.KonuTakip.aytKonuSoz
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:38:9-58
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:38:9-58
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:38:19-55
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:38:19-55
 activity#com.example.snavadogru.KonuTakip.aytKonuEa
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:39:9-57
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:39:9-57
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:39:19-54
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:39:19-54
 activity#com.example.snavadogru.KonuTakip.aytKonuDil
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:40:9-58
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:40:9-58
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:40:19-55
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:40:19-55
 activity#com.example.snavadogru.KonuTakip.aytKonulari
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:41:9-59
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:41:9-59
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:41:19-56
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:41:19-56
 activity#com.example.snavadogru.Camera.SORULAR
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:42:9-45:59
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:42:9-45:59
 	android:label
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:44:13-66
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:44:13-66
 	android:theme
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:45:13-56
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:45:13-56
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:43:13-43
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:43:13-43
 activity#com.example.snavadogru.SoruTakip.SoruTakip
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:46:9-57
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:46:9-57
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:46:19-54
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:46:19-54
 activity#com.example.snavadogru.DenemeTakip.DenemeTakip
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:47:9-61
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:47:9-61
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:47:19-58
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:47:19-58
 activity#com.example.snavadogru.DenemeTakip.denemeTYT_TakipPopUpAdding
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:48:9-50:59
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:48:9-50:59
 	android:theme
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:50:13-56
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:50:13-56
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:49:13-67
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:49:13-67
 activity#com.example.snavadogru.DenemeTakip.denemeTYTtakip
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:51:9-64
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:51:9-64
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:51:19-61
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:51:19-61
 activity#com.example.snavadogru.DenemeTakip.denemeSAYtakip
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:52:9-64
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:52:9-64
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:52:19-61
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:52:19-61
 activity#com.example.snavadogru.DenemeTakip.denemeSAY_TakipPopUpadding
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:53:9-55:59
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:53:9-55:59
 	android:theme
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:55:13-56
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:55:13-56
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:54:13-67
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:54:13-67
 activity#com.example.snavadogru.DenemeTakip.denemeEAtakip
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:56:9-63
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:56:9-63
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:56:19-60
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:56:19-60
 activity#com.example.snavadogru.DenemeTakip.denemeSOZtakip
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:57:9-64
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:57:9-64
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:57:19-61
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:57:19-61
 activity#com.example.snavadogru.DenemeTakip.denemeDiltakip
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:58:9-64
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:58:9-64
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:58:19-61
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:58:19-61
 activity#com.example.snavadogru.puanHesapla.PUAN
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:59:9-54
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:59:9-54
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:59:19-51
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:59:19-51
 activity#com.example.snavadogru.REHBERL?K
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:60:9-47
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:60:9-47
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:60:19-44
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:60:19-44
 activity#com.example.snavadogru.SikSorulanSoru.SSS
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:61:9-56
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:61:9-56
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:61:19-53
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:61:19-53
 activity#com.example.snavadogru.Options
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:62:9-45
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:62:9-45
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:62:19-42
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:62:19-42
 activity#com.example.snavadogru.FirstScreen.MainActivity
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:63:9-69:20
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:63:9-69:20
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:63:19-59
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:63:19-59
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:64:13-68:29
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:64:13-68:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:65:17-69
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:65:17-69
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:65:25-66
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:65:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:67:17-77
+ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:67:17-77
 	android:name
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml:67:27-74
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml:67:27-74
 uses-sdk
-INJECTED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\e99a122891f3b9dfc35d1d1547e78bf3\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\e99a122891f3b9dfc35d1d1547e78bf3\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-database:19.4.0] C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\21777878553116b9c35c4857f5b41249\jetified-firebase-database-19.4.0\AndroidManifest.xml:19:5-21:41
@@ -530,16 +530,16 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Bedir\.gradle\caches\transform
 MERGED from [androidx.print:print:1.0.0] C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\82d3519f5fedbd9791d4d09c148e8f4f\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\d1bd3929f4a158c443373e008cd22977\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\d1bd3929f4a158c443373e008cd22977\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Bedir\Desktop\x\AndroidProjesi\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bedir\Desktop\AndroidProjesi\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-database:19.4.0] C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\21777878553116b9c35c4857f5b41249\jetified-firebase-database-19.4.0\AndroidManifest.xml:25:5-79
 MERGED from [com.onesignal:OneSignal:3.11.2] C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\6176464d4c071fb771cfb5bd0a838134\jetified-OneSignal-3.11.2\AndroidManifest.xml:24:5-79

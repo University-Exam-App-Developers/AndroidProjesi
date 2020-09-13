@@ -1,4 +1,4 @@
-#Sun Sep 13 13:26:44 EET 2020
-base.0=C\:\\Users\\Bedir\\Desktop\\x\\AndroidProjesi\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+#Mon Sep 14 01:15:49 EET 2020
+base.0=C\:\\Users\\Bedir\\Desktop\\AndroidProjesi\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

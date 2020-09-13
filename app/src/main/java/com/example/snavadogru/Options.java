@@ -57,6 +57,7 @@ public class Options extends AppCompatActivity {
 
                             break;
                             case 2: //sıkıntı var
+                                //vargit
                                 Intent soru_takip = new Intent(Options.this, SoruTakip.class);
                                 startActivity(soru_takip);
 
