@@ -19,6 +19,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
     defaultConfig {
+        multiDexEnabled true
         manifestPlaceholders = [
                 onesignal_app_id               : 'd27f1b8a-eeaa-453c-a02f-10aedfc5f68c',
                 // Project number pulled from dashboard, local value is ignored.
@@ -81,5 +82,7 @@ dependencies {
     implementation 'com.github.Hitomis:CircleMenu:v1.1.0'
     //noinspection GradleCompatible
     implementation 'com.android.support:recyclerview-v7:28.1.1'
+    implementation 'com.google.android.gms:play-services-ads:19.4.0'
+    implementation 'com.android.support:multidex:1.0.3'
 
 }

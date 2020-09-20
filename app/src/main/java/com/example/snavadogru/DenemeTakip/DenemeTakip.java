@@ -6,13 +6,19 @@ import android.os.Bundle;
 import android.view.View;
 import androidx.cardview.widget.CardView;
 import com.example.snavadogru.R;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
 
 public class DenemeTakip extends Activity implements View.OnClickListener{
    CardView tyt,say,ea,dil,soz;
 
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_denemetakip);
+
 
         tyt = findViewById(R.id.deneme_tyt);
         say = findViewById(R.id.deneme_say);

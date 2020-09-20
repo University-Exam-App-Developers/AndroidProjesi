@@ -11,8 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/workspace"
-
-        android:orientation="vertical">
+  android:orientation="vertical">
         <EditText
             android:id="@+id/edit_ad"
             android:layout_width="match_parent"
@@ -86,6 +85,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="10dp"
             ></TextView>
+
     </LinearLayout>
 
 </LinearLayout>

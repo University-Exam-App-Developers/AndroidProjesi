@@ -22,6 +22,11 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.snavadogru.R;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -31,6 +36,7 @@ import java.io.OutputStream;
 
 public class NewCamera extends AppCompatActivity {
     Button button_pdf;
+    private AdView mAdView;
     OutputStream outputStream;
     ImageView soru1,soru2,soru3,soru4,soru5,soru6,
               take1,take2,take3,take4,take5,take6,
@@ -130,6 +136,15 @@ public class NewCamera extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_camera);
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
+
+        mAdView = findViewById(R.id.camera_adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
         button_pdf = findViewById(R.id.bt_make_pdf_newcamera);
 
         soru1 = (ImageView) findViewById(R.id.imv_camera_soru1);
@@ -174,6 +189,8 @@ public class NewCamera extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent open_camera = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                Toast.makeText(getApplicationContext(),"geldi",Toast.LENGTH_LONG).show();
+                //startActivity(open_camera);
                 startActivityForResult(open_camera,1);
             }
         });

@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import com.example.snavadogru.R;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.google.gson.Gson;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,6 +24,7 @@ import java.text.DecimalFormat;
 
 public class Konu_takip extends AppCompatActivity implements View.OnClickListener {
     int[] counter= new int[14];
+    private AdView mAdView;
     CardView Turkce,Matematik,Fen,Sosyal,Sayisal,Sozel,Esitagirlik,Yabancidil;
     ProgressBar tytBar,sayBar,eaBar,sozBar,dilBar;
     TextView tytProp,sayProp,eaProp,sozProp,dilProp;
@@ -34,6 +37,11 @@ public class Konu_takip extends AppCompatActivity implements View.OnClickListene
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_takip_konu);
         loadData();
+
+        mAdView = findViewById(R.id.konu_takip_adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
         Turkce = findViewById(R.id.Turkce);
         Matematik = findViewById(R.id.Mat);
         Fen = findViewById(R.id.Fen);

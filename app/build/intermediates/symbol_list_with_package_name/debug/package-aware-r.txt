@@ -88,6 +88,9 @@ attr actionProviderClass
 attr actionTextColorAlpha
 attr actionViewClass
 attr activityChooserViewStyle
+attr adSize
+attr adSizes
+attr adUnitId
 attr alertDialogButtonGroupStyle
 attr alertDialogCenterButtons
 attr alertDialogStyle
@@ -2311,6 +2314,7 @@ id buttonLayout
 id buttonPanel
 id calendarView
 id camera_activity_button
+id camera_adView
 id cancel_action
 id cancel_button
 id center
@@ -2612,6 +2616,7 @@ id kimyaAyt_net
 id kimyaAyt_yanlis_EditText
 id konuTakip_matListView
 id konuTakip_recyclerView
+id konu_takip_adView
 id labeled
 id largeLabel
 id layout
@@ -2727,6 +2732,7 @@ id progress_horizontal
 id puan_Ea
 id puan_Say
 id puan_Soz
+id puan_adView
 id puan_dil_yerlestirme
 id puan_ea_yerlestirme
 id puan_say_yerlestirme
@@ -3286,6 +3292,13 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string project_id
 string rehberlik
+string s1
+string s2
+string s3
+string s4
+string s5
+string s6
+string s7
 string search_menu_title
 string status_bar_notification_info_overflow
 string sıksorulansorular
@@ -3716,6 +3729,7 @@ style Theme_Design_Light
 style Theme_Design_Light_BottomSheetDialog
 style Theme_Design_Light_NoActionBar
 style Theme_Design_NoActionBar
+style Theme_IAPTheme
 style Theme_MaterialComponents
 style Theme_MaterialComponents_BottomSheetDialog
 style Theme_MaterialComponents_Bridge
@@ -4002,6 +4016,7 @@ styleable ActionMenuItemView android_minWidth
 styleable ActionMenuView
 styleable ActionMode background backgroundSplit closeItemLayout height subtitleTextStyle titleTextStyle
 styleable ActivityChooserView expandActivityOverflowButtonDrawable initialActivityCount
+styleable AdsAttrs adSize adSizes adUnitId
 styleable AlertDialog android_layout buttonIconDimen buttonPanelSideLayout listItemLayout listLayout multiChoiceItemLayout showTitle singleChoiceItemLayout
 styleable AnimatedStateListDrawableCompat android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable AnimatedStateListDrawableItem android_id android_drawable

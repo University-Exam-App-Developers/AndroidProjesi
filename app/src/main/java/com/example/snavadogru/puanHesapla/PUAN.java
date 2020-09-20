@@ -12,9 +12,12 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.example.snavadogru.R;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 
 public class PUAN extends AppCompatActivity{
     EditText diplomaNotu;
+    private AdView mAdView;
     double diploma;
     EditText[] tytEdit=new EditText[8];
     int[] tytdy = new int[8];
@@ -44,6 +47,11 @@ public class PUAN extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_puan);
+
+        mAdView = findViewById(R.id.puan_adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
             initialized();
         hesapla.setOnClickListener(view -> {
             netHesapla();

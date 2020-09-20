@@ -3,6 +3,7 @@ package com.example.snavadogru;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,6 +15,10 @@ import com.example.snavadogru.KonuTakip.Konu_takip;
 import com.example.snavadogru.SikSorulanSoru.SSS;
 import com.example.snavadogru.SoruTakip.SoruTakip;
 import com.example.snavadogru.puanHesapla.PUAN;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
 import com.hitomi.cmlibrary.CircleMenu;
 
 public class Options extends AppCompatActivity {
@@ -28,6 +33,7 @@ public class Options extends AppCompatActivity {
             "Kendini Dene",
             "SSS"
     };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,46 +55,64 @@ public class Options extends AppCompatActivity {
                             case 0:
                                 Intent camera_activity = new Intent(Options.this, NewCamera.class);
                                 startActivity(camera_activity);
-
-                            break;
+                                reklamgoster();
+                                break;
                             case 1:
                                 Intent konu_takip = new Intent(Options.this, Konu_takip.class);
                                 startActivity(konu_takip);
-
+                              reklamgoster();
                             break;
                             case 2: //sıkıntı var
                                 //vargit
                                 Intent soru_takip = new Intent(Options.this, SoruTakip.class);
                                 startActivity(soru_takip);
+                                reklamgoster();
 
                             break;
                             case 3: //sıkıntı var
                                 Intent deneme_takip = new Intent(Options.this, DenemeTakip.class);
                                 startActivity(deneme_takip);
+                                reklamgoster();
 
                             break;
                             case 4:
                                 Intent puan = new Intent(Options.this, PUAN.class);
                                 startActivity(puan);
+                               reklamgoster();
 
                             break;
                             case 5:
                                 Intent Rehberlik = new Intent(Options.this,REHBERLİK.class);
                                 startActivity(Rehberlik);
+                                reklamgoster();
                             break;
                             case 6:
                                 Intent kendini_dene = new Intent(Options.this, kendiniDene.class);
                                 startActivity(kendini_dene);
+                                reklamgoster();
                             break;
                             case 7:
                                 Intent Sss = new Intent(Options.this, SSS.class);
                                 startActivity(Sss);
+                               reklamgoster();
                             break;
 
                     }
                 });
 
 
+    }
+    public void reklamgoster(){
+        InterstitialAd mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712"); //test için olan id değiştirilecek unutma
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdLoaded() {
+                mInterstitialAd.show();
+                super.onAdLoaded();
+            }
+        });
     }
 
 

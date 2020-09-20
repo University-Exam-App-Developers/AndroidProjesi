@@ -967,11 +967,22 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="25dp" />
-
+                android:layout_height="15dp" />
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/puan_adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center|bottom"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+            </com.google.android.gms.ads.AdView>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:orientation="horizontal">
@@ -999,7 +1010,9 @@
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="25dp" />
+
         </LinearLayout>
     </ScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
