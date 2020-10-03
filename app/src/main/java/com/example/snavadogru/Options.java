@@ -2,6 +2,7 @@ package com.example.snavadogru;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.icu.text.CaseMap;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;

@@ -1,8 +1,10 @@
 package com.example.snavadogru.Camera;
 
+import android.Manifest;
 import android.content.ContentResolver;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
@@ -11,6 +13,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
+import android.provider.Settings;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
@@ -20,6 +23,7 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import com.example.snavadogru.R;
 import com.google.android.gms.ads.AdRequest;
@@ -136,6 +140,7 @@ public class NewCamera extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_camera);
+       getPermissions();
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
             @Override
             public void onInitializationComplete(InitializationStatus initializationStatus) {
@@ -288,7 +293,7 @@ public class NewCamera extends AppCompatActivity {
     public Bitmap makeTest(Bitmap b1,Bitmap b2,Bitmap b3,Bitmap b4,Bitmap b5,Bitmap b6)
     {
         Bitmap result_bitmap;
-        int h=15,w=20;    //tüm bitmapler aynı bouyuttan olmalı boyut ayarı sonra yapılacak
+        int h=1376,w=1161;    //tüm bitmapler aynı bouyuttan olmalı boyut ayarı sonra yapılacak
         b1=getResizedBitmap(b1,w,h);
         b2=getResizedBitmap(b2,w,h);
         b3=getResizedBitmap(b3,w,h);
@@ -347,6 +352,7 @@ public class NewCamera extends AppCompatActivity {
 
         ad.create().show();
     }
+
     public Bitmap getResizedBitmap(Bitmap bm, int newWidth, int newHeight)
     {
         int width = bm.getWidth();
@@ -363,6 +369,38 @@ public class NewCamera extends AppCompatActivity {
                 bm, 0, 0, width, height, matrix, false);
         bm.recycle();
         return resizedBitmap;
+    }
+    private void getPermissions()
+    {
+        String[] permissions={Manifest.permission.READ_EXTERNAL_STORAGE,
+                Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                Manifest.permission.CAMERA,
+                Manifest.permission.INTERNET,
+                Manifest.permission.ACCESS_NETWORK_STATE};
+        if(ContextCompat.checkSelfPermission(this.getApplicationContext(),
+                permissions[0])== PackageManager.PERMISSION_GRANTED
+                && ContextCompat.checkSelfPermission(this.getApplicationContext(),
+                permissions[1])==PackageManager.PERMISSION_GRANTED
+                && ContextCompat.checkSelfPermission(this.getApplicationContext(),
+                permissions[2])==PackageManager.PERMISSION_GRANTED
+                && ContextCompat.checkSelfPermission(this.getApplicationContext(),
+                permissions[3])==PackageManager.PERMISSION_GRANTED
+                && ContextCompat.checkSelfPermission(this.getApplicationContext(),
+                permissions[4])==PackageManager.PERMISSION_GRANTED)
+        {
+            Toast.makeText(getApplicationContext(),"İlgili permissionlar alındi",Toast.LENGTH_LONG).show();
+            return;
+        }
+
+        else
+        {
+            Toast.makeText(getApplicationContext(),"Lütfen Kameraya erişime izin verin!",Toast.LENGTH_LONG).show();
+            Intent intent = new Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS,
+                    Uri.fromParts("package", getPackageName(), null));
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
+        }
+
     }
     public static Bitmap mergeToPin(Bitmap back, Bitmap front)
     {
