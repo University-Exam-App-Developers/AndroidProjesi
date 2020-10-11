@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Space
+        android:id="@+id/space8"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TytText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TYT KONULARI"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/space8" />
+
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TytText">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:requiresFadingEdge="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Turkce"
+                android:layout_width="195dp"
+                android:layout_height="138dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/konutakip_tytbutton">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageView2"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/chococooky"
+                        android:text="TÜRKÇE"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        app:srcCompat="@drawable/reader" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Sosyal"
+                android:layout_width="195dp"
+                android:layout_height="138dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/konutakip_tytsosyalbutton">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageViewSosyal"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/chococooky"
+                        android:text="SOSYAL BİLİMLER"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageViewSosyal"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        app:srcCompat="@drawable/globe1" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Mat"
+                android:layout_width="195dp"
+                android:layout_height="138dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/konutakip_tytmatbutton">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageViewMat"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/chococooky"
+                        android:text="MATEMATİK"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageViewMat"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        app:srcCompat="@drawable/mathematics2" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Fen"
+                android:layout_width="195dp"
+                android:layout_height="138dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/konutakip_tytfenbutton">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageViewFen"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/chococooky"
+                        android:text="FEN BİLİMLERİ"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageViewFen"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        app:srcCompat="@drawable/atom" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/AytText"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:text="AYT KONULARI"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView5" />
+
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView4"
+        android:layout_width="0dp"
+        android:layout_height="162dp"
+        android:scrollbars="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AytText">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sayisalButton"
+                android:layout_width="195dp"
+                android:layout_height="138dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/konutakip_aytsaybutton">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageViewSayisal"
+                        android:layout_alignStart="@+id/imageViewSayisal"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/chococooky"
+                        android:text="SAYISAL"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageViewSayisal"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        app:srcCompat="@drawable/experiment" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/esitAgirlikButton"
+                android:layout_width="195dp"
+                android:layout_height="138dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/konutakip_ayteabutton">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageViewEa"
+                        android:layout_alignStart="@+id/imageViewEa"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="-18dp"
+                        android:layout_marginTop="0dp"
+                        android:fontFamily="@font/chococooky"
+                        android:text="EŞİT AĞIRLIK"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageViewEa"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        app:srcCompat="@drawable/book5" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sozelButton"
+                android:layout_width="195dp"
+                android:layout_height="138dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/konutakip_aytsozbutton">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageViewSoz"
+                        android:layout_alignStart="@+id/imageViewSoz"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="-1dp"
+                        android:fontFamily="@font/chococooky"
+                        android:text="SÖZEL"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageViewSoz"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        app:srcCompat="@drawable/history1" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/dilButton"
+                android:layout_width="195dp"
+                android:layout_height="138dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/konutakip_aytdilbutton">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageViewYabanciDil"
+                        android:layout_alignStart="@+id/imageViewYabanciDil"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="-17dp"
+                        android:layout_marginTop="0dp"
+                        android:fontFamily="@font/chococooky"
+                        android:text="YABANCI DİL"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageViewYabanciDil"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        app:srcCompat="@drawable/dictionary" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/GelisimText"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:text="GELİŞİM GRAFİKLERİ"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView4" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GelisimText">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ProgressBar
+                    android:id="@+id/tytDoluluk"
+                    android:layout_width="195dp"
+                    android:layout_height="175dp"
+                    android:layout_centerInParent="true"
+                    android:indeterminateOnly="false"
+                    android:progressDrawable="@drawable/circle_1"
+                    android:textAlignment="center"
+                    tools:progress="60" />
+
+                <TextView
+                    android:id="@+id/tytOran"
+                    android:layout_width="75dp"
+                    android:layout_height="35dp"
+                    android:layout_centerInParent="true"
+                    android:text="%0"
+                    android:textAlignment="center"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/tytOran"
+                    android:layout_alignEnd="@+id/tytOran"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/chococooky"
+                    android:text="TYT"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ProgressBar
+                    android:id="@+id/sayDoluluk"
+                    android:layout_width="195dp"
+                    android:layout_height="175dp"
+                    android:layout_centerInParent="true"
+                    android:indeterminateOnly="false"
+                    android:progressDrawable="@drawable/circle_1"
+                    android:textAlignment="center"
+                    tools:progress="60" />
+
+                <TextView
+                    android:id="@+id/sayOran"
+                    android:layout_width="75dp"
+                    android:layout_height="35dp"
+                    android:layout_centerInParent="true"
+                    android:text="%0"
+                    android:textAlignment="center"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/sayOran"
+                    android:layout_alignEnd="@+id/sayOran"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/chococooky"
+                    android:text="SAY"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ProgressBar
+                    android:id="@+id/eaDoluluk"
+                    android:layout_width="195dp"
+                    android:layout_height="175dp"
+                    android:layout_centerInParent="true"
+                    android:indeterminateOnly="false"
+                    android:progressDrawable="@drawable/circle_1"
+                    android:textAlignment="center"
+                    tools:progress="60" />
+
+                <TextView
+                    android:id="@+id/eaOran"
+                    android:layout_width="75dp"
+                    android:layout_height="35dp"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/chococooky"
+                    android:text="%0"
+                    android:textAlignment="center"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/eaOran"
+                    android:layout_alignEnd="@+id/eaOran"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/chococooky"
+                    android:text="EA"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ProgressBar
+                    android:id="@+id/sozDoluluk"
+                    android:layout_width="195dp"
+                    android:layout_height="175dp"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/chococooky"
+                    android:indeterminateOnly="false"
+                    android:progressDrawable="@drawable/circle_1"
+                    android:textAlignment="center"
+                    tools:progress="60" />
+
+                <TextView
+                    android:id="@+id/sozOran"
+                    android:layout_width="75dp"
+                    android:layout_height="35dp"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/chococooky"
+                    android:text="%0"
+                    android:textAlignment="center"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/sozOran"
+                    android:layout_alignEnd="@+id/sozOran"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/chococooky"
+                    android:text="SÖZ"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ProgressBar
+                    android:id="@+id/dilDoluluk"
+                    android:layout_width="195dp"
+                    android:layout_height="175dp"
+                    android:layout_centerInParent="true"
+                    android:indeterminateOnly="false"
+                    android:progressDrawable="@drawable/circle_1"
+                    android:textAlignment="center"
+                    tools:progress="60" />
+
+                <TextView
+                    android:id="@+id/dilOran"
+                    android:layout_width="75dp"
+                    android:layout_height="35dp"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/chococooky"
+                    android:text="%0"
+                    android:textAlignment="center"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/dilOran"
+                    android:layout_alignEnd="@+id/dilOran"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/chococooky"
+                    android:text="DİL"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

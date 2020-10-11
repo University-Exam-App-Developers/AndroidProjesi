@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5D5D5A"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:columnCount="1"
+            android:rowCount="5">
+
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/tytGraph"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/graphviewtyt_background"
+                android:layout_row="0"/>
+
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/TurGraph"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/graphviewtyt_background"
+                android:layout_row="1"/>
+
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/SosyalGraph"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/graphviewtyt_background"
+                android:layout_row="2"/>
+
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/MatGraph"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/graphviewtyt_background"
+                android:layout_row="3"/>
+
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/fenGraph"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginBottom="125sp"
+                android:background="@drawable/graphviewtyt_background"
+                android:layout_row="4"/>
+        </GridLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatLibrary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="15dp"
+            android:layout_toStartOf="@+id/floatAdd"
+            android:clickable="true"
+            app:srcCompat="@drawable/books" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:clickable="true"
+            app:backgroundTintMode="src_atop"
+            app:srcCompat="@drawable/plus3" />
+
+    </RelativeLayout>
+</RelativeLayout>

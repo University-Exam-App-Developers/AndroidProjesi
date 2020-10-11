@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Kendin.ProgramYap.programYap">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:text="PLANINI YAP"
+        android:textColor="@color/white"
+        android:textSize="35sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20sp"
+        android:background="@drawable/bc_calendar">
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="wrap_content"
+            android:layout_height="325sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignStart="@+id/linearLayout"
+        android:layout_alignEnd="@+id/linearLayout">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/addPlan"
+            android:layout_width="70sp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/spacefloat"
+            android:src="@drawable/add_bg" />
+
+        <Space
+            android:id="@+id/spacefloat"
+            android:layout_width="100sp"
+            android:layout_height="12sp"
+            android:layout_centerInParent="true"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/showDay"
+            android:layout_width="70sp"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/spacefloat"
+            android:src="@drawable/todo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/addPlan"
+            android:layout_alignStart="@+id/addPlan"
+            android:layout_alignEnd="@+id/addPlan"
+            android:layout_marginStart="-40dp"
+            android:layout_marginEnd="-40dp"
+            android:gravity="center"
+            android:text="Bugün için görev ekle"
+            android:textColor="@color/White"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/showDay"
+            android:layout_alignStart="@+id/showDay"
+            android:layout_alignEnd="@+id/showDay"
+            android:layout_marginStart="-40dp"
+            android:layout_marginEnd="-40dp"
+            android:gravity="center"
+            android:text="Haftalık Programım"
+            android:textColor="@color/White"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

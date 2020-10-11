@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?android:attr/colorBackground">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/GörevEkleCard"
+        android:layout_width="wrap_content"
+        app:cardBackgroundColor="@color/White"
+        android:layout_height="250sp"
+        android:layout_margin="40sp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/day_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gorevEkleHeader"
+                android:layout_centerHorizontal="true"
+                android:textColor="?android:attr/colorBackground"
+                android:gravity="center"
+                android:text="15"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/gorevEkleHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:textColor="@color/Black"
+                android:gravity="center"
+                android:text="GÖREV EKLE"
+                android:layout_margin="15sp"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/GörevEditText"
+                android:layout_width="250sp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/addPlan"
+                android:layout_below="@+id/day_info"
+                android:layout_marginTop="10sp"
+                android:textColor="@color/Black"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:hint="Ekle"
+                android:textAlignment="center"
+                android:textSize="17sp" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/addPlan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="15sp"
+                android:src="@drawable/add_white" />
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/showDayFromAdding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_toStartOf="@+id/spacefloat"
+                android:src="@drawable/todo" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/GörevEkleCard"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/colum1Header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/colum1Header"
+            android:layout_gravity="center"
+            android:text="KONU ÇALIŞMASI"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="65sp"
+            android:layout_margin="10sp"
+            app:cardBackgroundColor="@color/White"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/GörevEkleCard">
+
+                <Spinner
+                    android:id="@+id/items"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="@color/Black"
+                    android:layout_centerInParent="true"
+                    android:scrollbarSize="25sp"
+                    android:layout_toStartOf="@+id/konuCalisilacak" />
+
+                <Button
+                    android:id="@+id/konuCalisilacak"
+                    android:layout_width="120sp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:gravity="center"
+                    android:background="@drawable/denemetakip_buttonbc"
+                    android:text="Konu Çalışılacak"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textAlignment="center" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/colum2Header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SORU ÇALIŞMASI"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            app:cardBackgroundColor="@color/White"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="65sp"
+                android:layout_below="@+id/GörevEkleCard">
+
+                <Spinner
+                    android:id="@+id/items2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:textAlignment="center"
+                    android:scrollbarSize="25sp"
+                    android:textColor="?android:attr/colorBackground"
+                    android:gravity="center"
+                    android:spinnerMode="dropdown"
+                    android:background="@color/white"
+                    android:layout_toStartOf="@+id/soruSayisi" />
+
+                <EditText
+                    android:id="@+id/soruSayisi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toStartOf="@+id/soruCozulecek"
+                    android:hint="Soru Sayısı"
+                    android:textColor="@color/Black"
+                    android:layout_marginRight="5sp"
+                    android:textSize="15sp"
+                    android:textAlignment="center"/>
+
+                <Button
+                    android:id="@+id/soruCozulecek"
+                    android:layout_width="120sp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:gravity="center"
+                    android:background="@drawable/denemetakip_buttonbc"
+                    android:text="Soru Çözülecek"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/colum3Header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DENEME ÇALIŞMASI"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="65sp"
+            android:layout_margin="10sp"
+            app:cardBackgroundColor="@color/White"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/GörevEkleCard">
+
+                <Spinner
+                    android:id="@+id/items3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:textColor="?android:attr/colorBackground"
+                    android:textAlignment="center"
+                    android:scrollbarSize="50sp"
+                    android:layout_toStartOf="@+id/denemeCozulecek" />
+
+                <Button
+                    android:id="@+id/denemeCozulecek"
+                    android:layout_width="120sp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:gravity="center"
+                    android:background="@drawable/denemetakip_buttonbc"
+                    android:text="Denemesi Çözülecek"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</RelativeLayout>

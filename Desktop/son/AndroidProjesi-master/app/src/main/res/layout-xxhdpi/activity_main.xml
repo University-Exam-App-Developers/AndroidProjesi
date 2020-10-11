@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_bc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainscreen_bc"
+    tools:context=".FirstScreen.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="75sp"
+            android:layout_height="75sp"
+            android:layout_marginTop="15sp"
+            android:layout_gravity="center"
+            android:background="@mipmap/main2"/>
+        <Button
+            android:id="@+id/btn_giris"
+            android:layout_width="150sp"
+            android:layout_height="40sp"
+            android:layout_margin="10sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:background="@drawable/button_arkaplan"
+            android:text="Giriş"
+            android:textColor="@color/whitesmoke" />
+
+        <Button
+            android:id="@+id/btn_kaydol"
+            android:layout_width="150sp"
+            android:layout_height="40sp"
+            android:layout_margin="10sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:background="@drawable/button_arkaplan"
+            android:text="Kaydol"
+            android:textColor="@color/whitesmoke" />
+
+        <LinearLayout
+            android:id="@+id/bottomLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25sp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/university_students" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

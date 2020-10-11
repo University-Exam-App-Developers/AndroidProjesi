@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="@android:color/transparent">
+            <RelativeLayout
+                android:id="@+id/takip_libraryRelativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/denemelist_tyt">
+
+                <Button
+                    android:id="@+id/deleteDenemeColumn1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignTop="@+id/denemNameColumn1"
+                    android:layout_marginStart="-60dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toEndOf="@+id/denemNameColumn1"
+                    android:background="@drawable/xbutton"
+                    android:elevation="0dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/denemNameColumn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="60dp"
+                android:text="Deneme ADI: "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/yayinNameColumn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/denemNameColumn1"
+                    android:layout_alignStart="@+id/denemNameColumn1"
+                    android:textSize="15sp"
+                    android:text="Yayın Adı: " />
+
+                <TextView
+                    android:id="@+id/netSayisiColumn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/yayinNameColumn1"
+                    android:layout_alignStart="@+id/yayinNameColumn1"
+                    android:layout_marginBottom="15sp"
+                    android:textSize="15sp"
+                    android:text="Toplam Net: "
+                    android:textAlignment="center" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+</LinearLayout>

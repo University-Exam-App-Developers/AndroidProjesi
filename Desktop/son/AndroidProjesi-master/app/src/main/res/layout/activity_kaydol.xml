@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FirstScreen.KaydolActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/workspace"
+  android:orientation="vertical">
+        <EditText
+            android:id="@+id/edit_ad"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edittext_arkaplan"
+            android:hint="  Adınız"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/edit_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edittext_arkaplan"
+            android:hint="  Email Adres"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:inputType="textEmailAddress"/>
+        <EditText
+            android:id="@+id/edit_sifre"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edittext_arkaplan"
+            android:hint="  Şifre"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:inputType="textPassword"/>
+        <EditText
+            android:id="@+id/edit_sifretekrar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edittext_arkaplan"
+            android:hint="Şifre Tekrar"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/btn_kaydol_activity"
+            android:layout_width="150sp"
+            android:layout_height="40sp"
+            android:text="Kaydol"
+            android:layout_margin="15sp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/button_arkaplan"/>
+        <TextView
+            android:id="@+id/txt_girissayfasına_git"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_arkaplan"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="Varolan bir hesabınız var mı?Giriş yap"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

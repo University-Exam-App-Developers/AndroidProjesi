@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#091921"
+    tools:context=".puanHesapla.PUAN">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/diploma"
+                    android:layout_width="250sp"
+                    android:layout_height="match_parent"
+                    android:background="#c86f5e"
+                    android:padding="8dp"
+                    android:text="Diploma Notu (50-100)"
+                    android:textColor="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/diploma_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#c86f5e"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/space"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#c86f5e" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tytPuan"
+                    android:layout_width="250sp"
+                    android:layout_height="match_parent"
+                    android:background="#a03232"
+                    android:padding="8dp"
+                    android:text="TYT PUANI"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/tytDogru"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#a03232"
+                    android:gravity="center"
+                    android:text="Doğru"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/tytYanlis"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#a03232"
+                    android:gravity="center"
+                    android:text="Yanlış"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/tytNet"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#a03232"
+                    android:gravity="center"
+                    android:text="Net"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/TurkcePuan"
+                    android:layout_width="250sp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/box2"
+                    android:padding="8dp"
+                    android:text="Türkçe (40)"
+                    android:textColor="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/turkce_dogru_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#F08D24"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/turkce_yanlis_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#F08D24"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/turkce_net"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#F08D24"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/SosyalPuan"
+                    android:layout_width="250sp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/box2"
+                    android:padding="8dp"
+                    android:text="Sosyal (20)"
+                    android:textColor="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/sosyal_dogru_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#F08D24"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/sosyal_yanlis_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#F08D24"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/sosyal_net"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#F08D24"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/MatPuan"
+                    android:layout_width="250sp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/box2"
+                    android:padding="8dp"
+                    android:text="Matematik (40)"
+                    android:textColor="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/mat_dogru_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#F08D24"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/mat_yanlis_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#F08D24"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/mat_net"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#F08D24"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/fenPuan"
+                    android:layout_width="250sp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/box2"
+                    android:padding="8dp"
+                    android:text="Fen (20)"
+                    android:textColor="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/fen_dogru_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#F08D24"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/fen_yanlis_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#F08D24"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/fen_net"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#F08D24"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/aytPuan"
+                    android:layout_width="250sp"
+                    android:layout_height="match_parent"
+                    android:background="#10316b"
+                    android:padding="8dp"
+                    android:text="AYT PUANI"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/aytDogru"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#10316b"
+                    android:gravity="center"
+                    android:text="Doğru"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/aytYanlis"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#10316b"
+                    android:gravity="center"
+                    android:text="Yanlış"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/aytNet"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#10316b"
+                    android:gravity="center"
+                    android:text="Net"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/matAytPuan"
+                    android:layout_width="250sp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/box3"
+                    android:padding="8dp"
+                    android:text="Matematik (40)"
+                    android:textColor="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/matAyt_dogru_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#226089"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/matAyt_yanlis_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#226089"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/matAyt_net"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#226089"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/fizikAytPuan"
+                    android:layout_width="250sp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/box"
+                    android:padding="8dp"
+                    android:text="Fizik (14)"
+                    android:textColor="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/fizikAyt_dogru_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#0c6b94"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/fizikAyt_yanlis_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#0c6b94"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/fizikAyt_net"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#0c6b94"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/kimyaAytPuan"
+                    android:layout_width="250sp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/box"
+                    android:padding="8dp"
+                    android:text="Kimya (13)"
+                    android:textColor="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/kimyaAyt_dogru_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#0c6b94"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/kimyaAyt_yanlis_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#0c6b94"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/kimyaAyt_net"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#0c6b94"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/bioAytPuan"
+                    android:layout_width="250sp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/box"
+                    android:padding="8dp"
+                    android:text="Biyoloji (13)"
+                    android:textColor="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/bioAyt_dogru_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#0c6b94"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/bioAyt_yanlis_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#0c6b94"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/bioAyt_net"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#0c6b94"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/edebiyatAytPuan"
+                    android:layout_width="250sp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/box_ea"
+                    android:padding="8dp"
+                    android:text="Türk Dili ve Edebiyatı (24)"
+                    android:textColor="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/edebiyatAyt_dogru_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#800000"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/edebiyatAyt_yanlis_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#800000"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/edebiyatAyt_net"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#800000"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tarih1AytPuan"
+                    android:layout_width="250sp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/box_ea"
+                    android:padding="8dp"
+                    android:text="Tarih-I (10)"
+                    android:textColor="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/tarih1Ayt_dogru_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#800000"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/tarih1Ayt_yanlis_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#800000"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/tarih1Ayt_net"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#800000"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/cog1AytPuan"
+                    android:layout_width="250sp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/box_ea"
+                    android:padding="8dp"
+                    android:text="Coğrafya-I (6)"
+                    android:textColor="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/cog1Ayt_dogru_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#800000"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/cog1Ayt_yanlis_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#800000"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/cog1Ayt_net"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#800000"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tarih2AytPuan"
+                    android:layout_width="250sp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/box_soz"
+                    android:padding="8dp"
+                    android:text="Tarih-II (11)"
+                    android:textColor="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/tarih2_dogru_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#ac3f21"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/tarih2_yanlis_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#ac3f21"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/tarih2Ayt_net"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ac3f21"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/cog2AytPuan"
+                    android:layout_width="250sp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/box_soz"
+                    android:padding="8dp"
+                    android:text="Coğrafya-II (11)"
+                    android:textColor="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/cog2_dogru_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#ac3f21"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/cog2_yanlis_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#ac3f21"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/cog2Ayt_net"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ac3f21"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/felsefeAytPuan"
+                    android:layout_width="250sp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/box_soz"
+                    android:padding="8dp"
+                    android:text="Felsefe (12)"
+                    android:textColor="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/felsefe_dogru_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#ac3f21"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/felsefe_yanlis_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#ac3f21"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/felsefeAyt_net"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ac3f21"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/dinAytPuan"
+                    android:layout_width="250sp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/box_soz"
+                    android:padding="8dp"
+                    android:text="Din K. veya Felsefe 2. (6)"
+                    android:textColor="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/din_dogru_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#ac3f21"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/din_yanlis_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#ac3f21"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/dinAyt_net"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ac3f21"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/yabanciDil_AytPuan"
+                    android:layout_width="250sp"
+                    android:layout_height="match_parent"
+                    android:background="#2f89fc"
+                    android:padding="8dp"
+                    android:text="Yabancı Dil (80)"
+                    android:textColor="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/yabanciDil_dogru_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#2f89fc"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/yabanciDil_yanlis_EditText"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:background="#2f89fc"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/yabanciDilAyt_net"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2f89fc"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/hesapla"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_toStartOf="@+id/middle"
+                    android:background="@drawable/calculator2" />
+
+                <Space
+                    android:id="@+id/middle"
+                    android:layout_width="50dp"
+                    android:layout_height="10dp"
+                    android:layout_centerInParent="true" />
+
+                <Button
+                    android:id="@+id/sifirla"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/middle"
+                    android:background="@drawable/reset1" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

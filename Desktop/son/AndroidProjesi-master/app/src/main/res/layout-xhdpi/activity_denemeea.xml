@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#492540"
+android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:columnCount="1"
+            android:rowCount="5">
+
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/deneme_eaGraph"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_row="0"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/graphviewea_background"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0dp" />
+
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/deneme_matGraph"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_row="1"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/graphviewea_background"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0dp" />
+
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/deneme_edebGraph"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_row="2"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/graphviewea_background"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0dp" />
+
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/deneme_tarihGraph"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_row="3"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/graphviewea_background"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0dp" />
+
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/deneme_cogGraph"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_row="4"
+                android:layout_marginBottom="140dp"
+                android:background="@drawable/graphviewea_background"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0dp" />
+        </GridLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatLibrary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="15dp"
+            android:layout_toStartOf="@+id/floatAdd"
+            app:srcCompat="@drawable/books" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            app:backgroundTintMode="src_atop"
+            app:srcCompat="@drawable/plus3" />
+
+    </RelativeLayout>
+</RelativeLayout>

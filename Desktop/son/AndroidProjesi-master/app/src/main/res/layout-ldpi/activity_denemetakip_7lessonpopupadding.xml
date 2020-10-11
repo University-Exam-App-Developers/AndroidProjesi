@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/alertdialog_soz">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/utopia" />
+        <EditText
+            android:id="@+id/denemeTakip_takeNameEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Denemeye İsim Ver"
+            android:fontFamily="@font/chococooky"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/denemeTakip_yayinlar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Yayin İsmi"
+            android:fontFamily="@font/chococooky"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:rowCount="8"
+            android:columnCount="1">
+
+            <RelativeLayout
+                android:id="@+id/Edebiyat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_gravity="fill"
+                android:layout_margin="8dp">
+                <TextView
+                    android:id="@+id/denemeTakip_edebiyatText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TÜRK DİLİ VE EDEBİYATI"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/chococooky"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+                <Space
+                    android:id="@+id/space1"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_centerInParent="true"/>
+
+                <EditText
+                    android:id="@+id/denemeTakip_edebiyat_dogru"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/denemeTakip_edebiyatText"
+                    android:layout_toStartOf="@+id/space1"
+                    android:ems="10"
+                    android:hint="Doğru"
+                    android:fontFamily="@font/chococooky"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/denemeTakip_edebiyat_yanlis"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/denemeTakip_edebiyatText"
+                    android:layout_toEndOf="@+id/space1"
+                    android:fontFamily="@font/chococooky"
+                    android:ems="10"
+                    android:hint="Yanlış"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_gravity="fill"
+                android:layout_margin="8dp">
+                <TextView
+                    android:id="@+id/denemeTakip_tarih1Text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TARİH I"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/chococooky"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/space2"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_centerInParent="true"/>
+
+                <EditText
+                    android:id="@+id/denemeTakip_tarih1_dogru"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/denemeTakip_tarih1Text"
+                    android:layout_toStartOf="@+id/space2"
+                    android:ems="10"
+                    android:hint="Doğru"
+                    android:fontFamily="@font/chococooky"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/denemeTakip_tarih1_yanlis"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/denemeTakip_tarih1Text"
+                    android:layout_toEndOf="@+id/space2"
+                    android:ems="10"
+                    android:hint="Yanlış"
+                    android:fontFamily="@font/chococooky"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:layout_gravity="fill"
+                android:layout_margin="8dp">
+                <TextView
+                    android:id="@+id/denemeTakip_cog1Text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="COĞRAFYA I"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/chococooky"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/space3"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_centerInParent="true"/>
+
+                <EditText
+                    android:id="@+id/denemeTakip_cog1_dogru"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/denemeTakip_cog1Text"
+                    android:layout_toStartOf="@+id/space3"
+                    android:ems="10"
+                    android:hint="Doğru"
+                    android:fontFamily="@font/chococooky"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/denemeTakip_cog1_yanlis"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/denemeTakip_cog1Text"
+                    android:layout_toEndOf="@+id/space3"
+                    android:ems="10"
+                    android:hint="Yanlış"
+                    android:fontFamily="@font/chococooky"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:layout_gravity="fill"
+                android:layout_margin="8dp">
+                <TextView
+                    android:id="@+id/denemeTakip_tar2Text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TARİH II"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/chococooky"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/space4"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_centerInParent="true"/>
+
+                <EditText
+                    android:id="@+id/denemeTakip_tar2_dogru"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/denemeTakip_tar2Text"
+                    android:layout_toStartOf="@+id/space4"
+                    android:ems="10"
+                    android:hint="Doğru"
+                    android:inputType="number"
+                    android:fontFamily="@font/chococooky"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/denemeTakip_tar2_yanlis"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/chococooky"
+                    android:layout_below="@+id/denemeTakip_tar2Text"
+                    android:layout_toEndOf="@+id/space4"
+                    android:ems="10"
+                    android:hint="Yanlış"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:layout_gravity="fill"
+                android:layout_margin="8dp">
+                <TextView
+                    android:id="@+id/denemeTakip_cog2Text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="COĞRAFYA II"
+                    android:fontFamily="@font/chococooky"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/space5"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_centerInParent="true"/>
+
+                <EditText
+                    android:id="@+id/denemeTakip_cog2_dogru"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/chococooky"
+                    android:layout_below="@+id/denemeTakip_cog2Text"
+                    android:layout_toStartOf="@+id/space5"
+                    android:ems="10"
+                    android:hint="Doğru"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/denemeTakip_cog2_yanlis"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/chococooky"
+                    android:layout_below="@+id/denemeTakip_cog2Text"
+                    android:layout_toEndOf="@+id/space5"
+                    android:ems="10"
+                    android:hint="Yanlış"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="5"
+                android:layout_column="0"
+                android:layout_gravity="fill"
+                android:layout_margin="8dp">
+                <TextView
+                    android:id="@+id/denemeTakip_felsefeText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/chococooky"
+                    android:text="FELSEFE"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/space6"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_centerInParent="true"/>
+
+                <EditText
+                    android:id="@+id/denemeTakip_felsefe_dogru"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/chococooky"
+                    android:layout_below="@+id/denemeTakip_felsefeText"
+                    android:layout_toStartOf="@+id/space6"
+                    android:ems="10"
+                    android:hint="Doğru"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/denemeTakip_felsefe_yanlis"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/chococooky"
+                    android:layout_below="@+id/denemeTakip_felsefeText"
+                    android:layout_toEndOf="@+id/space6"
+                    android:ems="10"
+                    android:hint="Yanlış"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="6"
+                android:layout_column="0"
+                android:layout_gravity="fill"
+                android:layout_margin="8dp">
+                <TextView
+                    android:id="@+id/denemeTakip_dinText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/chococooky"
+                    android:text="DİN KÜLTÜRÜ"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/space7"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_centerInParent="true"/>
+
+                <EditText
+                    android:id="@+id/denemeTakip_din_dogru"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/chococooky"
+                    android:layout_below="@+id/denemeTakip_dinText"
+                    android:layout_toStartOf="@+id/space7"
+                    android:ems="10"
+                    android:hint="Doğru"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/denemeTakip_din_yanlis"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/chococooky"
+                    android:layout_below="@+id/denemeTakip_dinText"
+                    android:layout_toEndOf="@+id/space7"
+                    android:ems="10"
+                    android:hint="Yanlış"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/buttonLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_row="7"
+                android:layout_column="0"
+                android:layout_gravity="fill"
+                android:layout_margin="8dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/sozNoButton"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/select_box"
+                        android:layout_marginRight="15dp"
+                        android:text="İPTAL"
+                        android:textAlignment="center"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/sozYesButton"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/negselect_box"
+                        android:text="EKLE"
+                        android:textAlignment="center"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </RelativeLayout>
+        </GridLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

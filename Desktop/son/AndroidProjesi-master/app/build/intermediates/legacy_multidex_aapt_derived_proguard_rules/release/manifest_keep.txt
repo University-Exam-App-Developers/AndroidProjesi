@@ -1,0 +1,4 @@
+# Referenced at C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:64
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:64
+-keep class androidx.multidex.MultiDexApplication { <init>(); }

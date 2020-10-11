@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#091921"
+    tools:context=".puanHesapla.PuanSonuc">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_margin="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/diploma"
+                android:layout_width="175sp"
+                android:layout_height="match_parent"
+                android:background="#F08D24"
+                android:padding="8dp"
+                android:textSize="10sp"
+                android:text="Ortaöğretim Başarı Puanı (OBP)"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/obp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textAlignment="gravity"
+                android:textColor="#F08D24"
+                />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/puan_tyt"
+                android:layout_width="100sp"
+                android:layout_height="match_parent"
+                android:background="#F02462"
+                android:padding="8dp"
+                android:textSize="10sp"
+                android:text="TYT (Ham Puan)"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/tytHamPuan"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:textAlignment="gravity"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textColor="#F02462" />
+
+            <TextView
+                android:id="@+id/tytYerlestirme"
+                android:layout_width="100sp"
+                android:layout_height="match_parent"
+                android:background="#F02462"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:text="(Yerleştirme Puanı)"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/puan_tyt_yerlestirme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textAlignment="gravity"
+                android:textColor="#F02462" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/puan_Say"
+                android:layout_width="100sp"
+                android:layout_height="match_parent"
+                android:background="#0c6b94"
+                android:padding="8dp"
+                android:textSize="10sp"
+                android:text="SAY (Ham Puan)"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/sayHamPuan"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textAlignment="gravity"
+                android:textColor="#0c6b94" />
+
+            <TextView
+                android:id="@+id/sayYerlestirme"
+                android:layout_width="100sp"
+                android:layout_height="match_parent"
+                android:background="#0c6b94"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:text="(Yerleştirme Puanı)"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/puan_say_yerlestirme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textAlignment="gravity"
+                android:textColor="#0c6b94" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/puan_Ea"
+                android:layout_width="100sp"
+                android:layout_height="match_parent"
+                android:background="#6DC917"
+                android:padding="8dp"
+                android:textSize="10sp"
+                android:text="EA (Ham Puan)"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/eaHamPuan"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textAlignment="gravity"
+                android:textColor="#6DC917" />
+
+            <TextView
+                android:id="@+id/eaYerlestirme"
+                android:layout_width="100sp"
+                android:layout_height="match_parent"
+                android:background="#6DC917"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:text="(Yerleştirme Puanı)"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/puan_ea_yerlestirme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textAlignment="gravity"
+                android:textColor="#6DC917" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/puan_Soz"
+                android:layout_width="100sp"
+                android:layout_height="match_parent"
+                android:background="#0D9910"
+                android:padding="8dp"
+                android:textSize="10sp"
+                android:text="SOZ (Ham Puan)"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/sozHamPuan"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textAlignment="gravity"
+                android:textColor="#0D9910" />
+
+            <TextView
+                android:id="@+id/sozYerlestirme"
+                android:layout_width="100sp"
+                android:layout_height="match_parent"
+                android:background="#0D9910"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:text="(Yerleştirme Puanı)"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/puan_soz_yerlestirme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textAlignment="gravity"
+                android:textColor="#0D9910" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Dil"
+                android:layout_width="100sp"
+                android:layout_height="match_parent"
+                android:background="#15ADC2"
+                android:padding="8dp"
+                android:textSize="10sp"
+                android:text="DİL (Ham Puan)"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/dilHamPuan"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textAlignment="gravity"
+                android:textColor="#15ADC2" />
+
+            <TextView
+                android:id="@+id/dilYerlestirme"
+                android:layout_width="100sp"
+                android:layout_height="match_parent"
+                android:background="#15ADC2"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:text="(Yerleştirme Puanı)"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/puan_dil_yerlestirme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textAlignment="gravity"
+                android:textColor="#15ADC2" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/puan_adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center|bottom"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7739380766735309/1206416134">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_bc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainscreen_bc"
+    tools:context=".FirstScreen.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="65sp"
+            android:layout_height="65sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="5sp"
+            android:background="@mipmap/main2" />
+
+        <Button
+            android:id="@+id/btn_giris"
+            android:layout_width="125sp"
+            android:layout_height="30sp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_arkaplan"
+            android:text="Giriş"
+            android:textColor="@color/whitesmoke"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_kaydol"
+            android:layout_width="125sp"
+            android:layout_height="30sp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_arkaplan"
+            android:text="Kaydol"
+            android:textColor="@color/whitesmoke"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/bottomLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/university_students" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
