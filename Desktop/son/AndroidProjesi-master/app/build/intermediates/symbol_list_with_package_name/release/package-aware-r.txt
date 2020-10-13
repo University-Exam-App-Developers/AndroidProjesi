@@ -1,4 +1,4 @@
-com.example.snavadogru
+com.ykskoc
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -1971,7 +1971,6 @@ drawable alertdialog_ea
 drawable alertdialog_say
 drawable alertdialog_soz
 drawable alertdialog_tyt
-drawable apple
 drawable appointment
 drawable atom
 drawable avd_hide_password
@@ -2146,7 +2145,6 @@ drawable options_background2
 drawable options_background3
 drawable options_background4
 drawable options_background5
-drawable osym_haber
 drawable osym_haber2
 drawable password
 drawable pause_button
@@ -2157,14 +2155,12 @@ drawable pomodoro
 drawable popup_sssbc
 drawable profileimage
 drawable question
-drawable question2
 drawable questionitem
 drawable questionnaire
 drawable quran2
 drawable reader
 drawable relativity
 drawable reset1
-drawable reset2
 drawable running
 drawable secenek_background
 drawable select_box
@@ -2181,24 +2177,19 @@ drawable time_background
 drawable todo
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
-drawable translate
 drawable trigonometry
-drawable trophy
-drawable undo
 drawable university_students
 drawable up_arrow2
 drawable user
 drawable utopia
 drawable week
 drawable white_question
-drawable winner
 drawable work
 drawable working_girl
 drawable workspace
 drawable xbutton
 drawable zamantakip_background
 font chococooky
-font droidsans
 id ALT
 id AytText
 id BOTTOM_END
@@ -2363,7 +2354,6 @@ id buttonLayout
 id buttonPanel
 id buttonRelativeLayout
 id calendarView
-id camera_activity_button
 id camera_adView
 id cancel_action
 id cancel_button
@@ -2587,11 +2577,11 @@ id getMinView
 id getTime
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id gorevEkleHeader
 id graph
 id graph_wrap
-id grid_view
 id group_divider
 id groups
 id gunlukGraph
@@ -2768,7 +2758,6 @@ id notification_main_column_container
 id obp
 id off
 id on
-id options_circle_menu
 id os_bgimage_notif_bgimage
 id os_bgimage_notif_bgimage_align_layout
 id os_bgimage_notif_bgimage_right_aligned
@@ -2865,7 +2854,6 @@ id showDay
 id showDayFromAdding
 id showHome
 id showTitle
-id show_pictures_activity_button
 id sifirla
 id sin
 id single_grid_imageView
@@ -3125,13 +3113,10 @@ layout activity_kendinidene
 layout activity_konu_takipview
 layout activity_main
 layout activity_new_camera
-layout activity_options
 layout activity_program_yap
 layout activity_puan
 layout activity_puan_sonuc
 layout activity_rehberlik
-layout activity_show_pictures
-layout activity_sorular
 layout activity_sss
 layout activity_takip_konu
 layout activity_takip_konu_ayt_konu
@@ -3251,8 +3236,6 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 layout time_adding
-mipmap ampul
-mipmap ampul_bc
 mipmap cozemedigin_complete
 mipmap denemetakip_complete
 mipmap dtakip1
@@ -3269,9 +3252,7 @@ mipmap main1
 mipmap main12
 mipmap main2
 mipmap mainscreen_bc
-mipmap myxp
 mipmap myxp3
-mipmap myxp4
 mipmap myxp5
 mipmap not_found
 mipmap path_1
@@ -3281,7 +3262,6 @@ mipmap rehberlik_complete
 mipmap sorutakip_complete
 mipmap sss_complete
 mipmap university_students
-mipmap winner
 mipmap working_girl
 plurals mtrl_badge_content_description
 raw consumer_onesignal_keep

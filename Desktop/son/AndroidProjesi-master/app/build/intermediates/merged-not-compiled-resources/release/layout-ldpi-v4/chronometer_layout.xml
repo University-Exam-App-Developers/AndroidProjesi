@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_centerInParent="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <Chronometer
+            android:id="@+id/chronometer"
+            android:layout_width="match_parent"
+            android:layout_height="35sp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/chococooky"
+            android:textColor="@color/WhiteSmoke"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/progressBar_cardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardElevation="0dp"
+            android:layout_gravity="center">
+            <RelativeLayout
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:background="@mipmap/myxp5">
+                <ImageView
+                    android:id="@+id/chronometerProgress"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/circle_stopwatch"/>
+                <ImageView
+                    android:id="@+id/chronometerProgressArrow"
+                    android:layout_width="match_parent"
+                    android:layout_height="120sp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/icanchor"/>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:id="@+id/linearButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/progressBar_cardView"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/addTime"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:background="@drawable/add" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/start_stop1"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/play_buttonsvg"/>
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/addStop"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:background="@drawable/stop" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

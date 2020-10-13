@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".FirstScreen.KaydolActivity">
+    tools:context="ykskoc.example.snavadogru.FirstScreen.KaydolActivity">
     <LinearLayout
         android:id="@+id/Registerscreen"
         android:layout_width="match_parent"

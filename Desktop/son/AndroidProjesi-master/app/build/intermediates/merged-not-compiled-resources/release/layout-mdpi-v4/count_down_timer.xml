@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_centerInParent="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/progressBar_cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardElevation="0dp"
+        android:layout_gravity="center">
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:background="@mipmap/myxp3">
+            <ProgressBar
+                android:id="@+id/countDownProgress"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:progress="60"
+                android:indeterminateOnly="false"
+                android:progressDrawable="@drawable/circle_1"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/countDown"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_centerInParent="true"
+            android:text="00:00:00"
+            android:fontFamily="@font/chococooky"
+            android:textColor="@color/WhiteSmoke"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/progressBar_cardView"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/addTime_2"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:background="@drawable/add" />
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/start_stop2"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/play_buttonsvg"/>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/getTime"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:background="@drawable/time" />
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/progressBar_cardView">
+
+            <Button
+                android:id="@+id/pomodoro"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/pomodoro"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pomodoro"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Pomodoro Ekle"
+                android:textSize="17sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

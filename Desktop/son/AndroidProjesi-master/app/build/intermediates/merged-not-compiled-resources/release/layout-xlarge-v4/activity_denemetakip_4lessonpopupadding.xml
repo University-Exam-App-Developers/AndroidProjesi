@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lesson4RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/alertdialog_tyt"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="50dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/lesson4PopUpimageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25sp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/test" />
+        <EditText
+            android:id="@+id/takeNameEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/chococooky"
+            android:hint="Denemeye İsim Ver"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <EditText
+            android:id="@+id/yayinlar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Yayin İsmi"
+            android:fontFamily="@font/chococooky"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/deneme4les_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TÜRKÇE"
+            android:fontFamily="@font/chococooky"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/firstLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/deneme4les_first4Dogru"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Doğru"
+                android:fontFamily="@font/chococooky"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/deneme4les_first4Yanlis"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Yanlış"
+                android:fontFamily="@font/chococooky"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/deneme4les_second"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text="MATEMATİK"
+            android:fontFamily="@font/chococooky"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/secondLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/deneme4les_second4Dogru"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Doğru"
+                android:fontFamily="@font/chococooky"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/deneme4les_second4Yanlis"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Yanlış"
+                android:fontFamily="@font/chococooky"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/deneme4les_third"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text="Fen Bilimleri"
+            android:fontFamily="@font/chococooky"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/thirdLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/deneme4les_third4Dogru"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Doğru"
+                android:fontFamily="@font/chococooky"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/deneme4les_third4Yanlis"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Yanlış"
+                android:fontFamily="@font/chococooky"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/deneme4les_fourth"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text="Sosyal Bilimler"
+            android:fontFamily="@font/chococooky"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/fourthLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal">
+            <EditText
+                android:id="@+id/deneme4les_fourth4Dogru"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Doğru"
+                android:fontFamily="@font/chococooky"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/deneme4les_fourth4Yanlis"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Yanlış"
+                android:fontFamily="@font/chococooky"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/buttonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10sp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/noButton"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/select_box"
+                android:layout_marginEnd="10dp"
+                android:text="İPTAL"
+                android:textAlignment="center"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/yesButton"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/negselect_box"
+                android:text="EKLE"
+                android:textAlignment="center"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

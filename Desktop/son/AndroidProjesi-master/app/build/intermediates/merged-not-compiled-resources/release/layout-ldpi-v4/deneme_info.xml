@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/infobg">
+    <TextView
+        android:id="@+id/firstSentence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginEnd="15sp"
+        android:textColor="@color/black"
+        android:text="YKS sürecini başarıyla geçiren hayallerine ulaşan herkesin istisnasız önerdiği bir şey var"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/secondSentence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstSentence"
+        android:layout_centerHorizontal="true"
+        android:text="\nDENEME ÇÖZMEK"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/thirdSentence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondSentence"
+        android:layout_margin="15sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:text="YKS'Ye Koş ve Denemelerini takip et.\nGelişimini ders ders incele ve Eksiklerini fark et"
+        android:textSize="15sp" />
+
+    <ImageButton
+        android:id="@+id/confirm"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginBottom="10sp"
+        android:layout_below="@+id/thirdSentence"
+        android:layout_centerInParent="true"
+        android:background="@drawable/running"/>
+</RelativeLayout>

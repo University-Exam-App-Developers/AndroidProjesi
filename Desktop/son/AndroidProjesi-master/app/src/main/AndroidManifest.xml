@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.snavadogru">
+    package="com.ykskoc">
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.permission.INTERNET" />
@@ -28,52 +28,52 @@
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-7739380766735309~9659621221"/>
-        <activity android:name=".FirstScreen.MainActivity">
+        <activity android:name="ykskoc.example.snavadogru.FirstScreen.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FirstScreen.GirisActivity" />
-        <activity android:name=".FirstScreen.KaydolActivity" />
-        <activity android:name=".SikSorulanSoru.SSS" />
-        <activity android:name=".DenemeTakip.denemeTakipLibrary" />
-        <activity android:name=".Kendin.zamanTakip" />
-        <activity android:name=".Kendin.kendiniDene" />
-        <activity android:name=".Kendin.ProgramYap.addPlanActivity" />
-        <activity android:name=".Kendin.ProgramYap.showDay" />
-        <activity android:name=".Kendin.ProgramYap.programYap" />
-        <activity android:name=".puanHesapla.PuanSonuc" />
-        <activity android:name=".Camera.NewCamera" />
-        <activity android:name=".Camera.CozemediginSorular"/>
+        <activity android:name="ykskoc.example.snavadogru.FirstScreen.GirisActivity" />
+        <activity android:name="ykskoc.example.snavadogru.FirstScreen.KaydolActivity" />
+        <activity android:name="ykskoc.example.snavadogru.SikSorulanSoru.SSS" />
+        <activity android:name="ykskoc.example.snavadogru.DenemeTakip.denemeTakipLibrary" />
+        <activity android:name="ykskoc.example.snavadogru.Kendin.zamanTakip" />
+        <activity android:name="ykskoc.example.snavadogru.Kendin.kendiniDene" />
+        <activity android:name="ykskoc.example.snavadogru.Kendin.ProgramYap.addPlanActivity" />
+        <activity android:name="ykskoc.example.snavadogru.Kendin.ProgramYap.showDay" />
+        <activity android:name="ykskoc.example.snavadogru.Kendin.ProgramYap.programYap" />
+        <activity android:name="ykskoc.example.snavadogru.puanHesapla.PuanSonuc" />
+        <activity android:name="ykskoc.example.snavadogru.Camera.NewCamera" />
+        <activity android:name="ykskoc.example.snavadogru.Camera.CozemediginSorular"/>
         <activity
-            android:name=".KonuTakip.Konu_takip"
+            android:name="ykskoc.example.snavadogru.KonuTakip.Konu_takip"
             android:label="@string/title_activity_konu_takip" />
-        <activity android:name=".KonuTakip.TytKonulari.tytKonuTurkce" />
-        <activity android:name=".KonuTakip.TytKonulari.tytKonuMat" />
-        <activity android:name=".KonuTakip.TytKonulari.tytKonuFen" />
-        <activity android:name=".KonuTakip.TytKonulari.tytKonuSosyal" />
-        <activity android:name=".KonuTakip.aytKonuSay" />
-        <activity android:name=".KonuTakip.aytKonuSoz" />
-        <activity android:name=".KonuTakip.aytKonuEa" />
-        <activity android:name=".KonuTakip.aytKonuDil" />
-        <activity android:name=".KonuTakip.aytKonulari" />
-        <activity android:name=".SoruTakip.SoruTakip" />
-        <activity android:name=".DenemeTakip.DenemeTakip" />
+        <activity android:name="ykskoc.example.snavadogru.KonuTakip.TytKonulari.tytKonuTurkce" />
+        <activity android:name="ykskoc.example.snavadogru.KonuTakip.TytKonulari.tytKonuMat" />
+        <activity android:name="ykskoc.example.snavadogru.KonuTakip.TytKonulari.tytKonuFen" />
+        <activity android:name="ykskoc.example.snavadogru.KonuTakip.TytKonulari.tytKonuSosyal" />
+        <activity android:name="ykskoc.example.snavadogru.KonuTakip.aytKonuSay" />
+        <activity android:name="ykskoc.example.snavadogru.KonuTakip.aytKonuSoz" />
+        <activity android:name="ykskoc.example.snavadogru.KonuTakip.aytKonuEa" />
+        <activity android:name="ykskoc.example.snavadogru.KonuTakip.aytKonuDil" />
+        <activity android:name="ykskoc.example.snavadogru.KonuTakip.aytKonulari" />
+        <activity android:name="ykskoc.example.snavadogru.SoruTakip.SoruTakip" />
+        <activity android:name="ykskoc.example.snavadogru.DenemeTakip.DenemeTakip" />
         <activity
-            android:name=".DenemeTakip.denemeTYT_TakipPopUpAdding"
+            android:name="ykskoc.example.snavadogru.DenemeTakip.denemeTYT_TakipPopUpAdding"
             android:theme="@style/AppTheme.CustomTheme" />
-        <activity android:name=".DenemeTakip.denemeTYTtakip" />
-        <activity android:name=".DenemeTakip.denemeSAYtakip" />
+        <activity android:name="ykskoc.example.snavadogru.DenemeTakip.denemeTYTtakip" />
+        <activity android:name="ykskoc.example.snavadogru.DenemeTakip.denemeSAYtakip" />
         <activity
-            android:name=".DenemeTakip.denemeSAY_TakipPopUpadding"
+            android:name="ykskoc.example.snavadogru.DenemeTakip.denemeSAY_TakipPopUpadding"
             android:theme="@style/AppTheme.CustomTheme" />
-        <activity android:name=".DenemeTakip.denemeEAtakip" />
-        <activity android:name=".DenemeTakip.denemeSOZtakip" />
-        <activity android:name=".DenemeTakip.denemeDiltakip" />
-        <activity android:name=".puanHesapla.PUAN" />
-        <activity android:name=".REHBERLİK" />
-        <activity android:name=".Options" />
+        <activity android:name="ykskoc.example.snavadogru.DenemeTakip.denemeEAtakip" />
+        <activity android:name="ykskoc.example.snavadogru.DenemeTakip.denemeSOZtakip" />
+        <activity android:name="ykskoc.example.snavadogru.DenemeTakip.denemeDiltakip" />
+        <activity android:name="ykskoc.example.snavadogru.puanHesapla.PUAN" />
+        <activity android:name="ykskoc.example.snavadogru.REHBERLİK" />
+        <activity android:name="ykskoc.example.snavadogru.Options" />
 
     </application>
 

@@ -1,4 +1,4 @@
-# Referenced at C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:64
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:58
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
-# Referenced at C:\Users\aspeh\Downloads\Compressed\KocumBenim\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:64
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:58
 -keep class androidx.multidex.MultiDexApplication { <init>(); }

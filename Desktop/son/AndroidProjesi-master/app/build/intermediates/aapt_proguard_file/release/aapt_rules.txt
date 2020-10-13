@@ -1,0 +1,357 @@
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:58
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:273
+-keep class androidx.lifecycle.ProcessLifecycleOwnerInitializer { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:58
+-keep class androidx.multidex.MultiDexApplication { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:252
+-keep class com.google.android.gms.ads.AdActivity { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:264
+-keep class com.google.android.gms.ads.AdService { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:258
+-keep class com.google.android.gms.ads.MobileAdsInitProvider { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:225
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:247
+-keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:237
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:243
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:142
+-keep class com.google.firebase.auth.internal.FederatedSignInActivity { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:121
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:216
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:208
+-keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:230
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:193
+-keep class com.onesignal.BootUpReceiver { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:157
+-keep class com.onesignal.GcmBroadcastReceiver { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:171
+-keep class com.onesignal.GcmIntentJobService { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:170
+-keep class com.onesignal.GcmIntentService { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:168
+-keep class com.onesignal.NotificationOpenedReceiver { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:191
+-keep class com.onesignal.NotificationRestoreService { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:187
+-keep class com.onesignal.PermissionsActivity { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:174
+-keep class com.onesignal.RestoreJobService { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:177
+-keep class com.onesignal.RestoreKickoffJobService { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:183
+-keep class com.onesignal.SyncJobService { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:180
+-keep class com.onesignal.SyncService { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:199
+-keep class com.onesignal.UpgradeReceiver { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:91
+-keep class ykskoc.example.snavadogru.Camera.CozemediginSorular { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:90
+-keep class ykskoc.example.snavadogru.Camera.NewCamera { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:105
+-keep class ykskoc.example.snavadogru.DenemeTakip.DenemeTakip { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:116
+-keep class ykskoc.example.snavadogru.DenemeTakip.denemeDiltakip { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:114
+-keep class ykskoc.example.snavadogru.DenemeTakip.denemeEAtakip { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:111
+-keep class ykskoc.example.snavadogru.DenemeTakip.denemeSAY_TakipPopUpadding { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:110
+-keep class ykskoc.example.snavadogru.DenemeTakip.denemeSAYtakip { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:115
+-keep class ykskoc.example.snavadogru.DenemeTakip.denemeSOZtakip { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:106
+-keep class ykskoc.example.snavadogru.DenemeTakip.denemeTYT_TakipPopUpAdding { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:109
+-keep class ykskoc.example.snavadogru.DenemeTakip.denemeTYTtakip { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:83
+-keep class ykskoc.example.snavadogru.DenemeTakip.denemeTakipLibrary { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:80
+-keep class ykskoc.example.snavadogru.FirstScreen.GirisActivity { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:81
+-keep class ykskoc.example.snavadogru.FirstScreen.KaydolActivity { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:73
+-keep class ykskoc.example.snavadogru.FirstScreen.MainActivity { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:86
+-keep class ykskoc.example.snavadogru.Kendin.ProgramYap.addPlanActivity { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:88
+-keep class ykskoc.example.snavadogru.Kendin.ProgramYap.programYap { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:87
+-keep class ykskoc.example.snavadogru.Kendin.ProgramYap.showDay { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:85
+-keep class ykskoc.example.snavadogru.Kendin.kendiniDene { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:84
+-keep class ykskoc.example.snavadogru.Kendin.zamanTakip { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:92
+-keep class ykskoc.example.snavadogru.KonuTakip.Konu_takip { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:97
+-keep class ykskoc.example.snavadogru.KonuTakip.TytKonulari.tytKonuFen { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:96
+-keep class ykskoc.example.snavadogru.KonuTakip.TytKonulari.tytKonuMat { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:98
+-keep class ykskoc.example.snavadogru.KonuTakip.TytKonulari.tytKonuSosyal { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:95
+-keep class ykskoc.example.snavadogru.KonuTakip.TytKonulari.tytKonuTurkce { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:102
+-keep class ykskoc.example.snavadogru.KonuTakip.aytKonuDil { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:101
+-keep class ykskoc.example.snavadogru.KonuTakip.aytKonuEa { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:99
+-keep class ykskoc.example.snavadogru.KonuTakip.aytKonuSay { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:100
+-keep class ykskoc.example.snavadogru.KonuTakip.aytKonuSoz { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:103
+-keep class ykskoc.example.snavadogru.KonuTakip.aytKonulari { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:119
+-keep class ykskoc.example.snavadogru.Options { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:118
+-keep class ykskoc.example.snavadogru.REHBERLİK { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:82
+-keep class ykskoc.example.snavadogru.SikSorulanSoru.SSS { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:104
+-keep class ykskoc.example.snavadogru.SoruTakip.SoruTakip { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:117
+-keep class ykskoc.example.snavadogru.puanHesapla.PUAN { <init>(); }
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:89
+-keep class ykskoc.example.snavadogru.puanHesapla.PuanSonuc { <init>(); }
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_alert_dialog_button_bar_material.xml:43
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_alert_dialog_material.xml:52
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_alert_dialog_title_material.xml:57
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\mtrl_alert_dialog.xml:51
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\mtrl_alert_dialog_actions.xml:45
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\mtrl_alert_dialog_title.xml:41
+-keep class android.widget.Space { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_select_dialog_material.xml:23
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_action_menu_item_layout.xml:17
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_expanded_menu_layout.xml:17
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_cascading_menu_item_layout.xml:20
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_list_menu_item_layout.xml:17
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_popup_menu_item_layout.xml:17
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_screen_toolbar.xml:27
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_action_mode_bar.xml:19
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_screen_toolbar.xml:43
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_screen_toolbar.xml:17
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_action_menu_layout.xml:17
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_activity_chooser_view.xml:19
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_alert_dialog_material.xml:18
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\mtrl_alert_dialog.xml:17
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_alert_dialog_button_bar_material.xml:26
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\mtrl_alert_dialog_actions.xml:26
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_screen_content_include.xml:19
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_alert_dialog_title_material.xml:45
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\mtrl_alert_dialog_title.xml:36
+-keep class androidx.appcompat.widget.DialogTitle { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_screen_simple_overlay_action_mode.xml:23
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_dialog_title_material.xml:22
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_screen_simple.xml:17
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_search_view.xml:75
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_screen_toolbar.xml:36
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_denemetakip.xml:11
+-keep class androidx.appcompat.widget.Toolbar { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_screen_simple.xml:25
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_screen_simple_overlay_action_mode.xml:32
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\6750a5ff603e189e54ca885c428b8750\browser-1.0.0\res\layout\browser_actions_context_menu_page.xml:5
+-keep class androidx.browser.browseractions.BrowserActionsFallbackMenuView { <init>(...); }
+
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_cozemedigin_sorular.xml:29
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_denemeing.xml:14
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_denemetakip.xml:65
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_kendinidene.xml:18
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_new_camera.xml:19
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_takip_konu.xml:45
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_takip_konu_ea.xml:42
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_takip_konu_say.xml:43
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_takip_konu_soz.xml:44
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_zaman_takip.xml:25
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\chronometer_layout.xml:22
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\count_down_timer.xml:14
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\deneme_takip_library_item.xml:7
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\fragment_sorutakip_analiz.xml:24
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\haber_ogesi.xml:2
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\makeplan_today.xml:8
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\plan_item.xml:5
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\soru_list_item.xml:8
+-keep class androidx.cardview.widget.CardView { <init>(...); }
+
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_cozemedigin_sorular.xml:2
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_deneme_takip_library.xml:2
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_denemetakip.xml:8
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_denemetakip_deleting.xml:2
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_denemetakiptyt_popupdeleting.xml:2
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout-large\activity_giris.xml:2
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_konu_takipview.xml:2
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_takip_konu.xml:2
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_takip_konu_ayt_konu.xml:2
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_takip_konu_dil.xml:2
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_takip_konu_ea.xml:2
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_takip_konu_fen.xml:2
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_takip_konu_gelisim.xml:2
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_takip_konu_mat.xml:2
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_takip_konu_say.xml:2
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_takip_konu_sosyal.xml:2
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_takip_konu_soz.xml:2
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_takip_konu_turkce.xml:2
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\chronometer_layout.xml:2
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\count_down_timer.xml:2
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\konu_takip_notal.xml:2
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\main_2.xml:2
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\popup_deleting.xml:2
+-keep class androidx.constraintlayout.widget.ConstraintLayout { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\design_bottom_sheet_dialog.xml:26
+-keep class androidx.coordinatorlayout.widget.CoordinatorLayout { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\cb0e9a4381bdc31816b1c021bb6c7e5a\appcompat-1.2.0\res\layout\abc_alert_dialog_material.xml:41
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\mtrl_alert_dialog.xml:40
+-keep class androidx.core.widget.NestedScrollView { <init>(...); }
+
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_deneme_takip_library.xml:9
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_denemetakip_deleting.xml:7
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_denemetakiptyt_popupdeleting.xml:9
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_konu_takipview.xml:7
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_rehberlik.xml:11
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_sss.xml:14
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_takip_konu_mat.xml:7
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_takip_konu_turkce.xml:7
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\fragment_soru_takip_tyt_list.xml:2
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\fragment_sorutakip_ayt.xml:10
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\mtrl_calendar_horizontal.xml:29
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\mtrl_calendar_months.xml:18
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\popup_deleting.xml:6
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\show_todolist_today.xml:14
+-keep class androidx.recyclerview.widget.RecyclerView { <init>(...); }
+
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_kendinidene.xml:137
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_takip_sorutakip.xml:19
+-keep class androidx.viewpager.widget.ViewPager { <init>(...); }
+
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_new_camera.xml:279
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_puan_sonuc.xml:280
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout-hdpi\activity_takip_konu.xml:570
+-keep class com.google.android.gms.ads.AdView { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\test_toolbar.xml:16
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\test_toolbar_custom_background.xml:16
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\test_toolbar_elevation.xml:16
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\test_toolbar_surface.xml:16
+-keep class com.google.android.material.appbar.MaterialToolbar { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\mtrl_calendar_month_navigation.xml:32
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\mtrl_picker_header_fullscreen.xml:36
+-keep class com.google.android.material.button.MaterialButton { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\test_action_chip.xml:17
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\test_chip_zero_corner_radius.xml:17
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\test_reflow_chipgroup.xml:25
+-keep class com.google.android.material.chip.Chip { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\test_reflow_chipgroup.xml:19
+-keep class com.google.android.material.chip.ChipGroup { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\mtrl_calendar_month.xml:18
+-keep class com.google.android.material.datepicker.MaterialCalendarGridView { <init>(...); }
+
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_denemeea.xml:81
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_denemeing.xml:39
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_denemesay.xml:81
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_denemesoz.xml:109
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_denemetyt.xml:71
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_program_yap.xml:42
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\makeplan_today.xml:55
+-keep class com.google.android.material.floatingactionbutton.FloatingActionButton { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\design_bottom_navigation_item.xml:27
+-keep class com.google.android.material.internal.BaselineLayout { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\design_text_input_end_icon.xml:18
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\design_text_input_start_icon.xml:18
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\mtrl_picker_header_toggle.xml:18
+-keep class com.google.android.material.internal.CheckableImageButton { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\design_navigation_item.xml:17
+-keep class com.google.android.material.internal.NavigationMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\design_navigation_menu.xml:17
+-keep class com.google.android.material.internal.NavigationMenuView { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\design_layout_snackbar.xml:18
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\mtrl_layout_snackbar.xml:18
+-keep class com.google.android.material.snackbar.Snackbar$SnackbarLayout { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\design_layout_snackbar_include.xml:18
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\mtrl_layout_snackbar_include.xml:18
+-keep class com.google.android.material.snackbar.SnackbarContentLayout { <init>(...); }
+
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_takip_sorutakip.xml:11
+-keep class com.google.android.material.tabs.TabLayout { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\mtrl_picker_text_input_date.xml:31
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\mtrl_picker_text_input_date_range.xml:32
+-keep class com.google.android.material.textfield.TextInputEditText { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\mtrl_picker_text_input_date.xml:26
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\mtrl_picker_text_input_date_range.xml:26
+-keep class com.google.android.material.textfield.TextInputLayout { <init>(...); }
+
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\text_view_with_line_height_from_appearance.xml:17
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\text_view_with_line_height_from_layout.xml:17
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\text_view_with_line_height_from_style.xml:17
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\text_view_with_theme_line_height.xml:17
+# Referenced at C:\Users\Bedir\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\res\layout\text_view_without_line_height.xml:17
+-keep class com.google.android.material.textview.MaterialTextView { <init>(...); }
+
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_denemeea.xml:22
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_denemeing.xml:23
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_denemesay.xml:22
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_denemesoz.xml:22
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_denemetyt.xml:22
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\activity_zaman_takip.xml:32
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\fragment_sorutakip_analiz.xml:31
+-keep class com.jjoe64.graphview.GraphView { <init>(...); }
+
+# Referenced at C:\Users\Bedir\Desktop\son\AndroidProjesi-master\app\src\main\res\layout\show_todolist_today.xml:7
+-keep class devs.mulham.horizontalcalendar.HorizontalCalendarView { <init>(...); }
+

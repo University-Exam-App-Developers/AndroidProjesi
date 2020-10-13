@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a03232">
+
+    <TextView
+        android:id="@+id/headText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layoutImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40sp"
+        android:fontFamily="@font/chococooky"
+        android:text="SÖZEL"
+        android:textColor="@color/White"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/layoutImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/layoutImage"
+        android:layout_width="350sp"
+        android:layout_height="300sp"
+        android:background="@drawable/girlonthe_table"
+        app:layout_constraintBottom_toTopOf="@+id/buttonRelativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/buttonRelativeLayout" />
+
+
+    <RelativeLayout
+        android:id="@+id/buttonRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="350sp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_menu3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/aytKonuSoz_felsefe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aytKonuSoz_edebiyat"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="fill"
+            android:layout_toStartOf="@+id/aytKonuSoz_edebiyat"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardElevation="0dp">
+
+            <LinearLayout
+                android:layout_width="150sp"
+                android:layout_height="100sp"
+                android:background="@drawable/konutakip_aytsozbutton"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView_felsefe"
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    app:srcCompat="@drawable/utopia" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/chococooky"
+                    android:text="FELSEFE"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/aytKonuSoz_edebiyat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_centerInParent="true"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardElevation="0dp">
+
+            <LinearLayout
+                android:layout_width="150sp"
+                android:layout_height="100sp"
+                android:background="@drawable/konutakip_aytsozbutton"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView_edebiyat"
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    app:srcCompat="@drawable/book3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/chococooky"
+                    android:text="EDEBİYAT"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/aytKonuSoz_tarih"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/aytKonuSoz_edebiyat"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="fill"
+            android:layout_marginTop="5sp"
+            android:layout_toStartOf="@+id/aytKonuSoz_edebiyat"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardElevation="0dp">
+
+            <LinearLayout
+                android:layout_width="150sp"
+                android:layout_height="100sp"
+                android:background="@drawable/konutakip_aytsozbutton"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView_tarih"
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    app:srcCompat="@drawable/history1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/chococooky"
+                    android:text="TARİH"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/aytKonuSoz_cografya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/aytKonuSoz_edebiyat"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="fill"
+            android:layout_marginTop="5sp"
+            android:layout_toEndOf="@+id/aytKonuSoz_edebiyat"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardElevation="0dp">
+
+            <LinearLayout
+                android:layout_width="150sp"
+                android:layout_height="100sp"
+                android:background="@drawable/konutakip_aytsozbutton"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView_cografya"
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    app:srcCompat="@drawable/knowledge" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/chococooky"
+                    android:text="COĞRAFYA"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/aytKonuSoz_din"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aytKonuSoz_edebiyat"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="fill"
+            android:layout_toEndOf="@+id/aytKonuSoz_edebiyat"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardElevation="0dp">
+
+            <LinearLayout
+                android:layout_width="150sp"
+                android:layout_height="100sp"
+                android:background="@drawable/konutakip_aytsozbutton"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView_din"
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    app:srcCompat="@drawable/quran2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/chococooky"
+                    android:text="DİN KÜLTÜRÜ"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

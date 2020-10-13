@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:621264686773:android:f973b01501090fdd9338fc",
         "android_client_info": {
-          "package_name": "com.example.snavadogru"
+          "package_name": "com.ykskoc"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "621264686773-pqaardns74ejqnop110oqjm02uqitpag.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.snavadogru",
+            "package_name": "com.ykskoc",
             "certificate_hash": "92856a27f1a285fc9335335c3f45c89e1885b288"
           }
         },

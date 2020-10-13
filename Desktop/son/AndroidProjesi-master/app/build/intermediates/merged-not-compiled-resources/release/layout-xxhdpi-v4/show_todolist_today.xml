@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="?android:attr/colorBackground"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <devs.mulham.horizontalcalendar.HorizontalCalendarView
+        android:id="@+id/horizontalCalendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c03546"
+        app:textColorSelected="#FFFF"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_todoList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/horizontalCalendarView"
+        android:layout_alignParentBottom="true"/>
+
+    <RelativeLayout
+        android:id="@+id/notFoundGorev"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/horizontalCalendarView"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/notFoundImagine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="10sp"
+            android:background="@mipmap/not_found" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/notFoundImagine"
+            android:layout_centerHorizontal="true"
+            android:text="Bu gün için Eklenmiş Görev Yok"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</RelativeLayout>

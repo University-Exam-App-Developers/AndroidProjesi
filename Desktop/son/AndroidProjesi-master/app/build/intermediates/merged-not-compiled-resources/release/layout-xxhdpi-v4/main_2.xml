@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/main12"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/KC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/kendincalis_complete"
+        android:layout_marginEnd="2sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/kcText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kendin Çalış"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/KC"
+        app:layout_constraintTop_toBottomOf="@+id/KC" />
+
+    <Button
+        android:id="@+id/soru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/sorutakip_complete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="2sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/soruTakipText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soru Takip"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/soru"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/soru" />
+
+    <Button
+        android:id="@+id/CS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/cozemedigin_complete"
+        app:layout_constraintBottom_toTopOf="@+id/CS_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/CS_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Çözemediğin Sorular"
+        android:layout_marginBottom="3sp"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/CS"
+        app:layout_constraintStart_toStartOf="@+id/CS" />
+    <Button
+        android:id="@+id/puan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/puanhesapla_complete"
+        android:layout_marginTop="5sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/puanText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puan Hesapla"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/puan"
+        app:layout_constraintStart_toStartOf="@+id/puan"
+        app:layout_constraintTop_toBottomOf="@+id/puan"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/rehber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/rehberlik_complete"
+        app:layout_constraintBottom_toBottomOf="@+id/puan"
+        app:layout_constraintEnd_toStartOf="@+id/puan"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toStartOf="@+id/KC"
+        app:layout_constraintTop_toBottomOf="@+id/KC"
+        app:layout_constraintVertical_bias="0.595" />
+
+    <TextView
+        android:id="@+id/rehberText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rehberlik"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/rehber"
+        app:layout_constraintStart_toStartOf="@+id/rehber"
+        app:layout_constraintTop_toBottomOf="@+id/rehber"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/SSS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/sss_complete"
+        app:layout_constraintBottom_toTopOf="@+id/KC"
+        app:layout_constraintEnd_toStartOf="@+id/CS"
+        app:layout_constraintHorizontal_bias="0.388"
+        app:layout_constraintStart_toStartOf="@+id/KC"
+        app:layout_constraintTop_toTopOf="@+id/CS"
+        app:layout_constraintVertical_bias="0.424" />
+
+    <TextView
+        android:id="@+id/sssText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="S.S.S"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/SSS"
+        app:layout_constraintStart_toStartOf="@+id/SSS"
+        app:layout_constraintTop_toBottomOf="@+id/SSS"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/deneme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/denemetakip_complete"
+        app:layout_constraintBottom_toBottomOf="@+id/puan"
+        app:layout_constraintEnd_toEndOf="@+id/soru"
+        app:layout_constraintHorizontal_bias="0.705"
+        app:layout_constraintStart_toEndOf="@+id/puan"
+        app:layout_constraintTop_toBottomOf="@+id/soru"
+        app:layout_constraintVertical_bias="0.595" />
+
+    <TextView
+        android:id="@+id/denemeTakipText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deneme Takip"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/deneme"
+        app:layout_constraintStart_toStartOf="@+id/deneme"
+        app:layout_constraintTop_toBottomOf="@+id/deneme"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/konu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/konutakip_complete"
+        app:layout_constraintBottom_toTopOf="@+id/soru"
+        app:layout_constraintEnd_toEndOf="@+id/soru"
+        app:layout_constraintHorizontal_bias="0.705"
+        app:layout_constraintStart_toEndOf="@+id/CS"
+        app:layout_constraintTop_toTopOf="@+id/CS"
+        app:layout_constraintVertical_bias="0.424" />
+
+    <TextView
+        android:id="@+id/konuTakipText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Konu Takip"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/konu"
+        app:layout_constraintStart_toStartOf="@+id/konu"
+        app:layout_constraintTop_toBottomOf="@+id/konu"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/darkmodeButton"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="15sp"
+        android:background="@drawable/darkmode_sun2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

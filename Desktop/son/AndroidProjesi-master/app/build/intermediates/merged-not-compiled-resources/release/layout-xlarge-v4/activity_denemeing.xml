@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#364F6B"
+    android:orientation="vertical">
+    <Space
+        android:id="@+id/deneme_totalIng_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAlignment="center"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deneme_totalIng_text"
+        android:layout_margin="20dp"
+        android:background="@drawable/graphviewtyt_background"
+        android:orientation="vertical"
+        app:cardBackgroundColor="@android:color/transparent">
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/ydLineChart"
+            android:layout_width="match_parent"
+            android:layout_height="300sp"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            android:background="@drawable/graphviewdil_background2"/>
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatLibrary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/floatAdd"
+            android:layout_marginEnd="15dp"
+            android:clickable="true"
+            app:srcCompat="@drawable/books" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:clickable="true"
+            app:backgroundTintMode="src_atop"
+            app:srcCompat="@drawable/plus3" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

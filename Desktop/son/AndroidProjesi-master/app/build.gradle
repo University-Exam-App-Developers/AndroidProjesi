@@ -27,7 +27,7 @@ android {
         ]
 
         multiDexEnabled true
-        applicationId "com.example.snavadogru"
+        applicationId "com.ykskoc"
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 1

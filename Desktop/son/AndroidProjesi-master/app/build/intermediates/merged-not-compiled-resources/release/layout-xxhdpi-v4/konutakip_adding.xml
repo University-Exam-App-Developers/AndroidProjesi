@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?android:attr/colorBackground"
+    android:layout_width="match_parent" android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/text_konu"
+        android:layout_width="270dp"
+        android:layout_height="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="138dp"
+        android:text="TextView" />
+
+    <Switch
+        android:id="@+id/switchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:id="@+id/takeaNoteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15sp"
+        android:layout_toStartOf="@+id/switchButton"
+        android:clickable="false"
+        android:text="Not Al"
+        android:textSize="10sp" />
+
+</RelativeLayout>

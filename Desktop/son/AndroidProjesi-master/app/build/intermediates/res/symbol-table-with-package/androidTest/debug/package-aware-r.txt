@@ -1,4 +1,0 @@
-com.example.snavadogru.test
-style InstrumentationActivityInvokerBootstrapActivityTheme
-style InstrumentationActivityInvokerEmptyActivityTheme
-style InstrumentationActivityInvokerFloatingActivityTheme

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="?android:attr/colorBackground"
-    tools:context=".Camera.NewCamera">
+    tools:context="ykskoc.example.snavadogru.Camera.NewCamera">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
